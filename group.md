@@ -43,10 +43,16 @@
 - **逆元**： $1$ 和 $-1$ 的逆元是它们自己($1^{-1}=1, (-1)^{-1}=-1$)； $i$ 与 $-i$ 互为逆元($i \cdot (-i) = 1$)。
 
 **例子 3：有限非阿贝尔群**
-模 2 算术($\mathbb{Z}_2 = \{0, 1\}$)下的 2 阶可逆矩阵集合 $G = \{I, A, B, C, D, E\}$ 与矩阵乘法构成群 $(G, \cdot)$：
+模 2 算术（$\mathbb{Z}_2 = \{0, 1\}$）下的 2 阶可逆矩阵集合 $G = \{I, A, B, C, D, E\}$ 与矩阵乘法构成群 $(G, \cdot)$：
 
-- **说明**：元素包含 $I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, B = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}, C = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}, D = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, E = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$，所有运算均在模 2 下进行(即 $1+1=0$)。
-- **类型**：有限群(阶数为 6)、非阿贝尔群。
-- **单位元**： $I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$(满足对任意 $M \in G, M \cdot I = I \cdot M = M$)。
-- **逆元**： $I, A, B, C$ 的逆元是它们自己(如 $A^2 = I$)； $D$ 与 $E$ 互为逆元($D \cdot E = E \cdot D = I$)。
-- **非可交换性**： $A \cdot B = D = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}$，而 $B \cdot A = E = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$，即 $A \cdot B \neq B \cdot A$。
+- **说明**：元素包含：
+  $$ I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \quad A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad B = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} $$
+  $$ C = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, \quad E = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} $$
+  所有运算均在模 2 下进行（即 $1+1=0$）。
+- **类型**：有限群（阶数为 6）、非阿贝尔群。
+- **单位元**：$I$（满足对任意 $M \in G, M \cdot I = I \cdot M = M$）。
+- **逆元**：$I, A, B, C$ 的逆元是它们自己（如 $A^2 = I$）；$D$ 与 $E$ 互为逆元（$D \cdot E = E \cdot D = I$）。
+- **非可交换性**：
+  $$ A \cdot B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix} = D $$
+  $$ B \cdot A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} = E $$
+  即 $A \cdot B \neq B \cdot A$。
