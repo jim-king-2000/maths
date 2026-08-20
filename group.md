@@ -48,6 +48,7 @@
 - **说明**：元素包含：
 
   $$ I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \quad A = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad B = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} $$
+
   $$ C = \begin{pmatrix} 1 & 0 \\ 1 & 1 \end{pmatrix}, \quad D = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix}, \quad E = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} $$
 
   所有运算均在模 2 下进行（即 $1+1=0$）。
@@ -58,6 +59,7 @@
 - **非可交换性**：
 
   $$ A \cdot B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 0 & 1 \\ 1 & 1 \end{pmatrix} = D $$
+
   $$ B \cdot A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} = E $$
 
   即 $A \cdot B \neq B \cdot A$。
