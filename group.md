@@ -107,8 +107,8 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 
 设 $H$ 是群 $G$ 的一个子群，对于 $G$ 中的任意固定元素 $a \in G$：
 
-- **左陪集 (Left Coset)**：集合 $`aH = \lbrace a \cdot h \mid h \in H \rbrace `$
-- **右陪集 (Right Coset)**：集合 $`Ha = \lbrace h \cdot a \mid h \in H \rbrace `$
+- **左陪集 (Left Coset)**：集合 $aH = \lbrace a \cdot h \mid h \in H \rbrace$
+- **右陪集 (Right Coset)**：集合 $Ha = \lbrace h \cdot a \mid h \in H \rbrace$
 
 > **关键性质**：
 >
@@ -118,13 +118,13 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 #### 2.2.2 典型例子
 
 **例子 1：复数乘法群**
-复数集合 $G = \lbrace 1, i, -1, -i \rbrace$ 与常规复数乘法 $\times$ 构成群 $(G, \times)$，其子群为 $H = \lbrace 1, -1 \rbrace $。
+复数集合 $G = \lbrace 1, i, -1, -i \rbrace$ 与常规复数乘法 $\times$ 构成群 $(G, \times)$，其子群为 $H = \lbrace 1, -1 \rbrace$。
 
 对 $G$ 中不同的元素 $a$ 计算陪集：
 
-- 当 $a = 1$ 时， $1H = \lbrace 1 \cdot 1, 1 \cdot (-1) \rbrace = \lbrace 1, -1 \rbrace $
+- 当 $a = 1$ 时， $1H = \lbrace 1 \cdot 1, 1 \cdot (-1) \rbrace = \lbrace 1, -1 \rbrace$
 - 当 $a = -1$ 时， $-1H = \lbrace (-1) \cdot 1, (-1) \cdot (-1) \rbrace  = \lbrace -1, 1 \rbrace  = 1H$
-- 当 $a = i$ 时， $iH = \lbrace i \cdot 1, i \cdot (-1) \rbrace = \lbrace i, -i \rbrace $
+- 当 $a = i$ 时， $iH = \lbrace i \cdot 1, i \cdot (-1) \rbrace = \lbrace i, -i \rbrace$
 - 当 $a = -i$ 时， $-iH = \lbrace (-i) \cdot 1, (-i) \cdot (-1) \rbrace  = \lbrace -i, i \rbrace  = iH$
 
 **现象观察**：
