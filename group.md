@@ -74,11 +74,28 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 
 ### 2.1 循环群 (Cyclic Group)
 
-**定义**：
+#### 2.1.1 **定义**：
+
 如果一个群 $G$ 中的每一个元素，都可以表示为某一个固定元素 $g \in G$ 的整数次幂（即 $G = \{g^k \mid k \in \mathbb{Z}\}$），则称 $G$ 为**循环群**，元素 $g$ 称为该群的**生成元 (Generator)**，记作 $G = \langle g \rangle$。
 
 - **阶与生成元**：若 $g$ 的阶为有限数 $n$（即 $g^n = e$ 且 $n$ 为最小正整数），则 $G = \{e, g, g^2, \dots, g^{n-1}\}$，阶数 $|G| = n$。
 - **重要性质**：**所有的循环群都是阿贝尔群**（因为 $g^a \cdot g^b = g^{a+b} = g^b \cdot g^a$）。
+
+#### 2.1.2 典型例子
+
+**例子 1：复数乘法群**
+复数集合 $G = \{1, i, -1, -i\}$ 与常规复数乘法 $\times$ 构成群 $(G, \times)$。
+
+- **说明**：由 $i$ 的幂次生成（$i^0=1, i^1=i, i^2=-1, i^3=-i$）。
+- **生成元与阶**：生成元为 $i$（即 $G = \langle i \rangle$），阶为 4（满足 $i^4=1$）。
+
+**例子 2：模 7 乘法群 $(\mathbb{Z}_7^\times, \cdot_7)$**
+集合 $G = \{1, 2, 3, 4, 5, 6\}$ 与模 7 乘法构成群：
+
+- **说明**：由 3 的幂次模 7 生成：
+  $$ 3^0 \equiv 1 \pmod 7, \quad 3^1 \equiv 3 \pmod 7, \quad 3^2 \equiv 2 \pmod 7 $$
+  $$ 3^3 \equiv 6 \pmod 7, \quad 3^4 \equiv 4 \pmod 7, \quad 3^5 \equiv 5 \pmod 7 $$
+- **生成元与阶**：生成元为 3（即 $G = \langle 3 \rangle$），阶为 6（满足 $3^6 \equiv 1 \pmod 7$）。
 
 ### 2.2 陪集 (Coset)
 
