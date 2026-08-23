@@ -74,7 +74,7 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 
 ### 2.1 循环群 (Cyclic Group)
 
-#### 2.1.1 **定义**：
+#### 2.1.1 定义：
 
 如果一个群 $G$ 中的每一个元素，都可以表示为某一个固定元素 $g \in G$ 的整数次幂（即 $G = \{g^k \mid k \in \mathbb{Z}\}$），则称 $G$ 为**循环群**，元素 $g$ 称为该群的**生成元 (Generator)**，记作 $G = \langle g \rangle$。
 
