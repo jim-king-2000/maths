@@ -30,7 +30,7 @@
 
 - **按阶数分类**：若群中的元素个数为有限个，称为**有限群 (Finite Group)**；若为无限个，则称为**无限群 (Infinite Group)**。
 - **按可交换性分类**：若群满足交换律($\forall a, b \in G \implies a \cdot b = b \cdot a$)，称为**阿贝尔群 (Abelian Group)** / 交换群；否则称为**非阿贝尔群 (Non-Abelian Group)**。
-- **按元素个数分类**: **平凡群 (Trivial Group)** 是只包含单位元一个元素的群 $G = \{e\}$，阶数为 1，是阶数最小的群。
+- **按元素个数分类**: **平凡群 (Trivial Group)** 是只包含单位元一个元素的群 $G = \lbrace e \rbrace $，阶数为 1，是阶数最小的群。
 
 ### 1.3 典型例子
 
@@ -50,7 +50,7 @@
 - **逆元**： $1$ 和 $-1$ 的逆元是它们自己($1^{-1}=1, (-1)^{-1}=-1$)； $i$ 与 $-i$ 互为逆元($i \cdot (-i) = 1$)。
 
 **例子 3：有限非阿贝尔群**
-模 2 算术($\mathbb{Z}_2 = \{0, 1\}$)下的 2 阶可逆矩阵集合 $G = \{I, A, B, C, D, E\}$ 与矩阵乘法构成群 $(G, \cdot)$：
+模 2 算术($\mathbb{Z}_2 = \lbrace 0, 1 \rbrace $)下的 2 阶可逆矩阵集合 $G = \lbrace I, A, B, C, D, E \rbrace $ 与矩阵乘法构成群 $(G, \cdot)$：
 
 - **说明**：元素包含：
 
@@ -77,9 +77,9 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 
 #### 2.1.1 定义：
 
-如果一个群 $G$ 中的每一个元素，都可以表示为某一个固定元素 $g \in G$ 的整数次幂（即 $G = \{g^k \mid k \in \mathbb{Z}\}$），则称 $G$ 为**循环群**，元素 $g$ 称为该群的**生成元 (Generator)**，记作 $G = \langle g \rangle$。
+如果一个群 $G$ 中的每一个元素，都可以表示为某一个固定元素 $g \in G$ 的整数次幂（即 $G = \lbrace g^k \mid k \in \mathbb{Z} \rbrace $），则称 $G$ 为**循环群**，元素 $g$ 称为该群的**生成元 (Generator)**，记作 $G = \langle g \rangle$。
 
-- **阶与生成元**：若 $g$ 的阶为有限数 $n$（即 $g^n = e$ 且 $n$ 为最小正整数），则 $G = \{e, g, g^2, \dots, g^{n-1}\}$，阶数 $|G| = n$。
+- **阶与生成元**：若 $g$ 的阶为有限数 $n$（即 $g^n = e$ 且 $n$ 为最小正整数），则 $G = \lbrace e, g, g^2, \dots, g^{n-1} \rbrace $，阶数 $|G| = n$。
 - **重要性质**：**所有的循环群都是阿贝尔群**（因为 $g^a \cdot g^b = g^{a+b} = g^b \cdot g^a$）。
 
 #### 2.1.2 典型例子
@@ -91,7 +91,7 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 - **生成元与阶**：生成元为 $i$（即 $G = \langle i \rangle$），阶为 4（满足 $i^4=1$）。
 
 **例子 2：模 7 乘法群 $(\mathbb{Z}_7^\times, \cdot_7)$**
-集合 $G = \{1, 2, 3, 4, 5, 6\}$ 与模 7 乘法构成群：
+集合 $G = \lbrace 1, 2, 3, 4, 5, 6 \rbrace $ 与模 7 乘法构成群：
 
 - **说明**：由 3 的幂次模 7 生成：
 
@@ -107,8 +107,8 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 
 设 $H$ 是群 $G$ 的一个子群，对于 $G$ 中的任意固定元素 $a \in G$：
 
-- **左陪集 (Left Coset)**：集合 $`aH = \{a \cdot h \mid h \in H\}`$
-- **右陪集 (Right Coset)**：集合 $`Ha = \{h \cdot a \mid h \in H\}`$
+- **左陪集 (Left Coset)**：集合 $`aH = \lbrace a \cdot h \mid h \in H \rbrace `$
+- **右陪集 (Right Coset)**：集合 $`Ha = \lbrace h \cdot a \mid h \in H \rbrace `$
 
 > **关键性质**：
 >
@@ -118,20 +118,20 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 #### 2.2.2 典型例子
 
 **例子 1：复数乘法群**
-复数集合 $G = \{1, i, -1, -i\}$ 与常规复数乘法 $\times$ 构成群 $(G, \times)$，其子群为 $H = \{1, -1\}$。
+复数集合 $G = \lbrace 1, i, -1, -i \rbrace $ 与常规复数乘法 $\times$ 构成群 $(G, \times)$，其子群为 $H = \lbrace 1, -1 \rbrace $。
 
 对 $G$ 中不同的元素 $a$ 计算陪集：
 
-- 当 $a = 1$ 时，$1H = \{1 \cdot 1, 1 \cdot (-1)\} = \{1, -1\}$
-- 当 $a = -1$ 时，$-1H = \{(-1) \cdot 1, (-1) \cdot (-1)\} = \{-1, 1\} = 1H$
-- 当 $a = i$ 时，$iH = \{i \cdot 1, i \cdot (-1)\} = \{i, -i\}$
-- 当 $a = -i$ 时，$-iH = \{(-i) \cdot 1, (-i) \cdot (-1)\} = \{-i, i\} = iH$
+- 当 $a = 1$ 时， $1H = \lbrace 1 \cdot 1, 1 \cdot (-1) \rbrace = \lbrace 1, -1 \rbrace $
+- 当 $a = -1$ 时， $-1H = \lbrace (-1) \cdot 1, (-1) \cdot (-1) \rbrace  = \lbrace -1, 1 \rbrace  = 1H$
+- 当 $a = i$ 时， $iH = \lbrace i \cdot 1, i \cdot (-1) \rbrace = \lbrace i, -i \rbrace $
+- 当 $a = -i$ 时， $-iH = \lbrace (-i) \cdot 1, (-i) \cdot (-1) \rbrace  = \lbrace -i, i \rbrace  = iH$
 
 **现象观察**：
 $G$ 中虽然有 4 个元素，但最终只生成了 **2 个互不相交的本质陪集**：
 
-1. $H = \{1, -1\}$
-2. $iH = \{i, -i\}$
+1. $H = \lbrace 1, -1 \rbrace $
+2. $iH = \lbrace i, -i \rbrace $
 
 它们正好把 4 个元素的群 $G$ 完美拆成了两块（每块 2 个元素），验证了指数 $[G : H] = 4 / 2 = 2$。
 
