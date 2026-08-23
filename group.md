@@ -95,9 +95,9 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 
 - **说明**：由 3 的幂次模 7 生成：
 
-  $$ 3^0 \equiv 1 \pmod 7, \quad 3^1 \equiv 3 \pmod 7, \quad 3^2 \equiv 2 \pmod 7 $$
+  $$3^0 \equiv 1 \pmod 7, \quad 3^1 \equiv 3 \pmod 7, \quad 3^2 \equiv 2 \pmod 7$$
 
-  $$ 3^3 \equiv 6 \pmod 7, \quad 3^4 \equiv 4 \pmod 7, \quad 3^5 \equiv 5 \pmod 7 $$
+  $$3^3 \equiv 6 \pmod 7, \quad 3^4 \equiv 4 \pmod 7, \quad 3^5 \equiv 5 \pmod 7$$
 
 - **生成元与阶**：生成元为 3（即 $G = \langle 3 \rangle$），阶为 6（满足 $3^6 \equiv 1 \pmod 7$）。
 
@@ -118,7 +118,7 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\\\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 
 #### 2.2.2 典型例子
 
 **例子 1：复数乘法群**
-复数集合 $G = \lbrace 1, i, -1, -i \rbrace $ 与常规复数乘法 $\times$ 构成群 $(G, \times)$，其子群为 $H = \lbrace 1, -1 \rbrace $。
+复数集合 $G = \lbrace 1, i, -1, -i \rbrace$ 与常规复数乘法 $\times$ 构成群 $(G, \times)$，其子群为 $H = \lbrace 1, -1 \rbrace $。
 
 对 $G$ 中不同的元素 $a$ 计算陪集：
 
