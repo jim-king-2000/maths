@@ -116,9 +116,9 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
    $$
    \huge
    \begin{array}{ccc}
-   1 + 1 = \underline{\quad} & \quad 4 + 1 = \underline{\quad} & \quad 7 + 1 = \underline{\quad} \\[12pt]
-   2 + 1 = \underline{\quad} & \quad 5 + 1 = \underline{\quad} & \quad 8 + 1 = \underline{\quad} \\[12pt]
-   3 + 1 = \underline{\quad} & \quad 6 + 1 = \underline{\quad} & \quad 9 + 1 = \underline{\quad}
+   1 + 1 = \underline{\quad} & \quad 4 + 1 = \underline{\quad} & \quad 7 + 1 = \underline{\quad} \\\\[12pt]
+   2 + 1 = \underline{\quad} & \quad 5 + 1 = \underline{\quad} & \quad 8 + 1 = \underline{\quad} \\\\[12pt]
+   3 + 1 = \underline{\quad} & \quad 6 + 1 = \underline{\quad} & \quad 9 + 1 = \underline{\quad}\\\\
    \end{array}
    $$
 
