@@ -116,20 +116,20 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
    $$
    \huge
    \begin{array}{ccc}
-   1 + 1 = \fbox{\phantom{0}} & \quad 4 + 1 = \fbox{\phantom{0}} & \quad 7 + 1 = \fbox{\phantom{0}} \\[12pt]
-   2 + 1 = \fbox{\phantom{0}} & \quad 5 + 1 = \fbox{\phantom{0}} & \quad 8 + 1 = \fbox{\phantom{0}} \\[12pt]
-   3 + 1 = \fbox{\phantom{0}} & \quad 6 + 1 = \fbox{\phantom{0}} & \quad 9 + 1 = \fbox{\phantom{0}}
+   1 + 1 = \underline{\quad} & \quad 4 + 1 = \underline{\quad} & \quad 7 + 1 = \underline{\quad} \\[12pt]
+   2 + 1 = \underline{\quad} & \quad 5 + 1 = \underline{\quad} & \quad 8 + 1 = \underline{\quad} \\[12pt]
+   3 + 1 = \underline{\quad} & \quad 6 + 1 = \underline{\quad} & \quad 9 + 1 = \underline{\quad}
    \end{array}
    $$
 
 1. 请用数数法计算下面的加法
 
-   $$\huge 2 + 4 = \fbox{\phantom{0}}$$
+   $$\huge 2 + 4 = \underline{\quad}$$
 
-   $$\huge 4 + 2 = \fbox{\phantom{0}}$$
+   $$\huge 4 + 2 = \underline{\quad}$$
 
 1. 思考题
 
    请数一数下面的鸭子，并在方框中填入数字。
 
-   $$\huge \overset{🦆}{\fbox{1}}\cdots\overset{🦆}{\fbox{3562}}\overset{🦆_1}{\fbox{\phantom{0}}}\overset{🦆_2}{\fbox{\phantom{0}}}\overset{🦆_3}{\fbox{\phantom{0}}}$$
+   $$\huge \overset{🦆}{\fbox{1}}\cdots\overset{🦆}{\fbox{3562}}\overset{🦆_1}{\fbox{\text{\quad}}}\overset{🦆_2}{\fbox{\text{\quad}}}\overset{🦆_3}{\fbox{\text{\quad}}}$$
