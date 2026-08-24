@@ -10,7 +10,7 @@
 
 人类天生有十个手指，所以我们习惯于用“十进制”来描述更大的数字。
 
-$$\overset{万}{\fbox{5}}\overset{千}{\fbox{7}}\overset{百}{\fbox{2}}\overset{十}{\fbox{8}}\overset{个}{\fbox{9}}$$
+$$\huge \overset{万}{\fbox{5}}\overset{千}{\fbox{7}}\overset{百}{\fbox{2}}\overset{十}{\fbox{8}}\overset{个}{\fbox{9}}$$
 
 十进制数字具有下面的特点：
 
