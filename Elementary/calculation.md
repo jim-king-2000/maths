@@ -113,23 +113,33 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 
 1. 请使用“数数法”计算下面的加法
 
-   $$
-   \huge
-   \begin{array}{ccc}
-   1 + 1 = \underline{\quad} & \quad 4 + 1 = \underline{\quad} & \quad 7 + 1 = \underline{\quad} \\\\[12pt]
-   2 + 1 = \underline{\quad} & \quad 5 + 1 = \underline{\quad} & \quad 8 + 1 = \underline{\quad} \\\\[12pt]
-   3 + 1 = \underline{\quad} & \quad 6 + 1 = \underline{\quad} & \quad 9 + 1 = \underline{\quad}\\\\
-   \end{array}
-   $$
+$$
+\huge
+\begin{array}{ccc}
+1 + 1 = \underline{\quad} & \quad 4 + 1 = \underline{\quad} & \quad 7 + 1 = \underline{\quad} \\\\[12pt]
+2 + 1 = \underline{\quad} & \quad 5 + 1 = \underline{\quad} & \quad 8 + 1 = \underline{\quad} \\\\[12pt]
+3 + 1 = \underline{\quad} & \quad 6 + 1 = \underline{\quad} & \quad 9 + 1 = \underline{\quad}\\\\
+\end{array}
+$$
 
-1. 请用数数法计算下面的加法
+2.  请用数数法计算下面的加法
 
-   $$\huge 2 + 4 = \underline{\quad}$$
+    $$\huge 2 + 4 = \underline{\quad}$$
 
-   $$\huge 4 + 2 = \underline{\quad}$$
+    $$\huge 4 + 2 = \underline{\quad}$$
 
-1. 思考题
+3.  思考题
 
-   请数一数下面的鸭子，并在方框中填入数字。
+    请数一数下面的鸭子，并在方框中填入数字。
 
-   $$\huge \overset{🦆}{\fbox{1}}\cdots\overset{🦆}{\fbox{3562}}\overset{🦆_1}{\fbox{\text{\quad}}}\overset{🦆_2}{\fbox{\text{\quad}}}\overset{🦆_3}{\fbox{\text{\quad}}}$$
+      <table align="center" style="border:none; text-align:center; font-size: 24px;">
+
+      <tr style="border:none;">
+        <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
+        <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
+        <td style="border:none;">🦆<br><kbd>3562</kbd></td>
+        <td style="border:none; padding-left:20px;">🦆<sub>1</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+        <td style="border:none;">🦆<sub>2</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+        <td style="border:none;">🦆<sub>3</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+      </tr>
+    </table>
