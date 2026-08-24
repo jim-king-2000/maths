@@ -124,9 +124,9 @@ $$
 
 2.  请用数数法计算下面的加法
 
-    $$\huge 2 + 4 = \underline{\quad}$$
+$$\huge 2 + 4 = \underline{\quad}$$
 
-    $$\huge 4 + 2 = \underline{\quad}$$
+$$\huge 4 + 2 = \underline{\quad}$$
 
 3.  思考题
 
