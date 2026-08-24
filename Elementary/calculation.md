@@ -132,8 +132,7 @@ $$
 
     请数一数下面的鸭子，并在方框中填入数字。
 
-      <table align="center" style="border:none; text-align:center; font-size: 24px;">
-
+    <table align="center" style="border:none; text-align:center; font-size: 24px;">
       <tr style="border:none;">
         <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
         <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
