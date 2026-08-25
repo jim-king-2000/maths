@@ -62,15 +62,15 @@ $$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\overset{🦆}{\fbox{3}}
 
 1. 数一数，下面有几只鸭子？
 
-   $$\huge 🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆$$
+    $$\huge 🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆  🦆$$
 
 1. 请找出下面数数的错误。
 
-   $$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\overset{🦆}{\fbox{4}}\overset{🦆}{\fbox{5}}\overset{🦆}{\fbox{6}}$$
+    $$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\overset{🦆}{\fbox{4}}\overset{🦆}{\fbox{5}}\overset{🦆}{\fbox{6}}$$
 
 1. 思考题
 
-   有5只鸭子，如果我们从2开始数（第一只鸭子的数是2），那么最后一只鸭子的数是多少？
+    有5只鸭子，如果我们从2开始数（第一只鸭子的数是2），那么最后一只鸭子的数是多少？
 
 ## 3. 加法
 
@@ -133,19 +133,19 @@ $$\huge 4 + 2 = \underline{\qquad}$$
 
 3. 应用题
 
-   树上原来有5只鸟，又飞来了3只鸟。树上一共有几只鸟？
+    树上原来有5只鸟，又飞来了3只鸟。树上一共有几只鸟？
 
 4. 思考题
 
-   请数一数下面的鸭子，并在方框中填入数字。
+    请数一数下面的鸭子，并在方框中填入数字。
 
-   <table align="center" style="border:none; text-align:center; font-size: 24px;">
-     <tr style="border:none;">
-       <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
-       <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
-       <td style="border:none;">🦆<br><kbd>3562</kbd></td>
-       <td style="border:none; padding-left:20px;">🦆<sub>1</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-       <td style="border:none;">🦆<sub>2</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-       <td style="border:none;">🦆<sub>3</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-     </tr>
-   </table>
+    <table align="center" style="border:none; text-align:center; font-size: 24px;">
+      <tr style="border:none;">
+        <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
+        <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
+        <td style="border:none;">🦆<br><kbd>3562</kbd></td>
+        <td style="border:none; padding-left:20px;">🦆<sub>1</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+        <td style="border:none;">🦆<sub>2</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+        <td style="border:none;">🦆<sub>3</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+      </tr>
+    </table>
