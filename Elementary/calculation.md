@@ -138,17 +138,17 @@ $$4 + 2 = \underline{\qquad}$$
 
     请数一数下面的鸭子，并在方框中填入数字。
 
-    $$
-    \huge
-    \begin{array}{cccccc}
-    \overset{\text{🦆}}{\fbox{\rule{0pt}{1em}1}} &
-    \text{⋯} &
-    \overset{\text{🦆}}{\fbox{\rule{0pt}{1em}3562}} &
-    \overset{\text{🦆}_1}{\fbox{\rule{0pt}{1em}\quad}} &
-    \overset{\text{🦆}_2}{\fbox{\rule{0pt}{1em}\quad}} &
-    \overset{\text{🦆}_3}{\fbox{\rule{0pt}{1em}\quad}}
-    \end{array}
-    $$
+$$
+\huge
+\begin{array}{cccccc}
+\overset{\text{🦆}}{\fbox{\rule{0pt}{1em}1}} &
+\text{⋯} &
+\overset{\text{🦆}}{\fbox{\rule{0pt}{1em}3562}} &
+\overset{\text{🦆}_1}{\fbox{\rule{0pt}{1em}\quad}} &
+\overset{\text{🦆}_2}{\fbox{\rule{0pt}{1em}\quad}} &
+\overset{\text{🦆}_3}{\fbox{\rule{0pt}{1em}\quad}}
+\end{array}
+$$
 
 ## 4. 加法表
 
