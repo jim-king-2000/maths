@@ -16,17 +16,20 @@ $$\large 0, 1, 2, 3, 4, 5, 6, 7, 8, 9$$
 
 但用这 10 个数字，我们可以表示无限多个数。
 
-单个数字，比如5，可以表示一个十以内的数。
+单个数字，比如5，可以表示一个小于十的数。
 
 对于大于或等于十的数，要怎么办呢？我们会用多位数字来描述一个数。
 
-$$\huge \overset{万}{\fbox{5}}\overset{千}{\fbox{7}}\overset{百}{\fbox{2}}\overset{十}{\fbox{8}}\overset{个}{\fbox{9}}$$
+$$\large 57289$$
 
 我们的数字系统具有下面的特点：
 
 - 我们可以用一个数字，也可以用多个数字组合起来表示一个数。
 - 每一位上面的数字都是0 ~ 9。
-- 从右向左，分别是“个十百千万”位。所以，上面的数字读作：5万7千2百8十9。
+
+多位数是有规律地读的。从右向左，分别是“个十百千万”位。所以，下面的数字读作：5万7千2百8十9。
+
+$$\huge \overset{万}{\fbox{5}}\overset{千}{\fbox{7}}\overset{百}{\fbox{2}}\overset{十}{\fbox{8}}\overset{个}{\fbox{9}}$$
 
 **练习:**
 
@@ -89,7 +92,7 @@ $$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}$$
 
 再数出3只鸭子：
 
-$$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\quad\overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\overset{🦆}{\fbox{3}}$$
+$$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\qquad\overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\overset{🦆}{\fbox{3}}$$
 
 最后，鸭子的数量不变，从头到尾重新数一下：
 
@@ -105,9 +108,9 @@ $$2 + 3 = 5$$
 
 $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fbox{\textbf{3}}}\overset{🦆_2}{\fbox{\textbf{4}}}\overset{🦆_3}{\fbox{\textbf{5}}}$$
 
-所以，计算 2+3，其实就是从 2 开始，继续数 3 个数。
+所以，计算 $2+3$，其实就是从 2 的后面开始，继续数 3 个数：3、4、5。
 
-**数学家把这种“把两个数量合在一起”的运算叫做加法。“加入”、“给予”“一共”都是日常生活中经常出现的加法场景。**
+**数学家把这种“把两个数量合在一起”的运算叫做加法。生活中，“加入”“给予”“合计”等场景，都可以用加法来描述。**
 
 **练习:**
 
@@ -116,29 +119,33 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 $$
 \huge
 \begin{array}{ccc}
-1 + 1 = \underline{\quad} & \quad 4 + 1 = \underline{\quad} & \quad 7 + 1 = \underline{\quad} \\\\[12pt]
-2 + 1 = \underline{\quad} & \quad 5 + 1 = \underline{\quad} & \quad 8 + 1 = \underline{\quad} \\\\[12pt]
-3 + 1 = \underline{\quad} & \quad 6 + 1 = \underline{\quad} & \quad 9 + 1 = \underline{\quad}\\\\
+1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\[12pt]
+2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\[12pt]
+3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad}\\\\
 \end{array}
 $$
 
 2.  请用数数法计算下面的加法
 
-$$\huge 2 + 4 = \underline{\quad}$$
+$$\huge 2 + 4 = \underline{\qquad}$$
 
-$$\huge 4 + 2 = \underline{\quad}$$
+$$\huge 4 + 2 = \underline{\qquad}$$
 
-3.  思考题
+3. 应用题
 
-    请数一数下面的鸭子，并在方框中填入数字。
+   树上原来有5只鸟，又飞来了3只鸟。树上一共有几只鸟？
 
-    <table align="center" style="border:none; text-align:center; font-size: 24px;">
-      <tr style="border:none;">
-        <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
-        <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
-        <td style="border:none;">🦆<br><kbd>3562</kbd></td>
-        <td style="border:none; padding-left:20px;">🦆<sub>1</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-        <td style="border:none;">🦆<sub>2</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-        <td style="border:none;">🦆<sub>3</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-      </tr>
-    </table>
+4. 思考题
+
+   请数一数下面的鸭子，并在方框中填入数字。
+
+   <table align="center" style="border:none; text-align:center; font-size: 24px;">
+     <tr style="border:none;">
+       <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
+       <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
+       <td style="border:none;">🦆<br><kbd>3562</kbd></td>
+       <td style="border:none; padding-left:20px;">🦆<sub>1</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+       <td style="border:none;">🦆<sub>2</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+       <td style="border:none;">🦆<sub>3</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
+     </tr>
+   </table>
