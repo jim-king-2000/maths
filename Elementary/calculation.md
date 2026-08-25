@@ -117,7 +117,6 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 1. 请使用“数数法”计算下面的加法
 
 $$
-\huge
 \begin{array}{ccc}
 1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\[12pt]
 2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\[12pt]
@@ -127,9 +126,9 @@ $$
 
 2.  请用数数法计算下面的加法
 
-$$\huge 2 + 4 = \underline{\qquad}$$
+$$2 + 4 = \underline{\qquad}$$
 
-$$\huge 4 + 2 = \underline{\qquad}$$
+$$4 + 2 = \underline{\qquad}$$
 
 3. 应用题
 
@@ -139,13 +138,51 @@ $$\huge 4 + 2 = \underline{\qquad}$$
 
     请数一数下面的鸭子，并在方框中填入数字。
 
-    <table align="center" style="border:none; text-align:center; font-size: 24px;">
-      <tr style="border:none;">
-        <td style="border:none;">🦆<br><kbd>&nbsp;1&nbsp;</kbd></td>
-        <td style="border:none; vertical-align:middle; padding:0 15px;">⋯</td>
-        <td style="border:none;">🦆<br><kbd>3562</kbd></td>
-        <td style="border:none; padding-left:20px;">🦆<sub>1</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-        <td style="border:none;">🦆<sub>2</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-        <td style="border:none;">🦆<sub>3</sub><br><kbd>&nbsp;&nbsp;&nbsp;&nbsp;</kbd></td>
-      </tr>
-    </table>
+    $$
+    \huge
+    \begin{array}{cccccc}
+    \overset{\text{🦆}}{\fbox{\rule{0pt}{1em}1}} &
+    \text{⋯} &
+    \overset{\text{🦆}}{\fbox{\rule{0pt}{1em}3562}} &
+    \overset{\text{🦆}_1}{\fbox{\rule{0pt}{1em}\quad}} &
+    \overset{\text{🦆}_2}{\fbox{\rule{0pt}{1em}\quad}} &
+    \overset{\text{🦆}_3}{\fbox{\rule{0pt}{1em}\quad}}
+    \end{array}
+    $$
+
+## 4. 加法表
+
+一位数的加法，前人已经帮我们“数”出来了。我们只要记住这张表，就能做加法。
+
+|   +   |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+| :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **1** |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  |
+| **2** |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | 11  |
+| **3** |  4  |  5  |  6  |  7  |  8  |  9  | 10  | 11  | 12  |
+| **4** |  5  |  6  |  7  |  8  |  9  | 10  | 11  | 12  | 13  |
+| **5** |  6  |  7  |  8  |  9  | 10  | 11  | 12  | 13  | 14  |
+| **6** |  7  |  8  |  9  | 10  | 11  | 12  | 13  | 14  | 15  |
+| **7** |  8  |  9  | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| **8** |  9  | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  |
+| **9** | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  |
+
+**例题：**
+请计算：
+
+$$ 3 + 5 = \underline{\qquad}$$
+
+$$ 6 + 7 = \underline{\qquad}$$
+
+$$ 9 + 6 = \underline{\qquad}$$
+
+**练习:**
+
+1. 请使用“查表法”计算下面的加法
+
+$$
+\begin{array}{ccc}
+6 + 5 = \underline{\qquad} & \qquad 4 + 8 = \underline{\qquad} & \qquad 7 + 3 = \underline{\qquad} \\\\[12pt]
+2 + 9 = \underline{\qquad} & \qquad 5 + 7 = \underline{\qquad} & \qquad 8 + 8 = \underline{\qquad} \\\\[12pt]
+3 + 2 = \underline{\qquad} & \qquad 6 + 8 = \underline{\qquad} & \qquad 9 + 4 = \underline{\qquad}\\\\
+\end{array}
+$$
