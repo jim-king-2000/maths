@@ -84,10 +84,10 @@ $$\huge \overset{🦆}{\fbox{1}}\overset{🦆}{\fbox{2}}\overset{🦆}{\fbox{3}}
 
 $$
 \huge
-\begin{array}{cc}
-\quad & \fbox{9} \\
-\fbox{1} & \fbox{0}
-\end{array}
+\begin{split}
+\fbox{9} \\
+\fbox{1}\fbox{0}
+\end{split}
 $$
 
 个位原来是9，再增加1以后，就变成了10。可是个位只能写0～9，所以我们把个位变成0，同时让十位增加1。
@@ -96,10 +96,10 @@ $$
 
 $$
 \huge
-\begin{array}{cc}
-\fbox{1} & \fbox{9} \\
-\fbox{2} & \fbox{0}
-\end{array}
+\begin{split}
+\fbox{1}\fbox{9} \\
+\fbox{2}\fbox{0}
+\end{split}
 $$
 
 我们可以把数的每一位看成是一个“盒子”。任何一个盒子攒满了十个1，左边的盒子就要增加1。
@@ -108,10 +108,10 @@ $$
 
 $$
 \huge
-\begin{array}{cc}
-\quad & \fbox{9} & \fbox{9} \\
-\fbox{1} & \fbox{0} & \fbox{0}
-\end{array}
+\begin{split}
+\fbox{9}\fbox{9} \\
+\fbox{1}\fbox{0}\fbox{0}
+\end{split}
 $$
 
 这种“满十进一”的结构，让我们可以用有限的数字表示大数。
