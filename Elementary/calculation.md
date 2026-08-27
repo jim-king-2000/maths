@@ -172,8 +172,8 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 
 $$
 \begin{array}{rrr}
-1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\[1.5em]
-2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\[1.5em]
+1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\
+2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\
 3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad}
 \end{array}
 $$
@@ -242,8 +242,8 @@ $$ 9 + 6 = \underline{\qquad}$$
 
 $$
 \begin{array}{rrr}
-6 + 5 = \underline{\qquad} & \qquad 4 + 8 = \underline{\qquad} & \qquad 7 + 3 = \underline{\qquad} \\\\[1.5em]
-2 + 9 = \underline{\qquad} & \qquad 5 + 7 = \underline{\qquad} & \qquad 8 + 8 = \underline{\qquad} \\\\[1.5em]
+6 + 5 = \underline{\qquad} & \qquad 4 + 8 = \underline{\qquad} & \qquad 7 + 3 = \underline{\qquad} \\\\
+2 + 9 = \underline{\qquad} & \qquad 5 + 7 = \underline{\qquad} & \qquad 8 + 8 = \underline{\qquad} \\\\
 3 + 2 = \underline{\qquad} & \qquad 6 + 8 = \underline{\qquad} & \qquad 9 + 4 = \underline{\qquad}
 \end{array}
 $$
@@ -327,8 +327,8 @@ $$
 
 $$
 \begin{array}{rrr}
-16 + 5 = \underline{\qquad} & \qquad 24 + 8 = \underline{\qquad} & \qquad 37 + 3 = \underline{\qquad} \\\\[1.5em]
-2 + 19 = \underline{\qquad} & \qquad 5 + 57 = \underline{\qquad} & \qquad 8 + 88 = \underline{\qquad} \\\\[1.5em]
+16 + 5 = \underline{\qquad} & \qquad 24 + 8 = \underline{\qquad} & \qquad 37 + 3 = \underline{\qquad} \\\\
+2 + 19 = \underline{\qquad} & \qquad 5 + 57 = \underline{\qquad} & \qquad 8 + 88 = \underline{\qquad} \\\\
 13 + 12 = \underline{\qquad} & \qquad 26 + 58 = \underline{\qquad} & \qquad 99 + 94 = \underline{\qquad}
 \end{array}
 $$
@@ -341,7 +341,7 @@ $$
 
 有的时候，我们需要把同一个数重复相加。
 
-比如，有2排小鸭子，每一排三只，一共有多少只鸭子？
+比如，有2排鸭子，每一排三只，一共有多少只鸭子？
 
 $$
 \huge
@@ -353,9 +353,9 @@ $$
 
 我们可以列出算式： $3 + 3$ 。
 
-在其它场合，我们需要计算 $4 + 4 + 4$ ， $5 + 5 + 5 + 5 + 5 + 5 + 5$ 。
+在其他场合，我们需要计算 $4 + 4 + 4$ ， $5 + 5 + 5 + 5 + 5 + 5 + 5$ 。
 
-这种把同一个数重复相加的情况，写起来实在太长了。为了更方便地表示这种情况，数学家引入了“乘法”。
+这种把同一个数重复相加的情况，写起来实在太长了。为了更简便地表示这种运算，数学家引入了“乘法”。
 
 我们把 $\overbrace{3 + 3}^{2个3相加}$ 写成 $3 \times 2$ ，读作“三乘以二”。 在 $3 \times 2$ 中，第一个数3表示“每次加多少”，第二个数2表示“加几次”。
 
@@ -373,7 +373,7 @@ $$
 
 我们把 $\overbrace{4 + 4 + 4}^{3个4相加}$ 写成 $4 \times 3$ ，读作“四乘以三”。
 
-用图表示的话，就是：每一行有4只鸭子，一共有4行。
+用图表示的话，就是：每一行有4只鸭子，一共有3行。
 
 $$
 \huge
@@ -386,7 +386,7 @@ $$
 \end{cases}
 $$
 
-特别地，一个数只出现1次，也可以写成乘法。例如：
+特别的，一个数只出现1次，也可以写成乘法。例如：
 
 $$3=3\times1$$
 
@@ -403,13 +403,19 @@ $$
 
 任何数乘以1，结果都等于它自己。
 
-特别地，一个数一次也没有出现，我们把结果记作0。例如：
+特别的，如果一个数一次也没有出现，我们把结果记作0。例如：
 
 $$5\times0=0,\qquad3\times0=0$$
 
 任何数乘以0，结果都为0。
 
-**乘法就是相同数的加法的简写。**
+特别的，多个0相加，结果为0。例如：
+
+$$0\times6=0,\qquad0\times9=0$$
+
+0乘以任何数，结果都为0。
+
+**乘法是把相同的数重复相加的简便写法。**
 
 **练习:**
 
@@ -419,7 +425,7 @@ $$5\times0=0,\qquad3\times0=0$$
 
 $$
 \begin{array}{rrr}
-9 + 9 = \underline{\qquad} & 1 + 1 + 1 + 1 + 1 = \underline{\qquad} & 3 + 3 + 3 = \underline{\qquad} \\\\[1.5em]
+9 + 9 = \underline{\qquad} & 1 + 1 + 1 + 1 + 1 = \underline{\qquad} & 3 + 3 + 3 = \underline{\qquad} \\\\
 18 + 18 = \underline{\qquad} & 22 + 22 + 22 = \underline{\qquad} & 30 + 30 + 30 + 30 = \underline{\qquad}
 \end{array}
 $$
@@ -430,9 +436,79 @@ $$
 
 $$
 \begin{array}{rrr}
-54 \times 2 = \underline{\qquad} & 6 \times 1 = \underline{\qquad} & 8 \times 3 = \underline{\qquad} \\\\[1.5em]
+54 \times 2 = \underline{\qquad} & 6 \times 1 = \underline{\qquad} & 8 \times 3 = \underline{\qquad} \\\\
 23 \times 0 = \underline{\qquad} & 4 \times 4 = \underline{\qquad} & 10 \times 5 = \underline{\qquad}
 \end{array}
 $$
 
 3. 请用圆圈代替鸭子，把 $3 \times 5$ 只鸭子（圆圈）用行和列的方式画出来。
+
+## 8. 一位数乘法
+
+我们需要能够高效的计算数的乘法。但我们需要从简单到复杂。我们先要解决一位数的乘法，然后再将其组合成多位数的乘法。
+
+一位数的乘法如何计算呢？我们可以把乘法展开成加法，然后计算加法。
+
+例如，我们需要计算：
+
+$$\huge 5 \times 3$$
+
+那么， $5 \times 3 = 5 + 5 + 5 = 10 + 5 = 15$ 。
+
+根据前面的定义，我们可以直接得到：
+
+1. 任何数乘以0等于0。
+2. 0乘以任何数也等于0。
+3. 任何数乘以1等于自己。
+
+**练习：**
+
+1. 请将乘法展开成加法，然后计算结果。
+
+$$
+\begin{array}{rrr}
+1 \times 2 = \underline{\qquad} & 2 \times 2 = \underline{\qquad} & 3 \times 2 = \underline{\qquad} \\\\
+4 \times 2 = \underline{\qquad} & 5 \times 2 = \underline{\qquad} & 6 \times 2 = \underline{\qquad} \\\\
+7 \times 2 = \underline{\qquad} & 8 \times 2 = \underline{\qquad} & 9 \times 2 = \underline{\qquad}
+\end{array}
+$$
+
+$$
+\begin{array}{rrr}
+1 \times 3 = \underline{\qquad} & 2 \times 3 = \underline{\qquad} & 3 \times 3 = \underline{\qquad} \\\\
+4 \times 3 = \underline{\qquad} & 5 \times 3 = \underline{\qquad} & 6 \times 3 = \underline{\qquad} \\\\
+7 \times 3 = \underline{\qquad} & 8 \times 3 = \underline{\qquad} & 9 \times 3 = \underline{\qquad}
+\end{array}
+$$
+
+## 9. 乘法表
+
+与加法表一样，我们可以把所有一位数乘法的结果提前计算出来，填到一张大表里。这样我们就不用每次都重新计算了。
+
+|   ×   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+| :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **0** |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |
+| **1** |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+| **2** |  0  |  2  |  4  |  6  |  8  | 10  | 12  | 14  | 16  | 18  |
+| **3** |  0  |  3  |  6  |  9  | 12  | 15  | 18  | 21  | 24  | 27  |
+| **4** |  0  |  4  |  8  | 12  | 16  | 20  | 24  | 28  | 32  | 36  |
+| **5** |  0  |  5  | 10  | 15  | 20  | 25  | 30  | 35  | 40  | 45  |
+| **6** |  0  |  6  | 12  | 18  | 24  | 30  | 36  | 42  | 48  | 54  |
+| **7** |  0  |  7  | 14  | 21  | 28  | 35  | 42  | 49  | 56  | 63  |
+| **8** |  0  |  8  | 16  | 24  | 32  | 40  | 48  | 56  | 64  | 72  |
+| **9** |  0  |  9  | 18  | 27  | 36  | 45  | 54  | 63  | 72  | 81  |
+
+**练习:**
+
+1. 请计算
+
+$$
+\begin{array}{rrr}
+5 \times 4 = \underline{\qquad} & 6 \times 7 = \underline{\qquad} & 8 \times 3 = \underline{\qquad} \\\\
+4 \times 5 = \underline{\qquad} & 7 \times 6 = \underline{\qquad} & 3 \times 8 = \underline{\qquad}
+\end{array}
+$$
+
+2. 思考题
+
+    有没有在乘法表中看出对称的规律？它是什么样的规律？
