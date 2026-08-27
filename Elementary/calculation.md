@@ -174,7 +174,7 @@ $$
 \begin{array}{ccc}
 1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\[1.5em]
 2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\[1.5em]
-3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad} \\
+3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad}
 \end{array}
 $$
 
@@ -242,9 +242,9 @@ $$ 9 + 6 = \underline{\qquad}$$
 
 $$
 \begin{array}{ccc}
-6 + 5 = \underline{\qquad} & \qquad 4 + 8 = \underline{\qquad} & \qquad 7 + 3 = \underline{\qquad} \\\\[12pt]
-2 + 9 = \underline{\qquad} & \qquad 5 + 7 = \underline{\qquad} & \qquad 8 + 8 = \underline{\qquad} \\\\[12pt]
-3 + 2 = \underline{\qquad} & \qquad 6 + 8 = \underline{\qquad} & \qquad 9 + 4 = \underline{\qquad}\\\\
+6 + 5 = \underline{\qquad} & \qquad 4 + 8 = \underline{\qquad} & \qquad 7 + 3 = \underline{\qquad} \\\\[1.5em]
+2 + 9 = \underline{\qquad} & \qquad 5 + 7 = \underline{\qquad} & \qquad 8 + 8 = \underline{\qquad} \\\\[1.5em]
+3 + 2 = \underline{\qquad} & \qquad 6 + 8 = \underline{\qquad} & \qquad 9 + 4 = \underline{\qquad}
 \end{array}
 $$
 
@@ -327,9 +327,9 @@ $$
 
 $$
 \begin{array}{ccc}
-16 + 5 = \underline{\qquad} & \qquad 24 + 8 = \underline{\qquad} & \qquad 37 + 3 = \underline{\qquad} \\\\[12pt]
-2 + 19 = \underline{\qquad} & \qquad 5 + 57 = \underline{\qquad} & \qquad 8 + 88 = \underline{\qquad} \\\\[12pt]
-13 + 12 = \underline{\qquad} & \qquad 26 + 58 = \underline{\qquad} & \qquad 99 + 94 = \underline{\qquad}\\\\
+16 + 5 = \underline{\qquad} & \qquad 24 + 8 = \underline{\qquad} & \qquad 37 + 3 = \underline{\qquad} \\\\[1.5em]
+2 + 19 = \underline{\qquad} & \qquad 5 + 57 = \underline{\qquad} & \qquad 8 + 88 = \underline{\qquad} \\\\[1.5em]
+13 + 12 = \underline{\qquad} & \qquad 26 + 58 = \underline{\qquad} & \qquad 99 + 94 = \underline{\qquad}
 \end{array}
 $$
 
