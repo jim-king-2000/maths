@@ -380,9 +380,9 @@ $$
 4 \times 3 \Rightarrow
 \text{一共有3行}
 \begin{cases}
-\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有4只鸭子} \\\\
-\fbox{🦆}\fbox{🦆}\fbox{🦆} \\\\
-\fbox{🦆}\fbox{🦆}\fbox{🦆}
+\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有4只鸭子} \\\\
+\fbox{🦆}\fbox{🦆}\fbox{🦆}\fbox{🦆} \\\\
+\fbox{🦆}\fbox{🦆}\fbox{🦆}\fbox{🦆}
 \end{cases}
 $$
 
