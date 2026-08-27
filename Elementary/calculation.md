@@ -164,15 +164,18 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 
 **数学家把这种“把两个数量合在一起”的运算叫做加法。两数相加得到的结果叫做“和”。生活中，“加入”“给予”“合计”等场景，都可以用加法来描述。**
 
+因为0表示没有，所以，任何数加上“没有”，跟没加一样，还是等于自己。得： $5 + 0 = 5, 8 + 0 = 5$ 。
+
 **练习:**
 
 1. 请使用“数数法”计算下面的加法
 
 $$
+\def\arraystretch{2.0}
 \begin{array}{ccc}
-1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\[12pt]
-2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\[12pt]
-3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad}\\\\
+1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\
+2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\
+3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad} \\
 \end{array}
 $$
 
@@ -182,11 +185,15 @@ $$2 + 4 = \underline{\qquad}$$
 
 $$4 + 2 = \underline{\qquad}$$
 
-3. 应用题
+3. 请计算
+
+$$2 + 0 = \underline{\qquad}$$
+
+4. 应用题
 
     树上原来有5只鸟，又飞来了3只鸟。树上一共有几只鸟？
 
-4. 思考题
+5. 思考题
 
     请数一数下面的鸭子，并在方框中填入数字。
 
