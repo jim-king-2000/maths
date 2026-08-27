@@ -171,7 +171,7 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 1. 请使用“数数法”计算下面的加法
 
 $$
-\begin{array}{ccc}
+\begin{array}{rrr}
 1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\[1.5em]
 2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\[1.5em]
 3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad}
@@ -241,7 +241,7 @@ $$ 9 + 6 = \underline{\qquad}$$
 1. 请使用“查表法”计算下面的加法
 
 $$
-\begin{array}{ccc}
+\begin{array}{rrr}
 6 + 5 = \underline{\qquad} & \qquad 4 + 8 = \underline{\qquad} & \qquad 7 + 3 = \underline{\qquad} \\\\[1.5em]
 2 + 9 = \underline{\qquad} & \qquad 5 + 7 = \underline{\qquad} & \qquad 8 + 8 = \underline{\qquad} \\\\[1.5em]
 3 + 2 = \underline{\qquad} & \qquad 6 + 8 = \underline{\qquad} & \qquad 9 + 4 = \underline{\qquad}
@@ -326,7 +326,7 @@ $$
 1. 请计算：
 
 $$
-\begin{array}{ccc}
+\begin{array}{rrr}
 16 + 5 = \underline{\qquad} & \qquad 24 + 8 = \underline{\qquad} & \qquad 37 + 3 = \underline{\qquad} \\\\[1.5em]
 2 + 19 = \underline{\qquad} & \qquad 5 + 57 = \underline{\qquad} & \qquad 8 + 88 = \underline{\qquad} \\\\[1.5em]
 13 + 12 = \underline{\qquad} & \qquad 26 + 58 = \underline{\qquad} & \qquad 99 + 94 = \underline{\qquad}
