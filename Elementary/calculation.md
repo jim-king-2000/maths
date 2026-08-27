@@ -171,10 +171,9 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 1. 请使用“数数法”计算下面的加法
 
 $$
-\def\arraystretch{2.0}
 \begin{array}{ccc}
-1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\
-2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\
+1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\[1.5em]
+2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\[1.5em]
 3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad} \\
 \end{array}
 $$
