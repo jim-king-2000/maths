@@ -199,12 +199,12 @@ $$2 + 0 = \underline{\qquad}$$
 $$
 \huge
 \begin{array}{cccccc}
-\overset{\text{🦆}}{\fbox{\rule{0pt}{1em}1}} &
+\overset{\text{🦆}}{\fbox{\rule{0pt}{0.7em}1}} &
 \text{⋯} &
-\overset{\text{🦆}}{\fbox{\rule{0pt}{1em}3562}} &
-\overset{\text{🦆}_1}{\fbox{\rule{0pt}{1em}\quad}} &
-\overset{\text{🦆}_2}{\fbox{\rule{0pt}{1em}\quad}} &
-\overset{\text{🦆}_3}{\fbox{\rule{0pt}{1em}\quad}}
+\overset{\text{🦆}}{\fbox{\rule{0pt}{0.7em}3562}} &
+\overset{\text{🦆}_1}{\fbox{\rule{0pt}{0.7em}\quad}} &
+\overset{\text{🦆}_2}{\fbox{\rule{0pt}{0.7em}\quad}} &
+\overset{\text{🦆}_3}{\fbox{\rule{0pt}{0.7em}\quad}}
 \end{array}
 $$
 
