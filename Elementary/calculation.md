@@ -261,8 +261,8 @@ $$\huge368 + 76$$
 $$
 \huge
 \begin{array}{cccc}
-\quad & 3 & 6 & 8 \\
-+ & \quad & 7 & 6 \\
+& 3 & 6 & 8 \\
+{+} & & 7 & 6 \\
 \hline
 \end{array}
 $$
@@ -274,7 +274,7 @@ $$
 \begin{array}{cccc}
 & & \color{red}_1 & \\
 & 3 & 6 & 8 \\
-+ & & 7 & 6 \\
+{+} & & 7 & 6 \\
 \hline
 & & & 4
 \end{array}
@@ -287,7 +287,7 @@ $$
 \begin{array}{cccc}
 & \color{red}_1 & \color{red}_1 & \\
 & 3 & 6 & 8 \\
-+ & & 7 & 6 \\
+{+} & & 7 & 6 \\
 \hline
 & & 4 & 4
 \end{array}
@@ -300,7 +300,7 @@ $$
 \begin{array}{cccc}
 & \color{red}_1 & \color{red}_1 & \\
 & 3 & 6 & 8 \\
-+ & & 7 & 6 \\
+{+} & & 7 & 6 \\
 \hline
 & 4 & 4 & 4
 \end{array}
