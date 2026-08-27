@@ -359,11 +359,47 @@ $$
 
 我们把 $\overbrace{3 + 3}^{2个3相加}$ 写成 $3 \times 2$ ，读作“三乘以二”。 在 $3 \times 2$ 中，第一个数3表示“每次加多少”，第二个数2表示“加几次”。
 
+用图示表示的话，第一个数表示“每一行有几只鸭子”，第二个数表示“有几行”。
+
+$$
+\huge
+3 \times 2 \Rightarrow
+\text{一共有2行}
+\begin{cases}
+\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有3只鸭子} \\\\
+\fbox{🦆}\fbox{🦆}\fbox{🦆}
+\end{cases}
+$$
+
 我们把 $\overbrace{4 + 4 + 4}^{3个4相加}$ 写成 $4 \times 3$ ，读作“四乘以三”。
+
+用图表示的话，就是：每一行有4只鸭子，一共有4行。
+
+$$
+\huge
+4 \times 3 \Rightarrow
+\text{一共有3行}
+\begin{cases}
+\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有4只鸭子} \\\\
+\fbox{🦆}\fbox{🦆}\fbox{🦆} \\\\
+\fbox{🦆}\fbox{🦆}\fbox{🦆}
+\end{cases}
+$$
 
 特别地，一个数只出现1次，也可以写成乘法。例如：
 
 $$3=3\times1$$
+
+用图表示的话，就是1行鸭子。
+
+$$
+\huge
+3 \times 1 \Rightarrow
+\text{一共有1行}
+\begin{cases}
+\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有3只鸭子}
+\end{cases}
+$$
 
 任何数乘以1，结果都等于它自己。
 
@@ -398,3 +434,5 @@ $$
 23 \times 0 = \underline{\qquad} & 4 \times 4 = \underline{\qquad} & 10 \times 5 = \underline{\qquad}
 \end{array}
 $$
+
+3. 请用圆圈代替鸭子，把 $3 \times 5$ 只鸭子（圆圈）用行和列的方式画出来。
