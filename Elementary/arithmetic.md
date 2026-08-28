@@ -168,31 +168,26 @@ $$\huge \overset{🦆_1}{\fbox{1}}\overset{🦆_2}{\fbox{2}}\overset{🦆_1}{\fb
 
 **练习:**
 
-1. 请使用“数数法”计算下面的加法
+1. 请使用“数数法”计算下面的加法，并将结果填入表中。
 
-$$
-\begin{array}{rrr}
-1 + 1 = \underline{\qquad} & \qquad 4 + 1 = \underline{\qquad} & \qquad 7 + 1 = \underline{\qquad} \\\\
-2 + 1 = \underline{\qquad} & \qquad 5 + 1 = \underline{\qquad} & \qquad 8 + 1 = \underline{\qquad} \\\\
-3 + 1 = \underline{\qquad} & \qquad 6 + 1 = \underline{\qquad} & \qquad 9 + 1 = \underline{\qquad}
-\end{array}
-$$
+    |   +   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+    | :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+    | **0** |     |     |     |     |     |     |     |     |     |     |
+    | **1** |     |     |     |     |     |     |     |     |     |     |
+    | **2** |     |     |     |     |     |     |     |     |     |     |
+    | **3** |     |     |     |     |     |     |     |     |     |     |
+    | **4** |     |     |     |     |     |     |     |     |     |     |
+    | **5** |     |     |     |     |     |     |     |     |     |     |
+    | **6** |     |     |     |     |     |     |     |     |     |     |
+    | **7** |     |     |     |     |     |     |     |     |     |     |
+    | **8** |     |     |     |     |     |     |     |     |     |     |
+    | **9** |     |     |     |     |     |     |     |     |     |     |
 
-2.  请用数数法计算下面的加法
-
-$$2 + 4 = \underline{\qquad}$$
-
-$$4 + 2 = \underline{\qquad}$$
-
-3. 请计算
-
-$$2 + 0 = \underline{\qquad}$$
-
-4. 应用题
+2. 应用题
 
     树上原来有5只鸟，又飞来了3只鸟。树上一共有几只鸟？
 
-5. 思考题
+3. 思考题
 
     请数一数下面的鸭子，并在方框中填入数字。
 
@@ -463,23 +458,20 @@ $$\huge 5 \times 3$$
 
 **练习：**
 
-1. 请将乘法展开成加法，然后计算结果。
+1. 请将乘法展开成加法，然后计算结果，并将结果填入表中。
 
-$$
-\begin{array}{rrr}
-1 \times 2 = \underline{\qquad} & 2 \times 2 = \underline{\qquad} & 3 \times 2 = \underline{\qquad} \\\\
-4 \times 2 = \underline{\qquad} & 5 \times 2 = \underline{\qquad} & 6 \times 2 = \underline{\qquad} \\\\
-7 \times 2 = \underline{\qquad} & 8 \times 2 = \underline{\qquad} & 9 \times 2 = \underline{\qquad}
-\end{array}
-$$
-
-$$
-\begin{array}{rrr}
-1 \times 3 = \underline{\qquad} & 2 \times 3 = \underline{\qquad} & 3 \times 3 = \underline{\qquad} \\\\
-4 \times 3 = \underline{\qquad} & 5 \times 3 = \underline{\qquad} & 6 \times 3 = \underline{\qquad} \\\\
-7 \times 3 = \underline{\qquad} & 8 \times 3 = \underline{\qquad} & 9 \times 3 = \underline{\qquad}
-\end{array}
-$$
+    |   ×   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
+    | :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+    | **0** |     |     |     |     |     |     |     |     |     |     |
+    | **1** |     |     |     |     |     |     |     |     |     |     |
+    | **2** |     |     |     |     |     |     |     |     |     |     |
+    | **3** |     |     |     |     |     |     |     |     |     |     |
+    | **4** |     |     |     |     |     |     |     |     |     |     |
+    | **5** |     |     |     |     |     |     |     |     |     |     |
+    | **6** |     |     |     |     |     |     |     |     |     |     |
+    | **7** |     |     |     |     |     |     |     |     |     |     |
+    | **8** |     |     |     |     |     |     |     |     |     |     |
+    | **9** |     |     |     |     |     |     |     |     |     |     |
 
 ## 9. 乘法表
 
