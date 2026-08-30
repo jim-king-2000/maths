@@ -112,7 +112,7 @@ $$\huge \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bul
 
 ### 1.3 加法运算律推论
 
-加法交换律告诉我们，两数相加，和与顺序无关：
+加法交换律告诉我们，**两数相加，和与顺序无关**：
 
 $$a+b=b+a$$
 
@@ -238,13 +238,14 @@ $$
    $${\color{red}8}+{\color{red}5}+\mathbf{3}+\mathbf{4}+2+6+7+1 = {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{blue}3}+2+6+7+1$$
 
 4. 依次类推，不断重复这个操作，把正确的数字换到当前位置：
-    $$
-    \begin{aligned}
-    1+2+3+4+5+6+7+8 &= {\color{red}8}+{\color{red}5}+{\color{red}4}+\mathbf{3}+2+6+7+\mathbf{1} \\
-    &= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+2+6+7+{\color{blue}3} \\
-    &= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+{\color{red}7}+{\color{red}6}+{\color{red}2}+{\color{red}3}
-    \end{aligned}
-    $$
+
+$$
+\begin{aligned}
+1+2+3+4+5+6+7+8 &= {\color{red}8}+{\color{red}5}+{\color{red}4}+\mathbf{3}+2+6+7+\mathbf{1} \\
+&= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+2+6+7+{\color{blue}3} \\
+&= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+{\color{red}7}+{\color{red}6}+{\color{red}2}+{\color{red}3}
+\end{aligned}
+$$
 
 为什么这个方法**一定**能够成功呢？
 
@@ -266,6 +267,64 @@ $$
    如果只允许**交换相邻的两个数**（例如只能交换紧挨着的 $a+b \to b+a$），还能不能把 $7+2+3+8$ 变成 $8+7+3+2$？如果能，最少需要交换几次？
 
 ### 1.4 加法结合律推论
+
+加法结合律告诉我们，**三数相加，先加前两个数再加最后一个数，与先加后两个数再与第一个数相加，和不变。**
+
+$$a+b+c=a+(b+c)$$
+
+那多个数相加呢？会有什么情况？
+
+例如，下面的等式成立吗？
+
+$$a+b+c+d\overset{?}{=}(a+b)+(c+d)$$
+
+我们用 $1+2+3+4$ 来验证一下。
+
+$$1+2+3+4=3+3+4=6+4=10$$
+
+$$(1+2)+(3+4)=3+7=10$$
+
+因此： $1+2+3+4=(1+2)+(3+4)$
+
+我们刚才只是验证了一些具体的例子。**即使很多例子都成立，也不能说明所有情况都成立。**
+
+我们必须提供证明。
+
+---
+
+我们可以先把前面两个数放到集装箱里。
+
+$$
+a+b+c+d=(a+b)+c+d
+$$
+
+现在，我们暂时不管集装箱里面是什么，把整个 $(a+b)$ 看成一个整体。
+
+于是，原来的四数相加，就变成了三个“数”相加：
+
+$$
+\boxed{a+b}+c+d
+$$
+
+第一个“数”是集装箱 $(a+b)$，第二个是 $c$，第三个是 $d$。
+
+根据已经证明的加法结合律，三个数相加时，先计算后两个数，结果不变：
+
+$$
+\begin{aligned}
+a+b+c+d
+&=(a+b)+c+d\\
+&=(a+b)+(c+d)
+\end{aligned}
+$$
+
+所以，我们证明了：
+
+$$
+\boxed{a+b+c+d=(a+b)+(c+d)}
+$$
+
+---
 
 ### 1.5 总结
 
