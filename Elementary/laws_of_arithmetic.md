@@ -238,14 +238,13 @@ $$
    $${\color{red}8}+{\color{red}5}+\mathbf{3}+\mathbf{4}+2+6+7+1 = {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{blue}3}+2+6+7+1$$
 
 4. 依次类推，不断重复这个操作，把正确的数字换到当前位置：
-
-$$
-\begin{aligned}
-1+2+3+4+5+6+7+8 &= {\color{red}8}+{\color{red}5}+{\color{red}4}+\mathbf{3}+2+6+7+\mathbf{1} \\
-&= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+2+6+7+{\color{blue}3} \\
-&= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+{\color{red}7}+{\color{red}6}+{\color{red}2}+{\color{red}3}
-\end{aligned}
-$$
+    $$
+    \begin{aligned}
+    1+2+3+4+5+6+7+8 &= {\color{red}8}+{\color{red}5}+{\color{red}4}+\mathbf{3}+2+6+7+\mathbf{1} \\
+    &= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+2+6+7+{\color{blue}3} \\
+    &= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+{\color{red}7}+{\color{red}6}+{\color{red}2}+{\color{red}3}
+    \end{aligned}
+    $$
 
 为什么这个方法**一定**能够成功呢？
 
@@ -322,6 +321,42 @@ $$
 
 $$
 \boxed{a+b+c+d=(a+b)+(c+d)}
+$$
+
+我们继续往下走。我们知道，前两个数相加，加括号与不加括号是等价的。所以，我们可以放心的把前两个数的括号去掉。
+
+$$
+\begin{aligned}
+a+b+c+d
+&=(a+b)+c+d\\
+&=(a+b)+(c+d) \\
+&=a+b+(c+d)
+\end{aligned}
+$$
+
+这时又变成了三个“数”。第一个数是a，第二个数是b，第三个“数”是集装箱。我们再应用一次三个数的结合律：
+
+$$
+\begin{aligned}
+a+b+c+d
+&=(a+b)+c+d\\
+&=(a+b)+(c+d) \\
+&=a+b+(c+d) \\
+&=a+(b+(c+d))
+\end{aligned}
+$$
+
+我们再把结合律反过来用，得： $b+(c+d)=b+c+d$ 。所以：
+
+$$
+\begin{aligned}
+a+b+c+d
+&=(a+b)+c+d\\
+&=(a+b)+(c+d) \\
+&=a+b+(c+d) \\
+&=a+(b+(c+d)) \\
+&=a+(b+c+d)
+\end{aligned}
 $$
 
 ---
