@@ -238,13 +238,14 @@ $$
    $${\color{red}8}+{\color{red}5}+\mathbf{3}+\mathbf{4}+2+6+7+1 = {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{blue}3}+2+6+7+1$$
 
 4. 依次类推，不断重复这个操作，把正确的数字换到当前位置：
-    $$
-    \begin{aligned}
-    1+2+3+4+5+6+7+8 &= {\color{red}8}+{\color{red}5}+{\color{red}4}+\mathbf{3}+2+6+7+\mathbf{1} \\
-    &= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+2+6+7+{\color{blue}3} \\
-    &= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+{\color{red}7}+{\color{red}6}+{\color{red}2}+{\color{red}3}
-    \end{aligned}
-    $$
+
+$$
+\begin{aligned}
+1+2+3+4+5+6+7+8 &= {\color{red}8}+{\color{red}5}+{\color{red}4}+\mathbf{3}+2+6+7+\mathbf{1} \\
+&= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+2+6+7+{\color{blue}3} \\
+&= {\color{red}8}+{\color{red}5}+{\color{red}4}+{\color{red}1}+{\color{red}7}+{\color{red}6}+{\color{red}2}+{\color{red}3}
+\end{aligned}
+$$
 
 为什么这个方法**一定**能够成功呢？
 
@@ -400,13 +401,9 @@ $$
 ((8+4)+3+(1+7))+(5+(6+9))
 $$
 
-为了把整个式子变成我们刚才证明过的标准形式“一个数加上一个集装箱”，我们在整个式子最前面增加一个不改变结果的数字 $0$：
+为了把整个式子变成我们刚才证明过的标准形式“一个数加上一个集装箱”，我们在整个式子最前面增加一个不改变结果的数字 $0$ ：
 
-$$
-((8+4)+3+(1+7))+(5+(6+9))
-=
-\mathbf{0}+((8+4)+3+(1+7))+(5+(6+9))
-$$
+$$((8+4)+3+(1+7))+(5+(6+9))=\mathbf{0}+((8+4)+3+(1+7))+(5+(6+9))$$
 
 现在，我们像剥洋葱一样，从外到内一层层去掉括号。
 
