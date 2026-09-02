@@ -98,8 +98,7 @@ $$(1+2+3)\boxed{+}(4+5+6)=(4+5+6)\boxed{+}(1+2+3)$$
 $$
 \sum_{k=1}^{\infty}\frac{1}{2^k}
 \boxed{+}
-\prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right)
-=
+\prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right)=
 \prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right)
 \boxed{+}
 \sum_{k=1}^{\infty}\frac{1}{2^k}
@@ -128,7 +127,7 @@ $$
 &
 \qquad
 37+3=3+\underline{\qquad}
-\\[6pt]
+\\\\
 2+19=19+\underline{\qquad}
 &
 \qquad
@@ -136,7 +135,7 @@ $$
 &
 \qquad
 8+88=88+\underline{\qquad}
-\\[6pt]
+\\\\
 13+12=12+\underline{\qquad}
 &
 \qquad
@@ -162,8 +161,7 @@ $$
 $$
 
 $$
-(1+2)+(47+28+6)
-=
+(1+2)+(47+28+6)=
 \underline{\hspace{2.5cm}}+\underline{\hspace{2.5cm}}
 $$
 
@@ -173,8 +171,7 @@ $$
 \left(
 \sum_{k=1}^{100}\frac{1}{k(k+1)}
 +\frac{1}{101}
-\right)
-=
+\right)=
 \underline{\hspace{3.5cm}}
 +
 \underline{\hspace{3.5cm}}
@@ -478,10 +475,8 @@ $$
 我们可以先对前三个数运用加法结合律：
 
 $$
-a+b+c+d
-=
-(a+b+c)+d
-=
+a+b+c+d=
+(a+b+c)+d=
 a+(b+c)+d
 $$
 
@@ -637,8 +632,7 @@ $$
 展开下面算式中的所有括号：
 
 $$
-(6+(8+3))+(6+9)
-=
+(6+(8+3))+(6+9)=
 \underline{\qquad\qquad\qquad\qquad}
 $$
 
