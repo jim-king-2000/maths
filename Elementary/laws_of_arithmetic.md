@@ -25,23 +25,13 @@ $$38572653 + 9267351 = 9267351 + 38572653$$
 我们先放 2 个红色的小球，再放 3 个蓝色的小球，然后从左到右数一遍，这就是 $(2+3)$：
 
 $$
-\huge
-\overset{\color{red}{\bullet}}{\fbox{1}}
-\overset{\color{red}{\bullet}}{\fbox{2}}
-\overset{\color{blue}{\bullet}}{\fbox{1}}
-\overset{\color{blue}{\bullet}}{\fbox{2}}
-\overset{\color{blue}{\bullet}}{\fbox{3}}
+\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}
 $$
 
 同样个数的小球，这次我们从右到左数，先数到 3 个蓝色小球，再数到 2 个红色小球，这就是 $(3+2)$：
 
 $$
-\huge
-\overset{\color{red}{\bullet}}{\fbox{2}}
-\overset{\color{red}{\bullet}}{\fbox{1}}
-\overset{\color{blue}{\bullet}}{\fbox{3}}
-\overset{\color{blue}{\bullet}}{\fbox{2}}
-\overset{\color{blue}{\bullet}}{\fbox{1}}
+\huge \overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}
 $$
 
 因为小球的总数并没有改变，所以我们得到：
@@ -53,10 +43,7 @@ $$2+3=3+2$$
 我们假设有 $a$ 个红色的小球和 $b$ 个蓝色的小球，这里的 $a$ 和 $b$ 可以代表**任意正整数**。也就是说，无论 $a$ 和 $b$ 是多少，下面的推理都成立。
 
 $$
-\huge
-\overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}}
-\quad
-\overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}}
+\huge \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \quad \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}}
 $$
 
 我们从左往右数，先数完 $a$ 个红球，再数 $b$ 个蓝球，得到：
@@ -96,12 +83,7 @@ $$(1+2+3)\boxed{+}(4+5+6)=(4+5+6)\boxed{+}(1+2+3)$$
 还可以是一堆看上去很可怕的东西：
 
 $$
-\sum_{k=1}^{\infty}\frac{1}{2^k}
-\boxed{+}
-\prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right)=
-\prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right)
-\boxed{+}
-\sum_{k=1}^{\infty}\frac{1}{2^k}
+\sum_{k=1}^{\infty}\frac{1}{2^k} \boxed{+} \prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right) = \prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right) \boxed{+} \sum_{k=1}^{\infty}\frac{1}{2^k}
 $$
 
 上面这个极具视觉冲击力、充满压迫感、看似无比复杂的式子，只要把那些古怪的符号剥开，本质上不过就是：
@@ -120,38 +102,16 @@ $$
 
 $$
 \begin{array}{rrr}
-16+5=5+\underline{\qquad}
-&
-\qquad
-24+8=8+\underline{\qquad}
-&
-\qquad
-37+3=3+\underline{\qquad}
-\\\\
-2+19=19+\underline{\qquad}
-&
-\qquad
-5+57=57+\underline{\qquad}
-&
-\qquad
-8+88=88+\underline{\qquad}
-\\\\
-13+12=12+\underline{\qquad}
-&
-\qquad
-26+58=58+\underline{\qquad}
-&
-\qquad
-99+94=94+\underline{\qquad}
+16+5=5+\underline{\qquad} & \qquad 24+8=8+\underline{\qquad} & \qquad 37+3=3+\underline{\qquad} \\\\
+2+19=19+\underline{\qquad} & \qquad 5+57=57+\underline{\qquad} & \qquad 8+88=88+\underline{\qquad} \\\\
+13+12=12+\underline{\qquad} & \qquad 26+58=58+\underline{\qquad} & \qquad 99+94=94+\underline{\qquad}
 \end{array}
 $$
 
 2. 不用计算，请说出下面两个和是否相等。
 
 $$
-1938476187265+746251192
-\qquad
-746251192+1938476187265
+1938476187265+746251192 \qquad 746251192+1938476187265
 $$
 
 3. 请应用加法交换律，交换最外层加号左右两项的位置。
@@ -161,20 +121,11 @@ $$
 $$
 
 $$
-(1+2)+(47+28+6)=
-\underline{\hspace{2.5cm}}+\underline{\hspace{2.5cm}}
+(1+2)+(47+28+6) = \underline{\hspace{2.5cm}}+\underline{\hspace{2.5cm}}
 $$
 
 $$
-\int_{0}^{1}2x\,dx
-+
-\left(
-\sum_{k=1}^{100}\frac{1}{k(k+1)}
-+\frac{1}{101}
-\right)=
-\underline{\hspace{3.5cm}}
-+
-\underline{\hspace{3.5cm}}
+\int_{0}^{1}2x\,dx + \left(\sum_{k=1}^{100}\frac{1}{k(k+1)} +\frac{1}{101}\right) = \underline{\hspace{3.5cm}} + \underline{\hspace{3.5cm}}
 $$
 
 ---
@@ -198,13 +149,7 @@ $$(264872+38101)+1542=264872+(38101+1542)$$
 它可以代表 2 个红色小球、3 个蓝色小球和 1 个绿色小球：
 
 $$
-\huge
-\overset{\color{red}{\bullet}}{\fbox{1}}
-\overset{\color{red}{\bullet}}{\fbox{2}}
-\overset{\color{blue}{\bullet}}{\fbox{1}}
-\overset{\color{blue}{\bullet}}{\fbox{2}}
-\overset{\color{blue}{\bullet}}{\fbox{3}}
-\overset{\color{green}{\bullet}}{\fbox{1}}
+\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{green}{\bullet}}{\fbox{1}}
 $$
 
 我们从左向右数：先数完 2 个红球和 3 个蓝球（共 $2+3$ 个），再加上 1 个绿球，得到的代数式是：
@@ -230,9 +175,8 @@ $$(2+3)+1=(1+3)+2$$
 
 $$
 \begin{aligned}
-(2+3)+1
-&=(1+3)+2\\
-&=2+(1+3)
+(2+3)+1 &= (1+3)+2 \\
+&= 2+(1+3)
 \end{aligned}
 $$
 
@@ -240,10 +184,9 @@ $$
 
 $$
 \begin{aligned}
-\mathbf{(2+3)+1}
-&=(1+3)+2\\
-&=2+(1+3)\\
-&=\mathbf{2+(3+1)}
+\mathbf{(2+3)+1} &= (1+3)+2 \\
+&= 2+(1+3) \\
+&= \mathbf{2+(3+1)}
 \end{aligned}
 $$
 
@@ -252,12 +195,7 @@ $$
 我们假设有 $a$ 个红色的小球、$b$ 个蓝色的小球和 $c$ 个绿色小球，这里的 $a,b,c$ 可以代表**任意正整数**。
 
 $$
-\huge
-\overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}}
-\quad
-\overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}}
-\quad
-\overbrace{\color{green}{\bullet}\color{green}{\bullet}\dots\color{green}{\bullet}}^{c\text{个绿色小球}}
+\huge \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \quad \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}} \quad \overbrace{\color{green}{\bullet}\color{green}{\bullet}\dots\color{green}{\bullet}}^{c\text{个绿色小球}}
 $$
 
 从左向右数：先数 $a$ 个红球和 $b$ 个蓝球，再加上 $c$ 个绿球，得到：
@@ -276,12 +214,9 @@ $$(a+b)+c=(c+b)+a$$
 
 $$
 \begin{aligned}
-(a+b)+c
-&=(c+b)+a\\
-&=a+(c+b)
-&&\text{（把集装箱 }(c+b)\text{ 与 }a\text{ 整体交换）}\\
-&=a+(b+c)
-&&\text{（把集装箱内部的 }c\text{ 与 }b\text{ 交换）}
+(a+b)+c &= (c+b)+a \\
+&= a+(c+b) &&\text{（把集装箱 }(c+b)\text{ 与 }a\text{ 整体交换）} \\
+&= a+(b+c) &&\text{（把集装箱内部的 }c\text{ 与 }b\text{ 交换）}
 \end{aligned}
 $$
 
@@ -334,11 +269,7 @@ $$(1+2)+(2+3)+(3+4)=(1+2)+((2+3)+(3+4))$$
 还可以是一堆看上去很可怕的东西：
 
 $$
-\lim_{N\to\infty}\left(\frac{N+1}{N}\right)
-+
-\int_{0}^{1}\frac{1}{1+x^2}\,dx
-+
-\int_{0}^{1}\frac{x^2}{1+x^2}\,dx
+\lim_{N\to\infty}\left(\frac{N+1}{N}\right) + \int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx
 $$
 
 这里暂时不用管这些符号到底是什么意思。未来你会学到它们。
@@ -352,35 +283,17 @@ $$
 例如，我们知道：
 
 $$
-\int_{0}^{1}\frac{1}{1+x^2}\,dx
-+
-\int_{0}^{1}\frac{x^2}{1+x^2}\,dx
-=1
+\int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx = 1
 $$
 
 那么：
 
 $$
 \begin{aligned}
-&
-\lim_{N\to\infty}\left(\frac{N+1}{N}\right)
-+
-\int_{0}^{1}\frac{1}{1+x^2}\,dx
-+
-\int_{0}^{1}\frac{x^2}{1+x^2}\,dx
-\\
-&=
-\lim_{N\to\infty}\left(\frac{N+1}{N}\right)
-+
-\left(
-\int_{0}^{1}\frac{1}{1+x^2}\,dx
-+
-\int_{0}^{1}\frac{x^2}{1+x^2}\,dx
-\right)
-\\
-&=
-1+1\\
-&=2
+&\lim_{N\to\infty}\left(\frac{N+1}{N}\right) + \int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx \\
+&= \lim_{N\to\infty}\left(\frac{N+1}{N}\right) + \left( \int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx \right) \\
+&= 1+1 \\
+&= 2
 \end{aligned}
 $$
 
@@ -451,19 +364,11 @@ $$
 我们先用 $1+2+3+4$ 验证一下：
 
 $$
-\text{左边：}\quad
-1+2+3+4
-=3+3+4
-=6+4
-=10
+\text{左边：}\quad 1+2+3+4 = 3+3+4 = 6+4 = 10
 $$
 
 $$
-\text{右边：}\quad
-1+(2+3+4)
-=1+(5+4)
-=1+9
-=10
+\text{右边：}\quad 1+(2+3+4) = 1+(5+4) = 1+9 = 10
 $$
 
 两边确实相等！
@@ -475,9 +380,7 @@ $$
 我们可以先对前三个数运用加法结合律：
 
 $$
-a+b+c+d=
-(a+b+c)+d=
-a+(b+c)+d
+a+b+c+d = (a+b+c)+d = a+(b+c)+d
 $$
 
 这时，四个数相加可以看成三个“数”相加：
@@ -496,10 +399,9 @@ $$
 
 $$
 \begin{aligned}
-a+b+c+d
-&=(a+b+c)+d\\
-&=a+(b+c)+d\\
-&=a+((b+c)+d)
+a+b+c+d &= (a+b+c)+d \\
+&= a+(b+c)+d \\
+&= a+((b+c)+d)
 \end{aligned}
 $$
 
@@ -515,7 +417,7 @@ $$
 \boxed{a+b+c+d=a+(b+c+d)}
 $$
 
-我们就证明了四个数的情况。
+我就证明了四个数的情况。
 
 ---
 
@@ -525,11 +427,10 @@ $$
 
 $$
 \begin{aligned}
-a+b+c+d+e
-&=(a+b+c+d)+e\\
-&=a+(b+c+d)+e\\
-&=a+((b+c+d)+e)\\
-&=a+(b+c+d+e)
+a+b+c+d+e &= (a+b+c+d)+e \\
+&= a+(b+c+d)+e \\
+&= a+((b+c+d)+e) \\
+&= a+(b+c+d+e)
 \end{aligned}
 $$
 
@@ -583,25 +484,13 @@ $$
 
 $$
 \begin{aligned}
-&((8+4)+3+(1+7))+(5+(6+9))
-\\
-&=
-0+((8+4)+3+(1+7))+(5+(6+9))
-\\
-&=
-0+(8+4)+3+(1+7)+(5+(6+9))
-\\
-&=
-0+8+4+3+1+7+(5+(6+9))
-\\
-&=
-0+8+4+3+1+7+5+(6+9)
-\\
-&=
-0+8+4+3+1+7+5+6+9
-\\
-&=
-8+4+3+1+7+5+6+9
+&((8+4)+3+(1+7))+(5+(6+9)) \\
+&= 0+((8+4)+3+(1+7))+(5+(6+9)) \\
+&= 0+(8+4)+3+(1+7)+(5+(6+9)) \\
+&= 0+8+4+3+1+7+(5+(6+9)) \\
+&= 0+8+4+3+1+7+5+(6+9) \\
+&= 0+8+4+3+1+7+5+6+9 \\
+&= 8+4+3+1+7+5+6+9
 \end{aligned}
 $$
 
@@ -632,8 +521,7 @@ $$
 展开下面算式中的所有括号：
 
 $$
-(6+(8+3))+(6+9)=
-\underline{\qquad\qquad\qquad\qquad}
+(6+(8+3))+(6+9)=\underline{\qquad\qquad\qquad\qquad}
 $$
 
 ---
@@ -668,11 +556,10 @@ $$
 
 $$
 \begin{aligned}
-a+b+c
-&=(a+b)+c\\
-&=c+(a+b)\\
-&=c+(b+a)\\
-&=c+b+a
+a+b+c &= (a+b)+c \\
+&= c+(a+b) \\
+&= c+(b+a) \\
+&= c+b+a
 \end{aligned}
 $$
 
@@ -704,10 +591,9 @@ $$
 
 $$
 \begin{aligned}
-a+b+c+d
-&=a+(b+c)+d\\
-&=d+(b+c)+a\\
-&=d+b+c+a
+a+b+c+d &= a+(b+c)+d \\
+&= d+(b+c)+a \\
+&= d+b+c+a
 \end{aligned}
 $$
 
@@ -737,25 +623,20 @@ $$
 
 $$
 \begin{aligned}
-\dots+(a+\dots+b)+\dots
-&=\dots+(b+\dots+a)+\dots
+\dots+(a+\dots+b)+\dots &= \dots+(b+\dots+a)+\dots
 \end{aligned}
 $$
 
 然后再把集装箱展开：
 
 $$
-\dots+(b+\dots+a)+\dots
-=
-\dots+b+\dots+a+\dots
+\dots+(b+\dots+a)+\dots = \dots+b+\dots+a+\dots
 $$
 
 因此：
 
 $$
-\dots+a+\dots+b+\dots
-=
-\dots+b+\dots+a+\dots
+\dots+a+\dots+b+\dots = \dots+b+\dots+a+\dots
 $$
 
 至此，我们又推倒了一张极其强大的骨牌：
@@ -769,9 +650,7 @@ $$
 例如，验证：
 
 $$
-1+2+3+4+5+6+7+8
-\overset{?}{=}
-8+5+4+1+7+6+2+3
+1+2+3+4+5+6+7+8 \overset{?}{=} 8+5+4+1+7+6+2+3
 $$
 
 我们从第 1 个位置开始，每次把目标位置需要的数“交换”过来，并且**锁死已经归位的数字**。
@@ -781,9 +660,7 @@ $$
     交换位置 1 的 $1$ 和位置 8 的 $8$：
 
     $$
-    \mathbf{1}+2+3+4+5+6+7+\mathbf{8}
-    \longrightarrow
-    {\color{red}{8}}+2+3+4+5+6+7+{\color{blue}{1}}
+    \mathbf{1}+2+3+4+5+6+7+\mathbf{8} \longrightarrow {\color{red}{8}}+2+3+4+5+6+7+{\color{blue}{1}}
     $$
 
 2. **归位第 2 个数（5）**
@@ -791,9 +668,7 @@ $$
     交换当前位置 2 的 $2$ 和位置 5 的 $5$：
 
     $$
-    {\color{red}{8}}+\mathbf{2}+3+4+\mathbf{5}+6+7+1
-    \longrightarrow
-    {\color{red}{8}}+{\color{red}{5}}+3+4+{\color{blue}{2}}+6+7+1
+    {\color{red}{8}}+\mathbf{2}+3+4+\mathbf{5}+6+7+1 \longrightarrow {\color{red}{8}}+{\color{red}{5}}+3+4+{\color{blue}{2}}+6+7+1
     $$
 
 3. **归位第 3 个数（4）**
@@ -801,9 +676,7 @@ $$
     交换当前位置 3 的 $3$ 和位置 4 的 $4$：
 
     $$
-    {\color{red}{8}}+{\color{red}{5}}+\mathbf{3}+\mathbf{4}+2+6+7+1
-    \longrightarrow
-    {\color{red}{8}}+{\color{red}{5}}+{\color{red}{4}}+{\color{blue}{3}}+2+6+7+1
+    {\color{red}{8}}+{\color{red}{5}}+\mathbf{3}+\mathbf{4}+2+6+7+1 \longrightarrow {\color{red}{8}}+{\color{red}{5}}+{\color{red}{4}}+{\color{blue}{3}}+2+6+7+1
     $$
 
 4. **继续归位**
@@ -821,11 +694,7 @@ $$
     因此：
 
     $$
-    \boxed{
-    1+2+3+4+5+6+7+8
-    =
-    8+5+4+1+7+6+2+3
-    }
+    \boxed{1+2+3+4+5+6+7+8 = 8+5+4+1+7+6+2+3}
     $$
 
     而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
@@ -840,7 +709,6 @@ $$
 
 1. 请通过多次“交换任意两数”的位置，写出详细的推导步骤：
     - $1+2+3=3+1+2$
-
     - $7+2+3+8=8+7+2+3$
 
 2. **【思考题】（进阶思维）**
@@ -888,10 +756,9 @@ $$
 
 $$
 \begin{aligned}
-1+2+3+4+5+6+7+8+9
-&=(1+9)+(2+8)+(3+7)+(4+6)+5\\
-&=10+10+10+10+5\\
-&=45
+1+2+3+4+5+6+7+8+9 &= (1+9)+(2+8)+(3+7)+(4+6)+5 \\
+&= 10+10+10+10+5 \\
+&= 45
 \end{aligned}
 $$
 
@@ -921,11 +788,10 @@ $$
 
 $$
 \begin{aligned}
-36+28
-&=36+(4+24)\\
-&=(36+4)+24\\
-&=40+24\\
-&=64
+36+28 &= 36+(4+24) \\
+&= (36+4)+24 \\
+&= 40+24 \\
+&= 64
 \end{aligned}
 $$
 
@@ -945,8 +811,7 @@ $$
 上面的所有规则，最终可以凝练成一句非常漂亮的话：
 
 $$
-\Large
-\text{加法与计算路径无关。}
+\Large \text{加法与计算路径无关。}
 $$
 
 对于有限个数相加，无论我们怎样改变这些数的**排列顺序**，或者怎样改变它们的**分组方式**，最终得到的和都不会改变。
@@ -954,11 +819,7 @@ $$
 这个结论不是凭空出现的口诀，而是我们用逻辑一步步构建出来的：
 
 $$
-\boxed{
-\text{交换律}+\text{结合律}
-\Longrightarrow
-\text{顺序可以自由重排，分组可以自由改变}
-}
+\boxed{\text{交换律}+\text{结合律} \Longrightarrow \text{顺序可以自由重排，分组可以自由改变}}
 $$
 
 这就是数学中非常重要的一种思想：
@@ -993,12 +854,10 @@ $$
 
 1. 利用交换律和结合律进行简便运算：
     - $15+14+5+6=\underline{\qquad}$
-
     - $4+1+6+2+7=\underline{\qquad}$
 
 2. 利用拆数法进行简便运算：
     - $18+5=\underline{\qquad}$
-
     - $7+57=\underline{\qquad}$
 
 ---
