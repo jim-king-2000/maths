@@ -939,6 +939,106 @@ $$
 
 ---
 
+### 2.2 乘法结合律
+
+与加法一样，乘法也有结合律：
+
+$$a \times b \times c = a \times (b \times c)$$
+
+我们可以简单验证一下：
+
+按从左到右顺序计算：
+$$2 \times 3 \times 4 = 6 \times 4 = 24$$
+
+按右边优先计算：
+$$2 \times (3 \times 4) = 2 \times 12 = 24$$
+
+两者的计算结果确实相同：
+$$2 \times 3 \times 4 = 2 \times (3 \times 4)$$
+
+但验证有限的具体例子并不等于严格证明。为了说明它对任意数都成立，我们需要揭示其背后的几何本质。
+
+#### 几何证明：空间结构的旋转
+
+默认的计算顺序是从左到右，即：
+
+$$2 \times 3 \times 4 = (2 \times 3) \times 4$$
+
+这可以用一个三维小球长方体来表示：它一共有 **4 层**，每一层包含 $2 \times 3$ 个小球（即 3 行，每行 2 个小球）：
+
+```tikz
+\begin{tikzpicture}[x={(1.2cm,-0.3cm)}, y={(0.9cm,0.4cm)}, z={(0cm,1.2cm)}]
+
+  % 循环绘制 4 层（从底层到顶层）
+  \foreach \z in {1, 2, 3, 4} {
+
+    % 每层只画穿过小球的平行虚线（横向 3 行，纵向 2 列）
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (2,1,\z);
+    \draw[dashed, blue!80, thick] (1,2,\z) -- (2,2,\z);
+    \draw[dashed, blue!80, thick] (1,3,\z) -- (2,3,\z);
+
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
+    \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
+
+    % 每层绘制 3 行 2 列的小球
+    \foreach \x in {1, 2} {
+      \foreach \y in {1, 2, 3} {
+        \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
+      }
+    }
+
+  }
+
+\end{tikzpicture}
+```
+
+现在，我们将这个长方体在空间中“推倒”，让包含最多小球的侧面（$4 \times 3$ 的面）朝下作为底面：
+
+```tikz
+\begin{tikzpicture}[x={(1.2cm,-0.3cm)}, y={(0.9cm,0.4cm)}, z={(0cm,1.2cm)}]
+
+  % 循环绘制 2 层（Z 轴方向：z=1 和 z=2）
+  \foreach \z in {1, 2} {
+
+    % 横向虚线（沿 X 轴方向，穿过 3 行小球）
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (4,1,\z);
+    \draw[dashed, blue!80, thick] (1,2,\z) -- (4,2,\z);
+    \draw[dashed, blue!80, thick] (1,3,\z) -- (4,3,\z);
+
+    % 纵向虚线（沿 Y 轴方向，穿过 4 列小球）
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
+    \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
+    \draw[dashed, blue!80, thick] (3,1,\z) -- (3,3,\z);
+    \draw[dashed, blue!80, thick] (4,1,\z) -- (4,3,\z);
+
+    % 绘制每层 3 行 4 列的小球（共 12 个）
+    \foreach \x in {1, 2, 3, 4} {
+      \foreach \y in {1, 2, 3} {
+        \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
+      }
+    }
+
+  }
+
+\end{tikzpicture}
+```
+
+重新观察这个推倒后的长方体：它变成了 **2 层**，每一层有 3 行，每一行有 4 个小球（即每一层包含 $4 \times 3$ 个小球）。它的总球数表达为：
+
+$$(4 \times 3) \times 2$$
+
+因为旋转长方体并没有改变小球的总数，所以两次计数的算式必然相等。结合乘法交换律，我们得到：
+
+$$
+\begin{aligned}
+2 \times 3 \times 4 &= (4 \times 3) \times 2 && \text{（空间旋转，小球总数不变）}\\
+&= 2 \times (4 \times 3) && \text{（对外层应用乘法交换律）}\\
+&= 2 \times (3 \times 4) && \text{（对括号内应用乘法交换律）}
+\end{aligned}
+$$
+
+至此，我们不仅证明了 $2 \times 3 \times 4 = 2 \times (3 \times 4)$，而且揭示了乘法结合律的物理本质：**改变计算的结合顺序，本质上只是在三维空间中换了一个角度来统计同一个长方体内的物体数量。**
+
 ## 5. 给勇敢探索者的“数学彩蛋”
 
 在这一章里，我们从最简单的小球出发，用“换个方向数”和“旋转阵列”的方法，理解了加法与乘法的运算律，并推导出了许多强大的新工具。
