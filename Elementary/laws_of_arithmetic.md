@@ -1124,6 +1124,94 @@ $$
 
 ---
 
+### 2.3 乘法分配律
+
+当加法与乘法结合在一起时，奇迹出现了。数学家们发现：
+
+$$(a+b)\times c=a\times c+b\times c$$
+
+> 原本是“先加再乘”，竟然可以变成“先分别乘，再把结果加起来”。
+
+让我们验证一下：
+
+$$(1+2)\times 3=3\times 3=9$$
+
+$$1\times 3 + 2\times 3=3+6=9$$
+
+所以：
+
+$$(1+2)\times 3=1\times 3 + 2\times 3$$
+
+**但即使验证了具体的例子，也不能说明所有情况都成立。**
+
+我们必须提供严密的逻辑证明。
+
+现在又轮到小球上场了。我们来观察下面算式的物理意义：
+
+$$(1+2)\times 3$$
+
+前面的 $(1+2)$ 代表一个红色小球和两个蓝色小球排成一排。而后面的 $\times 3$ 表示相同的红蓝小球一共有三排。**算式 $(1+2)\times 3$ 代表这三排小球的总个数。**
+
+$$
+\huge
+\color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}\\
+\color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}\\
+\color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}
+$$
+
+现在让我们单独计算红色小球的个数。每排一个，一共三排，所以是：
+
+$$1\times 3$$
+
+再计算一下蓝色小球的个数。每排两个，一共三排，所以是：
+
+$$2\times 3$$
+
+红蓝小球的总个数为 **红色小球的个数** + **蓝色小球的个数**：
+
+$$1\times 3+2\times 3$$
+
+无论用哪种方式数，红蓝小球的总个数不变。所以：
+
+$$(1+2)\times 3=1\times 3 + 2\times 3$$
+
+现在，让我们把结论推广到自然数。
+
+设一共有 $c$ 排小球。其中每一排有红色小球 $a$ 个，蓝色小球 $b$ 个。
+
+$$
+\huge
+c\text{行}
+\begin{cases}
+\overbrace{\color{red}{\bullet}\cdots\color{red}{\bullet}}^{a个}\quad\overbrace{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}^{b个}\\
+\cdots\\
+\overset{}{\color{red}{\bullet}\cdots\color{red}{\bullet}}\quad\overset{}{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}\\
+\overset{}{\color{red}{\bullet}\cdots\color{red}{\bullet}}\quad\overset{}{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}
+\end{cases}
+$$
+
+“按排”算，一共有 $(a+b)\times c$ 个小球。
+
+按小球颜色算，红色小球有 $a\times c$ 个，蓝色小球有 $b\times c$ 个。
+
+小球总个数为红色小球个数加上蓝色小球个数。所以有：
+
+> $$(a+b)\times c=a\times c+b\times c$$
+
+我们对上面的等式两边同时使用乘法交换律，得：
+
+> $$c\times(a+b)=c\times a+c\times b$$
+
+这就是**乘法分配律**。它的意思是：
+
+> 原来 $c$ 乘的是整个 $a+b$，现在把 $c$ 分配给 $a$ 和 $b$ 各乘一次。
+
+它揭示了：
+
+> **“整体计算”可以变成“分别计算，再合起来”。**
+
+---
+
 ## 5. 给勇敢探索者的“数学彩蛋”
 
 在这一章里，我们从最简单的小球出发，用“换个方向数”和“旋转阵列”的方法，理解了加法与乘法的运算律，并推导出了许多强大的新工具。
