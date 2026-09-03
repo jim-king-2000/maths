@@ -343,7 +343,7 @@ $$
 
 ---
 
-### 1.3 加法结合律推论：自由去括号
+### 1.3 广义加法结合律
 
 加法结合律告诉我们，三个数相加时，括号加在前面还是后面，结果都一样：
 
@@ -518,7 +518,7 @@ $$
 a+(k_1+\dots+k_n)=a+k_1+\dots+k_n
 $$
 
-展开下面算式中的所有括号：
+一步一步的展开下面算式中的所有括号：
 
 $$
 (6+(8+3))+(6+9)=\underline{\qquad\qquad\qquad\qquad}
@@ -526,7 +526,7 @@ $$
 
 ---
 
-### 1.4 加法交换律推论：自由重排位置
+### 1.4 广义加法交换律
 
 加法交换律告诉我们：
 
@@ -1234,6 +1234,104 @@ $$
 > $$(a+b+c+\cdots)\times n=a\times n+b\times n+c\times n+\cdots$$
 
 > $$n\times(a+b+c+\cdots)=n\times a+n\times b+n\times c+\cdots$$
+
+---
+
+### 2.4 广义乘法结合律
+
+乘法结合律只对三个数有效：
+
+$$a\times b\times c=a\times (b\times c)$$
+
+四个数相乘呢？
+
+我们来观察四数相乘。它其实相当于前三个数先乘，再乘最后一个数：
+
+$$a\times b\times c\times d=(a\times b\times c)\times d$$
+
+这时我们可以对“集装箱”内使用乘法结合律：
+
+$$
+\begin{aligned}
+a\times b\times c\times d&=(a\times b\times c)\times d\\
+&=(a\times(b\times c))\times d\\
+&=a\times (b\times c)\times d
+\end{aligned}
+$$
+
+这回它变成了三个“数”。第一个数是a，第二个数是集装箱，第三个数是d。于是我们再次应用乘法结合律。
+
+$$
+\begin{aligned}
+a\times b\times c\times d&=(a\times b\times c)\times d\\
+&=(a\times(b\times c))\times d\\
+&=a\times (b\times c)\times d\\
+&=a\times ((b\times c)\times d)\\
+&=a\times (b\times c\times d)
+\end{aligned}
+$$
+
+一直重复下去，我们可以得到：
+
+$$a\times b\times \cdots=a\times(b\times \cdots)$$
+
+---
+
+这个推论有什么用呢？
+
+它能帮助我们像“剥洋葱”一样，一层层拆开复杂的嵌套括号。
+
+例如，面对这样一个充满复杂括号的式子：
+
+$$
+((8\times4)\times3\times(1\times7))\times(5\times(6\times9))
+$$
+
+为了使用刚才的推论，我们在整个式子最前面补上一个不影响结果的 $\mathbf{1}$：
+
+$$
+\mathbf{1}\times((8\times4)\times3\times(1\times7))\times(5\times(6\times9))
+$$
+
+因为 $1\times x=x$，所以这只是换了一种写法。
+
+现在，我们利用：
+
+$$
+a\times(k_1\times\dots\times k_n)=a\times k_1\times\dots\times k_n
+$$
+
+从外到内一层层展开：
+
+$$
+\begin{aligned}
+&((8\times4)\times3\times(1\times7))\times(5\times(6\times9)) \\
+&= 1\times((8\times4)\times3\times(1\times7))\times(5\times(6\times9)) \\
+&= 1\times(8\times4)\times3\times(1\times7)\times(5\times(6\times9)) \\
+&= 1\times8\times4\times3\times1\times7\times(5\times(6\times9)) \\
+&= 1\times8\times4\times3\times1\times7\times5\times(6\times9) \\
+&= 1\times8\times4\times3\times1\times7\times5\times6\times9 \\
+&= 8\times4\times3\times1\times7\times5\times6\times9
+\end{aligned}
+$$
+
+我们把复杂的括号一层一层展开了。
+
+这意味着，**一个有限个数的乘法，去除所有括号，积不变。**
+
+由此，我们得出一个通用的结论：
+
+> **对于有限个数的乘法，只要增加或改变的是合法的括号分组，积就保持不变。**
+
+复杂的括号并没有改变数字本身，只是改变了计算的分组方式。
+
+而乘法结合律告诉我们：
+
+> **分组方式可以改变，而结果不变。**
+
+---
+
+### 2.5 广义乘法交换律
 
 ---
 
