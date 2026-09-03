@@ -909,7 +909,7 @@ $$
 2\times3=3\times2
 $$
 
-这次，让我们把上面的几何转动推广到任意数。
+这次，让我们把上面的几何转动推广到任意自然数。
 
 假设有 $b$ 行，每行有 $a$ 个小球。
 
@@ -939,6 +939,40 @@ $$
 
 ---
 
+**【小试牛刀】**
+
+1. 请在下面的空白处填入合适的数，使得等式成立。
+
+$$
+\begin{array}{rrr}
+16\times5=5\times\underline{\qquad} & \qquad 24\times8=8\times\underline{\qquad} & \qquad 37\times3=3\times\underline{\qquad} \\\\
+2\times19=19\times\underline{\qquad} & \qquad 5\times57=57\times\underline{\qquad} & \qquad 8\times88=88\times\underline{\qquad} \\\\
+13\times12=12\times\underline{\qquad} & \qquad 26\times58=58\times\underline{\qquad} & \qquad 99\times94=94\times\underline{\qquad}
+\end{array}
+$$
+
+2. 不用计算，请说出下面两个积是否相等。
+
+$$
+1938476187265\times746251192 \qquad 746251192\times1938476187265
+$$
+
+3. 请应用乘法交换律，交换最外层乘号左右两项的位置。
+
+$$
+1\times2=\underline{\hspace{1.5cm}}\times\underline{\hspace{1.5cm}}
+$$
+
+$$
+(1+2)\times(47+28+6) = \underline{\hspace{2.5cm}}\times\underline{\hspace{2.5cm}}
+$$
+
+$$
+\int_{0}^{1}2x\,dx \times \left(\sum_{k=1}^{100}\frac{1}{k(k+1)} +\frac{1}{101}\right) = \underline{\hspace{3.5cm}} \times \underline{\hspace{3.5cm}}
+$$
+
+---
+
 ### 2.2 乘法结合律
 
 与加法一样，乘法也有结合律：
@@ -956,7 +990,7 @@ $$2 \times (3 \times 4) = 2 \times 12 = 24$$
 两者的计算结果确实相同：
 $$2 \times 3 \times 4 = 2 \times (3 \times 4)$$
 
-但验证有限的具体例子并不等于严格证明。为了说明它对任意数都成立，我们需要揭示其背后的几何本质。
+但验证有限的具体例子并不等于严格证明。为了说明它对任意自然数都成立，我们需要揭示其背后的几何本质。
 
 #### 几何证明：空间结构的旋转
 
@@ -1037,7 +1071,7 @@ $$
 \end{aligned}
 $$
 
-至此，我们不仅证明了 $2 \times 3 \times 4 = 2 \times (3 \times 4)$，而且揭示了乘法结合律的物理本质：**改变计算的结合顺序，本质上只是在三维空间中换了一个角度来统计同一个长方体内的物体数量。**
+至此，我们不仅证明了 $2 \times 3 \times 4 = 2 \times (3 \times 4)$，而且揭示了乘法结合律的一个几何原理：**改变计算的结合顺序，本质上只是在三维空间中换了一个角度来统计同一个长方体内的物体数量。**
 
 现在，我们只需要稍稍花点时间，把前面的推导上升到公式。
 
@@ -1058,6 +1092,34 @@ a\times b\times c&=c\times b\times a\\
 &=a\times (c\times b)\\
 &=a\times (b\times c)
 \end{aligned}
+$$
+
+---
+
+**【小试牛刀】**
+
+1. 请计算：
+
+$$
+2\times3\times4=\underline{\hspace{3cm}}
+$$
+
+$$
+2\times(3\times4)=\underline{\hspace{3cm}}
+$$
+
+2. **思考题**
+
+已知：
+
+$$
+\left( \sum_{n=1}^{\infty} \frac{1}{n^2} \right) \times \left( \prod_{p \in \text{Primes}} \left(1 - \frac{1}{p^2}\right) \right) = 1
+$$
+
+请利用乘法结合律，不用复杂计算，直接求出下式的值：
+
+$$
+\left(2\times \left( \sum_{n=1}^{\infty} \frac{1}{n^2} \right) \right) \times \left( \prod_{p \in \text{Primes}} \left(1 - \frac{1}{p^2}\right) \right)
 $$
 
 ---
