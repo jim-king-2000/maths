@@ -1181,12 +1181,12 @@ $$(1+2)\times 3=1\times 3 + 2\times 3$$
 
 $$
 \huge
-c\text{行}
+c\text{排}
 \begin{cases}
-\overbrace{\color{red}{\bullet}\cdots\color{red}{\bullet}}^{a个}\quad\overbrace{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}^{b个}\\
+\overbrace{\color{red}{\bullet}\cdots\color{red}{\bullet}}^{a\text{个}}\quad\overbrace{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}^{b\text{个}}\\
 \cdots\\
-\overset{}{\color{red}{\bullet}\cdots\color{red}{\bullet}}\quad\overset{}{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}\\
-\overset{}{\color{red}{\bullet}\cdots\color{red}{\bullet}}\quad\overset{}{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}
 \end{cases}
 $$
 
@@ -1209,6 +1209,31 @@ $$
 它揭示了：
 
 > **“整体计算”可以变成“分别计算，再合起来”。**
+
+---
+
+上面的分配律中，括号里只有两个数 $a+b$ ，所以我们只需要两种颜色的小球。
+
+如果有任意多种颜色的小球，结论也是相同的。
+
+因为无论有多少种颜色，我们都可以按照“每种颜色”分别数一遍，最后再把所有颜色的小球数量加起来。
+
+$$
+\huge
+d\text{排}
+\begin{cases}
+\overbrace{\color{red}{\bullet}\cdots\color{red}{\bullet}}^{a\text{个}}\quad\overbrace{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}^{b\text{个}}\quad\overbrace{\color{yellow}{\bullet}\cdots\color{yellow}{\bullet}}^{c\text{个}}\\
+\cdots\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}\quad\color{yellow}{\bullet}\cdots\color{yellow}{\bullet}\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}\quad\color{yellow}{\bullet}\cdots\color{yellow}{\bullet}
+\end{cases}
+$$
+
+所以我们得出：
+
+> $$(a+b+c+\cdots)\times n=a\times n+b\times n+c\times n+\cdots$$
+
+> $$n\times(a+b+c+\cdots)=n\times a+n\times b+n\times c+\cdots$$
 
 ---
 
