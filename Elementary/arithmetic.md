@@ -361,8 +361,8 @@ $$
 3 \times 2 \Rightarrow
 \text{一共有2行}
 \begin{cases}
-\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有3只鸭子} \\\\
-\fbox{🦆}\fbox{🦆}\fbox{🦆}
+\overbrace{\vphantom{0}\text{🦆🦆🦆}}^{\text{3只鸭子}} \\
+🦆🦆🦆
 \end{cases}
 $$
 
@@ -375,9 +375,9 @@ $$
 4 \times 3 \Rightarrow
 \text{一共有3行}
 \begin{cases}
-\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有4只鸭子} \\\\
-\fbox{🦆}\fbox{🦆}\fbox{🦆}\fbox{🦆} \\\\
-\fbox{🦆}\fbox{🦆}\fbox{🦆}\fbox{🦆}
+\overbrace{\vphantom{0}\text{🦆🦆🦆🦆}}^{\text{4只鸭子}} \\
+🦆🦆🦆🦆 \\
+🦆🦆🦆🦆
 \end{cases}
 $$
 
@@ -392,7 +392,7 @@ $$
 3 \times 1 \Rightarrow
 \text{一共有1行}
 \begin{cases}
-\overbrace{\fbox{🦆}\fbox{🦆}\fbox{🦆}}^{每一行有3只鸭子}
+\overbrace{\vphantom{0}\text{🦆🦆🦆}}^{\text{3只鸭子}}
 \end{cases}
 $$
 
