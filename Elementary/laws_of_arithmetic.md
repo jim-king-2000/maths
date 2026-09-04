@@ -313,6 +313,10 @@ $$
 
 不管上面的式子多复杂，只要它们代表三个可以相加的数，我们就可以先把后两个数打包起来。
 
+此外，结合律还可以反过来用。
+
+$$a+(b+c)=a+b+c$$
+
 ---
 
 **【小试牛刀】**
@@ -339,6 +343,10 @@ $$
 
 $$
 1+\sin^2x+\cos^2x=\underline{\hspace{3cm}}
+$$
+
+$$
+\sin^2x+(\cos^2x+1)=\underline{\hspace{3cm}}
 $$
 
 ---
@@ -1239,7 +1247,7 @@ $$
 
 ### 2.4 广义乘法结合律
 
-乘法结合律只对三个数有效：
+我们目前已经证明的乘法结合律，是关于三个数的：
 
 $$a\times b\times c=a\times (b\times c)$$
 
@@ -1273,7 +1281,7 @@ $$
 
 一直重复下去，我们可以得到：
 
-$$a\times b\times \cdots=a\times(b\times \cdots)$$
+$$a\times b\times \cdots\times d=a\times(b\times \cdots\times d)$$
 
 ---
 
@@ -1332,6 +1340,128 @@ $$
 ---
 
 ### 2.5 广义乘法交换律
+
+我们目前已经证明的乘法交换律，是关于两个数的：
+
+$$a\times b=b\times a$$
+
+三个数会怎样？还能不能交换？
+
+我们当然可以直接算几个例子看看。
+
+但我们已经知道：几个例子并不能证明所有情况。
+
+所以，让我们不用具体的数字，而是只使用前面已经证明过的交换律和结合律，一步一步把这个结论推出来。
+
+让我们来观察三数相乘。根据括号的定义，我们有：
+
+$$
+\begin{aligned}
+a\times b\times c&=(a\times b)\times c && \text{括号定义，前两项先乘}\\
+&=c\times(a\times b) && \text{交换最外层}\\
+&=c\times a\times b && \text{反用结合律}
+\end{aligned}
+$$
+
+对于四数相乘，我们如法炮制：
+
+$$
+\begin{aligned}
+a\times b\times c\times d&=(a\times b\times c)\times d && \text{括号定义，前两项先乘}\\
+&=d\times(a\times b\times c) && \text{交换最外层}\\
+&=d\times a\times b\times c && \text{反用结合律}
+\end{aligned}
+$$
+
+一直这么下去，我们可以得到：
+
+$$
+\begin{aligned}
+a\times b\times c\times\cdots\times d&=(a\times b\times c\times\cdots)\times d && \text{括号定义，前两项先乘}\\
+&=d\times(a\times b\times c\times\cdots) && \text{交换最外层}\\
+&=d\times a\times b\times c\times\cdots && \text{反用结合律}
+\end{aligned}
+$$
+
+这意味着，任意长度的连乘式，最后一项可以移到第一项，而积不变。
+
+我们可以对连乘式中间进行打包，再应用上面的推论：
+
+$$
+\begin{aligned}
+\cdots\times a\times b\times c\times\cdots\times d\times\cdots&=\cdots\times (a\times b\times c\times\cdots\times d)\times\cdots && \text{广义结合律}\\
+&=\cdots\times (d\times a\times b\times c\times\cdots)\times\cdots && \text{移动最后一项}\\
+&=\cdots\times d\times a\times b\times c\times\cdots\times\cdots && \text{反用广义结合律}
+\end{aligned}
+$$
+
+这个结论意味着，连乘式里，任意一项可以向左移动到它前面任意一个位置，而积不变。
+
+---
+
+有了“任意一项可左移”这个工具，我们就能像摆扑克牌一样，把一长串数重排成**任何我们想要的顺序**。
+
+例如，验证：
+
+$$
+9\times2\times3\times4\times5\times6\times7\times8
+\overset{?}{=}
+8\times5\times4\times9\times7\times6\times2\times3
+$$
+
+我们从第 1 个位置开始，每次把目标位置需要的数“移动”过来，并且**锁死已经归位的数**。
+
+1. **归位第 1 个数（8）**
+
+    把 $8$ 左移到位置 1 ：
+
+$$
+9\times2\times3\times4\times5\times6\times7\times\mathbf{8}
+\longrightarrow
+{\color{red}{8}}\times9\times2\times3\times4\times5\times6\times7
+$$
+
+2. **归位第 2 个数（5）**
+
+    把 $5$ 左移到位置 2 ：
+
+$$
+{\color{red}{8}}\times9\times2\times3\times4\times\mathbf{5}\times6\times7
+\longrightarrow
+{\color{red}{8}}\times{\color{red}{5}}\times9\times2\times3\times4\times6\times7
+$$
+
+3. **归位第 3 个数（4）**
+
+    把 $4$ 左移到位置 3 ：
+
+$$
+{\color{red}{8}}\times{\color{red}{5}}\times9\times2\times3\times\mathbf{4}\times6\times7
+\longrightarrow
+{\color{red}{8}}\times{\color{red}{5}}\times{\color{red}{4}}\times9\times2\times3\times6\times7
+$$
+
+4. **继续归位**
+
+    后面的步骤完全相同。每一次只把一个数左移，并且把一个正确的数锁定在它最终的位置上。
+
+    最终得到：
+
+$$8\times5\times4\times9\times7\times6\times2\times3$$
+
+    因为每一次左移都不会改变积，所以整个过程中积始终不变。
+
+    因此：
+
+$$
+\boxed{9\times2\times3\times4\times5\times6\times7\times8 = 8\times5\times4\times9\times7\times6\times2\times3}
+$$
+
+    而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
+
+这就彻底证明了：
+
+> **任意有限个数相乘，积与这些数的排列顺序无关。**
 
 ---
 
