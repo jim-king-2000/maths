@@ -622,6 +622,139 @@ $$
 
 ## 10. 多位乘法
 
+学会了一位数乘法之后，就可以来做多位数乘法了。多位数乘法在本质上就是把多个一位数乘法“组合”起来。
+
+计算： $134\times12$
+
+列出竖式：
+
+$$
+\huge
+\begin{array}{cccc}
+& 3 & 6 & 8 \\
+{\times} & & 7 & 6 \\
+\hline
+\end{array}
+$$
+
+我们需要让每一位乘以每一位。正确的顺序是从第二个数的个位开始，逐位乘以第一个数的每一位。
+
+第二个数的个位： $6$
+
+第一个数的个位： $8$
+
+计算乘法得： $8\times6=48$
+
+我们把 $48$ 的个位 $8$ 写到下面的部分积上。把 $48$ 的十位 $4$ 写到部分积的进位上。
+
+$$
+\huge
+\begin{array}{cccc}
+& 3 & 6 & \mathbf{8} \\
+{\times} & & 7 & \mathbf{6} \\
+\hline
+& \fbox{\phantom{0}} & \fbox{\phantom{0}}_{\color{red}{4}} & \fbox{8}
+\end{array}
+$$
+
+接着用第二个数的个位乘以第一个数的十位。
+
+第二个数的个位： $6$
+
+第一个数的个位： $6$
+
+计算乘法并加上上一次的进位得： $6\times6+4=40$
+
+我们把 $40$ 的个位 $0$ 写到下面的部分积上。把 $40$ 的十位 $4$ 写到部分积的进位上。
+
+$$
+\huge
+\begin{array}{cccc}
+& 3 & \mathbf{6} & 8 \\
+{\times} & & 7 & \mathbf{6} \\
+\hline
+& \fbox{\phantom{0}}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}
+\end{array}
+$$
+
+最后我们用第二个数的个位乘以第一个数的百位。
+
+第二个数的个位： $6$
+
+第一个数的个位： $3$
+
+计算乘法并加上上一次的进位得： $3\times6+4=22$
+
+我们把 $22$ 的个位 $2$ 写到下面的部分积上。把 $22$ 的十位 $2$ 也直接写到部分积上（因为不用再乘了）。
+
+$$
+\huge
+\begin{array}{cccc}
+& \mathbf{3} & 6 & 8 \\
+{\times} & & 7 & \mathbf{6} \\
+\hline
+\fbox{\color{red}{2}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}
+\end{array}
+$$
+
+再用第二个数的十位乘以第一个数的每一位。
+
+$$
+\huge
+\begin{array}{ccccc}
+&& 3 & 6 & \mathbf{8} \\
+&{\times} & & \mathbf{7} & 6 \\
+\hline
+&\fbox{\color{red}{2}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
+\fbox{\phantom{0}}&\fbox{\phantom{0}}&\fbox{\phantom{0}}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&
+\end{array}
+$$
+
+$$
+\huge
+\begin{array}{ccccc}
+&& 3 & \mathbf{6} & 8 \\
+&{\times} & & \mathbf{7} & 6 \\
+\hline
+&\fbox{\color{red}{2}}_{\phantom{0}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
+\fbox{\phantom{0}}&\fbox{\phantom{0}}_{\color{red}{4}}&\fbox{7}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&
+\end{array}
+$$
+
+$$
+\huge
+\begin{array}{ccccc}
+&& \mathbf{3} & 6 & 8 \\
+&{\times} & & \mathbf{7} & 6 \\
+\hline
+&\fbox{\color{red}{2}}_{\phantom{0}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
+\fbox{\color{red}{2}}&\fbox{5}_{\color{red}{4}}&\fbox{7}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&
+\end{array}
+$$
+
+最后，把部分和相加即可。
+
+$$
+\huge
+\begin{array}{ccccc}
+&& \mathbf{3} & 6 & 8 \\
+&{\times} & & \mathbf{7} & 6 \\
+\hline
+&\fbox{\color{red}{2}}_{\phantom{0}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
+\fbox{\color{red}{2}}&\fbox{5}_{\color{red}{4}}&\fbox{7}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&\\
+\hline
+2&7&9&6&8
+\end{array}
+$$
+
+---
+
+**练习：**
+
+1. 请计算：
+
+$$\begin{array}{rrr} 16 \times 5 = \underline{\qquad} & \qquad 24 \times 8 = \underline{\qquad} & \qquad 37 \times 3 = \underline{\qquad} \\\\ 2 \times 19 = \underline{\qquad} & \qquad 5 \times 57 = \underline{\qquad} & \qquad 8 \times 88 = \underline{\qquad} \\\\ 13 \times 12 = \underline{\qquad} & \qquad 26 \times 58 = \underline{\qquad} & \qquad 99 \times 94 = \underline{\qquad} \end{array}$$
+
 ## 11. 减法
 
 ## 12. 除法
