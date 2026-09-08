@@ -7,16 +7,16 @@
 群 (Group) 是一个集合 $G$ 与其上的二元运算符 $\cdot$ 组成的二元组 $(G, \cdot)$，且必须满足以下四条公理：
 
 1. **封闭性 (Closure)**
-   $\forall a, b \in G \implies a \cdot b \in G$
+	$\forall a, b \in G \implies a \cdot b \in G$
 
 2. **结合律 (Associativity)**
-   $\forall a, b, c \in G \implies (a \cdot b) \cdot c = a \cdot (b \cdot c)$
+	$\forall a, b, c \in G \implies (a \cdot b) \cdot c = a \cdot (b \cdot c)$
 
 3. **单位元 (Identity)**
-   $\exists e \in G, \text{ 使得 } \forall a \in G, e \cdot a = a \cdot e = a$
+	$\exists e \in G, \text{ 使得 } \forall a \in G, e \cdot a = a \cdot e = a$
 
 4. **逆元 (Inverse)**
-   $\forall a \in G, \exists a^{-1} \in G, \text{ 使得 } a \cdot a^{-1} = a^{-1} \cdot a = e$
+	$\forall a \in G, \exists a^{-1} \in G, \text{ 使得 } a \cdot a^{-1} = a^{-1} \cdot a = e$
 
 群 $G$ 中元素的个数称为**群的阶 (Order of a Group)**，记作 $|G|$ 或 $o(G)$。
 
@@ -95,9 +95,9 @@ $$ B \cdot A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 0 & 
 
 - **说明**：由 3 的幂次模 7 生成：
 
-   $$3^0 \equiv 1 \pmod 7, \quad 3^1 \equiv 3 \pmod 7, \quad 3^2 \equiv 2 \pmod 7$$
+	$$3^0 \equiv 1 \pmod 7, \quad 3^1 \equiv 3 \pmod 7, \quad 3^2 \equiv 2 \pmod 7$$
 
-   $$3^3 \equiv 6 \pmod 7, \quad 3^4 \equiv 4 \pmod 7, \quad 3^5 \equiv 5 \pmod 7$$
+	$$3^3 \equiv 6 \pmod 7, \quad 3^4 \equiv 4 \pmod 7, \quad 3^5 \equiv 5 \pmod 7$$
 
 - **生成元与阶**：生成元为 3（即 $G = \langle 3 \rangle$），阶为 6（满足 $3^6 \equiv 1 \pmod 7$）。
 
@@ -155,9 +155,9 @@ $$a^{i-j} = e$$
 
 1. **元素互异性**：假设存在 $1 \le x < y \le k$ 使得 $a^x = a^y$，则同理可得 $a^{y-x} = e$。但由于 $1 \le y - x < k$，这与 $k$ 是满足 $a^m = e$ 的**最小**正整数矛盾。因此集合 $\{a^1, a^2, \dots, a^k\}$ 中的 $k$ 个元素互不相同。
 2. **周期循环性**：当指数超过 $k$ 时，根据余数周期性：
-   $$a^{k+1} = a^k \cdot a^1 = e \cdot a = a^1$$
-   $$a^{k+2} = a^k \cdot a^2 = e \cdot a^2 = a^2$$
-   序列开始以 $k$ 为周期无限循环。
+	$$a^{k+1} = a^k \cdot a^1 = e \cdot a = a^1$$
+	$$a^{k+2} = a^k \cdot a^2 = e \cdot a^2 = a^2$$
+	序列开始以 $k$ 为周期无限循环。
 
 因此，由 $a$ 生成的集合 $\langle a \rangle$ 包含且仅包含这 $k$ 个元素，构成一个 $k$ 阶循环子群。
 
@@ -184,15 +184,15 @@ $$a^{i-j} = e$$
 
 1. **满射性**：根据左陪集的定义 $gH = \{ gh \mid h \in H \}$，显见 $H$ 中每一个元素 $h$ 都能映射到 $gH$ 中的元素 $gh$。
 2. **单射性（元素不缩水）**：假设陪集中存在两个元素相等，即 $g h_1 = g h_2$（其中 $h_1, h_2 \in H$）。
-   因为 $g \in G$，其逆元 $g^{-1}$ 必存在。两边同时左乘 $g^{-1}$：
+	因为 $g \in G$，其逆元 $g^{-1}$ 必存在。两边同时左乘 $g^{-1}$：
 
-   $$g^{-1} (g h_1) = g^{-1} (g h_2)$$
+	$$g^{-1} (g h_1) = g^{-1} (g h_2)$$
 
-   由结合律与逆元性质：
+	由结合律与逆元性质：
 
-   $$(g^{-1} g) h_1 = (g^{-1} g) h_2 \implies e \cdot h_1 = e \cdot h_2 \implies h_1 = h_2$$
+	$$(g^{-1} g) h_1 = (g^{-1} g) h_2 \implies e \cdot h_1 = e \cdot h_2 \implies h_1 = h_2$$
 
-   这说明不同的 $h$ 必定映射到不同的 $gh$，即不存在元素重叠坍缩。
+	这说明不同的 $h$ 必定映射到不同的 $gh$，即不存在元素重叠坍缩。
 
 综上所述，映射 $f$ 为双射，故 **$|gH| = |H|$**。
 
@@ -248,17 +248,17 @@ $G$ 中虽然有 4 个元素，但最终只生成了 **2 个本质互不相交�
 集合 $G = \{ 1, 2, 3, 4, 5, 6 \}$ 与模 7 乘法构成阶数为 6 的群，且 $G$ 由 3 的幂模 7 生成 ($G = \langle 3 \rangle$)。
 
 - **情况 A：选择 2 阶子群 $H_1 = \{ 1, 6 \}$**
-   - $1H_1 = 6H_1 = \{ 1, 6 \}$
-   - $2H_1 = 5H_1 = \{ 2, 5 \}$
-   - $3H_1 = 4H_1 = \{ 3, 4 \}$
+	- $1H_1 = 6H_1 = \{ 1, 6 \}$
+	- $2H_1 = 5H_1 = \{ 2, 5 \}$
+	- $3H_1 = 4H_1 = \{ 3, 4 \}$
 
-   **现象**：生成了 **3 个本质陪集**，将群 $G$ 均匀切分为 3 块，指数 $[G : H_1] = 6 / 2 = 3$。
+	**现象**：生成了 **3 个本质陪集**，将群 $G$ 均匀切分为 3 块，指数 $[G : H_1] = 6 / 2 = 3$。
 
 - **情况 B：选择 3 阶子群 $H_2 = \{ 1, 2, 4 \}$**
-   - $1H_2 = 2H_2 = 4H_2 = \{ 1, 2, 4 \}$
-   - $3H_2 = 5H_2 = 6H_2 = \{ 3, 5, 6 \}$
+	- $1H_2 = 2H_2 = 4H_2 = \{ 1, 2, 4 \}$
+	- $3H_2 = 5H_2 = 6H_2 = \{ 3, 5, 6 \}$
 
-   **现象**：生成了 **2 个本质陪集**，将群 $G$ 均匀切分为 2 块，指数 $[G : H_2] = 6 / 3 = 2$。
+	**现象**：生成了 **2 个本质陪集**，将群 $G$ 均匀切分为 2 块，指数 $[G : H_2] = 6 / 3 = 2$。
 
 ### 2.3 拉格朗日定理 (Lagrange's Theorem)
 
@@ -308,26 +308,39 @@ $$a^{p-1} \equiv 1 \pmod{p}$$
 **证明：**
 
 1. **构造乘法群**：
-   由于 $p$ 为质数，非零余数集合 $G = \{1, 2, 3, \dots, p-1\}$ 在模 $p$ 乘法下构成一个有限阿贝尔群，其阶数为 $|G| = p-1$。
+	由于 $p$ 为质数，非零余数集合 $G = \{1, 2, 3, \dots, p-1\}$ 在模 $p$ 乘法下构成一个有限阿贝尔群，其阶数为 $|G| = p-1$。
 
 2. **构造循环子群**：
-   考虑元素 $a \bmod p \in G$，由 $a$ 生成的循环子群为：
-   $$H = \langle a \rangle = \{a^1, a^2, a^3, \dots\} \pmod{p}$$
-   设子群 $H$ 的阶数为 $|H| = k$，这意味着 $k$ 是满足 $a^k \equiv 1 \pmod p$ 的最小正整数。
+	考虑元素 $a \bmod p \in G$，由 $a$ 生成的循环子群为：
+	$$H = \langle a \rangle = \{a^1, a^2, a^3, \dots\} \pmod{p}$$
+	设子群 $H$ 的阶数为 $|H| = k$，这意味着 $k$ 是满足 $a^k \equiv 1 \pmod p$ 的最小正整数。
 
 3. **应用拉格朗日定理**：
-   因为 $H \le G$，根据拉格朗日定理，子群的阶数必能整除大群的阶数，即 $|H| \mid |G|$。
-   因此存在正整数 $m$，使得：
-   $$|G| = m \cdot |H| \implies p - 1 = m \cdot k$$
+	因为 $H \le G$，根据拉格朗日定理，子群的阶数必能整除大群的阶数，即 $|H| \mid |G|$。
+	因此存在正整数 $m$，使得：
+	$$|G| = m \cdot |H| \implies p - 1 = m \cdot k$$
 
 4. **得出结论**：
-   对 $a^{p-1}$ 进行指数拆分：
-   $$a^{p-1} = a^{m \cdot k} = (a^k)^m \equiv 1^m \equiv 1 \pmod{p}$$
+	对 $a^{p-1}$ 进行指数拆分：
+	$$a^{p-1} = a^{m \cdot k} = (a^k)^m \equiv 1^m \equiv 1 \pmod{p}$$
 
 证毕。
 
 > **注意：**
 在“构造乘法群”里，我们使用了 **有限域的乘法群定理** 。这个定理留给后面的章节去介绍和证明。
+
+##### 2.3.3.2 证明欧拉定理 (Euler's Theorem)
+
+设 $p$ 为一个正整数（可以是合数）。在小于 $p$ 的正整数中，所有**与 $p$ 互质的数(包含1在内)**在模 $p$ 乘法下构成一个乘法群 $G$（即模 $p$ 的简化剩余系群）。
+
+该群 $G$ 的阶（元素个数）记为欧拉函数 $\varphi(p)$。
+
+若整数 $a$ 与 $p$ 互质（即 $a \in G$），则必有：
+
+$$a^{\varphi(p)} \equiv 1 \pmod{p}$$
+
+**为什么与 $p$ 互质才能构成群？**  
+因为只有 $\gcd(a, p) = 1$ 时，根据裴蜀定理，才存在 $x$ 使得 $ax \equiv 1 \pmod p$，即 $a$ 在模 $p$ 乘法下存在**乘法逆元**。
 
 #### 2.3.4 总结
 
