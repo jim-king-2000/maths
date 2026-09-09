@@ -1583,15 +1583,1692 @@ $$
 
 ---
 
-## 3. 减法运算律
+# 运算律
+
+## 1. 加法运算律
+
+### 1.1 加法交换律
+
+在前面做加法的时候，我们会观察到：
+
+$$4+2=2+4$$
+
+也就是说，两个数相加，交换顺序，和不变。
+
+这就是为什么加法表会沿着主对角线（从左上到右下的斜线）完美对称。
+
+如果你愿意，你甚至可以验证：
+
+$$38572653 + 9267351 = 9267351 + 38572653$$
+
+我们刚才只是验证了一些具体的例子。**即使验证再多的例子成立，也不能说明所有情况都成立。**
+
+数学和普通的猜测不一样。数学家不仅要发现规律，还要说明为什么这个规律对所有情况都成立。这个过程叫做“证明”。
+
+我们先用 $2+3$ 来看看，为什么加法交换律一定成立。
+
+我们先放 2 个红色的小球，再放 3 个蓝色的小球，然后从左到右数一遍，这就是 $(2+3)$：
+
+$$
+\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}
+$$
+
+同样个数的小球，这次我们从右到左数，先数到 3 个蓝色小球，再数到 2 个红色小球，这就是 $(3+2)$：
+
+$$
+\huge \overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}
+$$
+
+因为小球的总数并没有改变，所以我们得到：
+
+$$2+3=3+2$$
+
+现在，让我们把上面的方法推广到任意个数的小球上。
+
+我们假设有 $a$ 个红色的小球和 $b$ 个蓝色的小球，这里的 $a$ 和 $b$ 可以代表**任意正整数**。也就是说，无论 $a$ 和 $b$ 是多少，下面的推理都成立。
+
+$$
+\huge \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \quad \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}}
+$$
+
+我们从左往右数，先数完 $a$ 个红球，再数 $b$ 个蓝球，得到：
+
+$$a+b$$
+
+我们从右往左数，先数完 $b$ 个蓝球，再数 $a$ 个红球，得到：
+
+$$b+a$$
+
+由于小球的总个数始终没有改变，所以：
+
+$$a+b=b+a$$
+
+加法交换律的含义是：
+
+> **任意两个数相加，交换两个数的位置，和不变。**
 
 ---
 
-## 4. 除法运算律
+一个极度简单的公式，包含的却是千言万语。
+
+$$a+b=b+a$$
+
+我们看到的 $a$ 与 $b$，是对具体“数”的抽象。
+
+但其实，它们可以不只是简单的数字。只要一个整体能够合法地作为一个数参与加法，那么这个整体就可以代替 $a$ 或 $b$。
+
+所以，它可以是：
+
+$$1\boxed{+}2=2\boxed{+}1$$
+
+也可以是：
+
+$$(1+2+3)\boxed{+}(4+5+6)=(4+5+6)\boxed{+}(1+2+3)$$
+
+还可以是一堆看上去很可怕的东西：
+
+$$
+\sum_{k=1}^{\infty}\frac{1}{2^k} \boxed{+} \prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right) = \prod_{n=2}^{\infty}\left(1-\frac{1}{n^2}\right) \boxed{+} \sum_{k=1}^{\infty}\frac{1}{2^k}
+$$
+
+上面这个极具视觉冲击力、充满压迫感、看似无比复杂的式子，只要把那些古怪的符号剥开，本质上不过就是：
+
+**把“整体 $a$”和“整体 $b$”交换了一下位置。**
+
+这就是数学中非常重要的一种能力：
+
+> **不要被一个整体的外表吓住。只要它在当前运算中可以作为一个整体使用，你就可以把它当成一个数来处理。**
 
 ---
 
-## 5. 给勇敢探索者的“数学彩蛋”
+**【小试牛刀】**
+
+1. 请在下面的空白处填入合适的数，使得等式成立。
+
+$$
+\begin{array}{rrr}
+16+5=5+\underline{\qquad} & \qquad 24+8=8+\underline{\qquad} & \qquad 37+3=3+\underline{\qquad} \\\\
+2+19=19+\underline{\qquad} & \qquad 5+57=57+\underline{\qquad} & \qquad 8+88=88+\underline{\qquad} \\\\
+13+12=12+\underline{\qquad} & \qquad 26+58=58+\underline{\qquad} & \qquad 99+94=94+\underline{\qquad}
+\end{array}
+$$
+
+2. 不用计算，请说出下面两个和是否相等。
+
+$$
+1938476187265+746251192 \qquad 746251192+1938476187265
+$$
+
+3. 请应用加法交换律，交换最外层加号左右两项的位置。
+
+$$
+1+2=\underline{\hspace{1.5cm}}+\underline{\hspace{1.5cm}}
+$$
+
+$$
+(1+2)+(47+28+6) = \underline{\hspace{2.5cm}}+\underline{\hspace{2.5cm}}
+$$
+
+$$
+\int_{0}^{1}2x\,dx + \left(\sum_{k=1}^{100}\frac{1}{k(k+1)} +\frac{1}{101}\right) = \underline{\hspace{3.5cm}} + \underline{\hspace{3.5cm}}
+$$
+
+---
+
+### 1.2 加法结合律
+
+在前面做加法的过程中，我们会观察到：
+
+$$(2+3)+1=2+(3+1)$$
+
+大一点的数也成立：
+
+$$(264872+38101)+1542=264872+(38101+1542)$$
+
+我们刚才只是验证了一些具体的例子。**即使很多例子都成立，也不能说明所有情况都成立。**
+
+我们必须提供证明。
+
+我们先来看看 $(2+3)+1$。
+
+它可以代表 2 个红色小球、3 个蓝色小球和 1 个绿色小球：
+
+$$
+\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{green}{\bullet}}{\fbox{1}}
+$$
+
+我们从左向右数：先数完 2 个红球和 3 个蓝球（共 $2+3$ 个），再加上 1 个绿球，得到的代数式是：
+
+$$(2+3)+1$$
+
+我们也可以从右向左数：先数完 1 个绿球和 3 个蓝球（共 $1+3$ 个），再加上 2 个红球，得到：
+
+$$(1+3)+2$$
+
+因为小球的总数不变，所以：
+
+$$(2+3)+1=(1+3)+2$$
+
+现在，我们已经得到了两个“数”：
+
+- 第一个“数”是集装箱 $(1+3)$；
+- 第二个“数”是 $2$。
+
+虽然 $(1+3)$ 看起来不像一个普通的数字，但它的结果仍然是一个数。
+
+所以，根据前面刚刚学过的**加法交换律**，我们可以交换这个集装箱与 $2$ 的位置：
+
+$$
+\begin{aligned}
+(2+3)+1 &= (1+3)+2 \\
+&= 2+(1+3)
+\end{aligned}
+$$
+
+接着，我们再对集装箱内部使用一次**加法交换律**，把括号里的数字换一换：
+
+$$
+\begin{aligned}
+\mathbf{(2+3)+1} &= (1+3)+2 \\
+&= 2+(1+3) \\
+&= \mathbf{2+(3+1)}
+\end{aligned}
+$$
+
+现在，让我们把上面的过程推广到所有情况。
+
+我们假设有 $a$ 个红色的小球、 $b$ 个蓝色的小球和 $c$ 个绿色小球，这里的 $a,b,c$ 可以代表**任意正整数**。
+
+$$
+\huge \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \quad \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}} \quad \overbrace{\color{green}{\bullet}\color{green}{\bullet}\dots\color{green}{\bullet}}^{c\text{个绿色小球}}
+$$
+
+从左向右数：先数 $a$ 个红球和 $b$ 个蓝球，再加上 $c$ 个绿球，得到：
+
+$$(a+b)+c$$
+
+从右向左数：先数 $c$ 个绿球和 $b$ 个蓝球，再加上 $a$ 个红球，得到：
+
+$$(c+b)+a$$
+
+由于小球总数完全相同，因此：
+
+$$(a+b)+c=(c+b)+a$$
+
+接下来，我们两次利用**加法交换律**进行代数换位：
+
+$$
+\begin{aligned}
+(a+b)+c &= (c+b)+a \\
+&= a+(c+b) &&\text{（把集装箱 }(c+b)\text{ 与 }a\text{ 整体交换）} \\
+&= a+(b+c) &&\text{（把集装箱内部的 }c\text{ 与 }b\text{ 交换）}
+\end{aligned}
+$$
+
+所以我们得出了：
+
+$$
+\boxed{(a+b)+c=a+(b+c)}
+$$
+
+这就是**加法结合律**。
+
+在没有括号时，我们约定多个加法按照从左到右的顺序计算，所以：
+
+$$
+a+b+c
+$$
+
+其实就是：
+
+$$
+(a+b)+c
+$$
+
+因此，我们也经常把结合律写成：
+
+$$
+a+b+c=a+(b+c)
+$$
+
+加法结合律的含义是：
+
+> **三个数相加，先加前两个数再加第三个数，与先加后两个数再与第一个数相加，结果相同。**
+
+---
+
+简洁的公式包含千言万语。
+
+$$a+b+c=a+(b+c)$$
+
+里面的 $a$、 $b$ 和 $c$ 都可以指代任何能够合法参与加法的数或整体。
+
+所以它可以是：
+
+$$1+2+3=1+(2+3)$$
+
+也可以是：
+
+$$(1+2)+(2+3)+(3+4)=(1+2)+((2+3)+(3+4))$$
+
+还可以是一堆看上去很可怕的东西：
+
+$$
+\lim_{N\to\infty}\left(\frac{N+1}{N}\right) + \int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx
+$$
+
+这里暂时不用管这些符号到底是什么意思。未来你会学到它们。
+
+我们只关心一件事：
+
+**它们最终都代表一个数。**
+
+而加法结合律告诉我们：如果有三个这样的数相加，我们可以改变它们的分组方式。
+
+例如，我们知道：
+
+$$
+\int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx = 1
+$$
+
+那么：
+
+$$
+\begin{aligned}
+&\lim_{N\to\infty}\left(\frac{N+1}{N}\right) + \int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx \\
+&= \lim_{N\to\infty}\left(\frac{N+1}{N}\right) + \left( \int_{0}^{1}\frac{1}{1+x^2}\,dx + \int_{0}^{1}\frac{x^2}{1+x^2}\,dx \right) \\
+&= 1+1 \\
+&= 2
+\end{aligned}
+$$
+
+注意这里最重要的事情：
+
+我们**根本不需要先把第二项单独算出来**。
+
+这就是结合律的力量。
+
+原本如果按照从左往右的顺序，我们可能会先面对一个并不容易处理的积分。但结合律允许我们改变分组，把后两项先打包起来。
+
+于是：
+
+> **有时候，解决问题并不是把每一步都算出来，而是先改变计算的路径。**
+
+看吧，吓人的符号背后，往往隐藏着非常简单的概念。
+
+不管上面的式子多复杂，只要它们代表三个可以相加的数，我们就可以先把后两个数打包起来。
+
+此外，结合律还可以反过来用。
+
+$$a+(b+c)=a+b+c$$
+
+例如：
+
+请计算： $3+(7+5)$
+
+$$3+(7+5)=3+7+5=10+5=15$$
+
+---
+
+**【小试牛刀】**
+
+1. 请计算：
+
+$$
+2+3+4=\underline{\hspace{3cm}}
+$$
+
+$$
+2+(3+4)=\underline{\hspace{3cm}}
+$$
+
+2. **思考题**
+
+已知：
+
+$$
+\sin^2x+\cos^2x=1
+$$
+
+请利用加法结合律，不用复杂计算，直接求出下式的值：
+
+$$
+1+\sin^2x+\cos^2x=\underline{\hspace{3cm}}
+$$
+
+$$
+\sin^2x+(\cos^2x+1)=\underline{\hspace{3cm}}
+$$
+
+---
+
+### 1.3 广义加法结合律
+
+加法结合律告诉我们，三个数相加时，括号加在前面还是后面，结果都一样：
+
+$$
+(a+b)+c=a+(b+c)
+$$
+
+那么，如果是四个数、五个甚至更多个数相加呢？
+
+括号是不是也能自由移动？
+
+例如，下面的等式成立吗？
+
+$$
+a+b+c+d\overset{?}{=}a+(b+c+d)
+$$
+
+我们先用 $1+2+3+4$ 验证一下：
+
+$$
+\text{左边：}\quad 1+2+3+4 = 3+3+4 = 6+4 = 10
+$$
+
+$$
+\text{右边：}\quad 1+(2+3+4) = 1+(5+4) = 1+9 = 10
+$$
+
+两边确实相等！
+
+但**即使验证了具体的例子，也不能说明所有情况都成立。**
+
+我们必须提供严密的逻辑证明。
+
+我们可以先对前三个数运用加法结合律：
+
+$$
+a+b+c+d = (a+b+c)+d = a+(b+c)+d
+$$
+
+这时，四个数相加可以看成三个“数”相加：
+
+- 第一个数是 $a$；
+- 第二个“数”是集装箱 $(b+c)$；
+- 第三个数是 $d$。
+
+也就是：
+
+$$
+a+\boxed{b+c}+d
+$$
+
+现在再次套用刚才证明过的三数加法结合律，把后两个“数”结合起来：
+
+$$
+\begin{aligned}
+a+b+c+d &= (a+b+c)+d \\
+&= a+(b+c)+d \\
+&= a+((b+c)+d)
+\end{aligned}
+$$
+
+括号里的 $(b+c)+d$，按照没有额外括号时从左向右计算的约定，可以写成：
+
+$$
+b+c+d
+$$
+
+因此：
+
+$$
+\boxed{a+b+c+d=a+(b+c+d)}
+$$
+
+我就证明了四个数的情况。
+
+---
+
+按照完全相同的逻辑，我们看 $5$ 个数相加的情况。
+
+把前 $4$ 个数看作一个整体，再次运用刚才的结论：
+
+$$
+\begin{aligned}
+a+b+c+d+e &= (a+b+c+d)+e \\
+&= a+(b+c+d)+e \\
+&= a+((b+c+d)+e) \\
+&= a+(b+c+d+e)
+\end{aligned}
+$$
+
+无论有多少个数相加，只要是**有限个**，我们都可以像推骨牌一样一直推演下去。
+
+对于任意有限多个数相加，我们用 $\dots$ 表示中间省略的数：
+
+$$
+a+b+\dots+d=a+(b+\dots+d)
+$$
+
+把等式左右反过来写，就得到了一个非常有用的推论：
+
+$$
+a+(b+\dots+d)=a+b+\dots+d
+$$
+
+这个推论的含义是：
+
+> **一个数与一个集装箱相加，等于这个数与集装箱内部的各个数依次相加。**
+
+换句话说，我们可以把一个集装箱**展开**。
+
+---
+
+这个推论有什么用呢？
+
+它能帮助我们像“剥洋葱”一样，一层层拆开复杂的嵌套括号。
+
+例如，面对这样一个充满复杂括号的式子：
+
+$$
+((8+4)+3+(1+7))+(5+(6+9))
+$$
+
+为了使用刚才的推论，我们在整个式子最前面补上一个不影响结果的 $\mathbf{0}$：
+
+$$
+\mathbf{0}+((8+4)+3+(1+7))+(5+(6+9))
+$$
+
+因为 $0+x=x$，所以这只是换了一种写法。
+
+现在，我们利用：
+
+$$
+a+(k_1+\dots+k_n)=a+k_1+\dots+k_n
+$$
+
+从外到内一层层展开：
+
+$$
+\begin{aligned}
+&((8+4)+3+(1+7))+(5+(6+9)) \\
+&= 0+((8+4)+3+(1+7))+(5+(6+9)) \\
+&= 0+(8+4)+3+(1+7)+(5+(6+9)) \\
+&= 0+8+4+3+1+7+(5+(6+9)) \\
+&= 0+8+4+3+1+7+5+(6+9) \\
+&= 0+8+4+3+1+7+5+6+9 \\
+&= 8+4+3+1+7+5+6+9
+\end{aligned}
+$$
+
+我们把复杂的括号一层一层展开了。
+
+这意味着，**一个有限个数的加法，去除所有括号，和不变。**
+
+由此，我们得出一个通用的结论：
+
+> **对于有限个数的加法，只要增加或改变的是合法的括号分组，和就保持不变。**
+
+复杂的括号并没有改变数字本身，只是改变了计算的分组方式。
+
+而加法结合律告诉我们：
+
+> **分组方式可以改变，而结果不变。**
+
+---
+
+**【小试牛刀】**
+
+1. 请利用
+
+$$
+a+(k_1+\dots+k_n)=a+k_1+\dots+k_n
+$$
+
+一步一步的展开下面算式中的所有括号：
+
+$$
+(6+(8+3))+(6+9)=\underline{\qquad\qquad\qquad\qquad}
+$$
+
+---
+
+### 1.4 广义加法交换律
+
+加法交换律告诉我们：
+
+$$
+a+b=b+a
+$$
+
+也就是两个数交换位置，和不变。
+
+那么，三个数相加时，首尾两个数可以交换位置吗？
+
+$$
+a+b+c\overset{?}{=}c+b+a
+$$
+
+我们来严密地推导一下。
+
+默认没有括号时：
+
+$$
+a+b+c=(a+b)+c
+$$
+
+我们把 $(a+b)$ 看作一个打包的**集装箱**。
+
+根据加法交换律，集装箱可以与 $c$ 整体交换位置：
+
+$$
+\begin{aligned}
+a+b+c &= (a+b)+c \\
+&= c+(a+b) \\
+&= c+(b+a) \\
+&= c+b+a
+\end{aligned}
+$$
+
+于是我们证明了：
+
+> **三个数相加，首尾两个数可以交换位置。**
+
+注意这里发生了一件很重要的事情：
+
+我们不是把复杂的东西“拆掉”以后再处理，而是先把它看成一个整体，利用已经证明过的规律处理这个整体。
+
+---
+
+如果是四个数相加呢？
+
+根据结合律，我们可以把中间的两项打包成一个集装箱：
+
+$$
+a+b+c+d=a+(b+c)+d
+$$
+
+现在我们又有了三个“数”：
+
+- 第一个数是 $a$；
+- 第二个数是集装箱 $(b+c)$；
+- 第三个数是 $d$。
+
+套用刚才“三数相加首尾可交换”的结论，直接交换 $a$ 和 $d$：
+
+$$
+\begin{aligned}
+a+b+c+d &= a+(b+c)+d \\
+&= d+(b+c)+a \\
+&= d+b+c+a
+\end{aligned}
+$$
+
+于是我们又得到一个新的工具：
+
+> **有限个数相加，可以交换第一个数和最后一个数的位置。**
+
+---
+
+那么，我们能不能交换**任意位置**的两个数呢？
+
+比如交换：
+
+$$
+\dots+a+\dots+b+\dots
+$$
+
+我们可以把 $a$ 和 $b$ 以及它们之间的所有数，临时打包成一个集装箱（利用上一节的结论）：
+
+$$
+\dots+(a+\dots+b)+\dots
+$$
+
+在这个集装箱内部， $a$ 是第一个数， $b$ 是最后一个数。
+
+根据刚才证明的首尾交换规则：
+
+$$
+\begin{aligned}
+\dots+(a+\dots+b)+\dots &= \dots+(b+\dots+a)+\dots
+\end{aligned}
+$$
+
+然后再把集装箱展开：
+
+$$
+\dots+(b+\dots+a)+\dots = \dots+b+\dots+a+\dots
+$$
+
+因此：
+
+$$
+\dots+a+\dots+b+\dots = \dots+b+\dots+a+\dots
+$$
+
+至此，我们又推倒了一张极其强大的骨牌：
+
+> **任意有限多个数相加，我们都可以自由交换任意两个数的位置，而和保持不变。**
+
+---
+
+有了“任意两个数可交换”这个工具，我们就能像摆扑克牌一样，把一长串数重排成**任何我们想要的顺序**。
+
+例如，验证：
+
+$$
+1+2+3+4+5+6+7+8 \overset{?}{=} 8+5+4+1+7+6+2+3
+$$
+
+我们从第 1 个位置开始，每次把目标位置需要的数“交换”过来，并且**锁死已经归位的数字**。
+
+1. **归位第 1 个数（8）**
+
+    交换位置 1 的 $1$ 和位置 8 的 $8$：
+
+$$
+\mathbf{1}+2+3+4+5+6+7+\mathbf{8} \longrightarrow {\color{red}{8}}+2+3+4+5+6+7+{\color{blue}{1}}
+$$
+
+2. **归位第 2 个数（5）**
+
+    交换当前位置 2 的 $2$ 和位置 5 的 $5$：
+
+$$
+{\color{red}{8}}+\mathbf{2}+3+4+\mathbf{5}+6+7+1 \longrightarrow {\color{red}{8}}+{\color{red}{5}}+3+4+{\color{blue}{2}}+6+7+1
+$$
+
+3. **归位第 3 个数（4）**
+
+    交换当前位置 3 的 $3$ 和位置 4 的 $4$：
+
+$$
+{\color{red}{8}}+{\color{red}{5}}+\mathbf{3}+\mathbf{4}+2+6+7+1 \longrightarrow {\color{red}{8}}+{\color{red}{5}}+{\color{red}{4}}+{\color{blue}{3}}+2+6+7+1
+$$
+
+4. **继续归位**
+
+    后面的步骤完全相同。每一次只交换两个位置，并且把一个正确的数字锁定在它最终的位置上。
+
+    最终得到：
+
+$$
+8+5+4+1+7+6+2+3
+$$
+
+    因为每一次交换都不会改变总和，所以整个过程中总和始终不变。
+
+    因此：
+
+$$
+\boxed{1+2+3+4+5+6+7+8 = 8+5+4+1+7+6+2+3}
+$$
+
+    而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
+
+这就彻底证明了：
+
+> **任意有限个数相加，和与这些数的排列顺序无关。**
+
+---
+
+**【小试牛刀】**
+
+1. 请通过多次“交换任意两数”的位置，写出详细的推导步骤：
+    - $1+2+3=3+1+2$
+    - $7+2+3+8=8+7+2+3$
+
+2. **【思考题】（进阶思维）**
+
+    如果只允许**交换紧挨着的两个数**（例如只能进行 $a+b\to b+a$），还能不能把
+
+$$
+7+2+3+8
+$$
+
+    变成
+
+$$
+8+7+3+2
+$$
+
+    如果能，最少需要交换几次？
+
+---
+
+### 1.5 总结：加法与路径无关
+
+通过上面的一步步推演，我们建立了两条非常强大的规则：
+
+> 1. **加法广义交换律**：任意有限个数相加，可以自由调换数的排列顺序。
+> 2. **加法广义结合律**：任意有限个数相加，可以自由改变合法的分组方式。
+
+这两条规则有什么用？
+
+它们可以让我们主动改变**计算路径**。
+
+我们在日常计算中通常很容易利用整十、整百这样的数进行心算。
+
+例如：
+
+#### 一、换位凑十
+
+计算：
+
+$$
+1+2+3+4+5+6+7+8+9
+$$
+
+利用**交换律**把相加为 $10$ 的数搬到一起，再利用**结合律**把它们打包：
+
+$$
+\begin{aligned}
+1+2+3+4+5+6+7+8+9 &= (1+9)+(2+8)+(3+7)+(4+6)+5 \\
+&= 10+10+10+10+5 \\
+&= 45
+\end{aligned}
+$$
+
+原本是一长串加法。
+
+经过交换和重新分组，我们把它变成了几个非常容易计算的小问题。
+
+---
+
+#### 二、拆数凑十
+
+计算：
+
+$$
+36+28
+$$
+
+观察到 $36$ 加上 $4$ 能凑成 $40$。
+
+于是，我们把 $28$ 拆成 $4+24$：
+
+$$
+28=4+24
+$$
+
+再重新结合：
+
+$$
+\begin{aligned}
+36+28 &= 36+(4+24) \\
+&= (36+4)+24 \\
+&= 40+24 \\
+&= 64
+\end{aligned}
+$$
+
+这里真正发挥作用的，并不是一个需要死记的“计算技巧”。
+
+背后的逻辑只有两步：
+
+1. **交换律**允许我们改变数的顺序；
+2. **结合律**允许我们改变数的分组。
+
+于是，我们就可以主动寻找一条更容易计算的路径。
+
+---
+
+数学家们喜欢用最简洁的语言概括核心。
+
+上面的所有规则，最终可以凝练成一句非常漂亮的话：
+
+$$
+\Large \text{加法与计算路径无关。}
+$$
+
+对于有限个数相加，无论我们怎样改变这些数的**排列顺序**，或者怎样改变它们的**分组方式**，最终得到的和都不会改变。
+
+这个结论不是凭空出现的口诀，而是我们用逻辑一步步构建出来的：
+
+$$
+\boxed{\text{交换律}+\text{结合律} \Longrightarrow \text{顺序可以自由重排，分组可以自由改变}}
+$$
+
+这就是数学中非常重要的一种思想：
+
+> **用少数基本规则，推导出越来越强大的结论。**
+
+我们最开始只有两个简单的规律：
+
+$$
+a+b=b+a
+$$
+
+和：
+
+$$
+(a+b)+c=a+(b+c)
+$$
+
+但现在，我们已经可以用它们：
+
+- 任意交换有限个数的位置；
+- 任意改变有限个数的合法分组；
+- 拆数凑整；
+- 换位凑整；
+- 主动寻找更简单的计算路径。
+
+**少数简单规则，可以长出一整棵巨大的数学树。**
+
+---
+
+**【小试牛刀】**
+
+1. 利用交换律和结合律进行简便运算：
+    - $15+14+5+6=\underline{\qquad}$
+    - $4+1+6+2+7=\underline{\qquad}$
+
+2. 利用拆数法进行简便运算：
+    - $18+5=\underline{\qquad}$
+    - $7+57=\underline{\qquad}$
+
+---
+
+## 2. 乘法运算律
+
+### 2.1 乘法交换律
+
+在前面做乘法的时候，我们会观察到：
+
+$$
+4\times2=2\times4
+$$
+
+也就是说，两个数相乘，交换顺序，积不变。
+
+这就是为什么乘法表同样会沿着主对角线对称。
+
+我们先用 $2\times3$ 来看看，为什么乘法交换律成立。
+
+我们把 $2\times3$ 表示成 3 行、每行 2 个小球：
+
+$$
+\huge
+\begin{array}{cc}
+\bullet&\bullet\\
+\bullet&\bullet\\
+\bullet&\bullet
+\end{array}
+$$
+
+现在，我们把这个小球阵列**整体旋转 $90^\circ$**，让原来的行变成列，原来的列变成行：
+
+$$
+\huge
+\begin{array}{ccc}
+\bullet&\bullet&\bullet\\
+\bullet&\bullet&\bullet
+\end{array}
+$$
+
+我们发现，虽然排列的方向变了，但小球的总数没有任何改变。
+
+现在它表示 2 行、每行 3 个小球，也就是 $3\times2$。
+
+所以：
+
+$$
+2\times3=3\times2
+$$
+
+这次，让我们把上面的几何转动推广到任意自然数。
+
+假设有 $b$ 行，每行有 $a$ 个小球。
+
+那么总数表示为：
+
+$$
+a\times b
+$$
+
+把整个阵列旋转 $90^\circ$ 后，就变成 $a$ 行、每行 $b$ 个小球，总数表示为：
+
+$$
+b\times a
+$$
+
+旋转并没有增加或减少任何小球，所以：
+
+$$
+\boxed{a\times b=b\times a}
+$$
+
+这就是**乘法交换律**。
+
+它的含义是：
+
+> **任意两个数相乘，交换两个数的位置，积不变。**
+
+---
+
+**【小试牛刀】**
+
+1. 请在下面的空白处填入合适的数，使得等式成立。
+
+$$
+\begin{array}{rrr}
+16\times5=5\times\underline{\qquad} & \qquad 24\times8=8\times\underline{\qquad} & \qquad 37\times3=3\times\underline{\qquad} \\\\
+2\times19=19\times\underline{\qquad} & \qquad 5\times57=57\times\underline{\qquad} & \qquad 8\times88=88\times\underline{\qquad} \\\\
+13\times12=12\times\underline{\qquad} & \qquad 26\times58=58\times\underline{\qquad} & \qquad 99\times94=94\times\underline{\qquad}
+\end{array}
+$$
+
+2. 不用计算，请说出下面两个积是否相等。
+
+$$
+1938476187265\times746251192 \qquad 746251192\times1938476187265
+$$
+
+3. 请应用乘法交换律，交换最外层乘号左右两项的位置。
+
+$$
+1\times2=\underline{\hspace{1.5cm}}\times\underline{\hspace{1.5cm}}
+$$
+
+$$
+(1+2)\times(47+28+6) = \underline{\hspace{2.5cm}}\times\underline{\hspace{2.5cm}}
+$$
+
+$$
+\int_{0}^{1}2x\,dx \times \left(\sum_{k=1}^{100}\frac{1}{k(k+1)} +\frac{1}{101}\right) = \underline{\hspace{3.5cm}} \times \underline{\hspace{3.5cm}}
+$$
+
+---
+
+### 2.2 乘法结合律
+
+与加法一样，乘法也有结合律：
+
+$$a \times b \times c = a \times (b \times c)$$
+
+我们可以简单验证一下：
+
+按从左到右顺序计算：
+$$2 \times 3 \times 4 = 6 \times 4 = 24$$
+
+按右边优先计算：
+$$2 \times (3 \times 4) = 2 \times 12 = 24$$
+
+两者的计算结果确实相同：
+$$2 \times 3 \times 4 = 2 \times (3 \times 4)$$
+
+但验证有限的具体例子并不等于严格证明。为了说明它对任意自然数都成立，我们需要揭示其背后的几何本质。
+
+#### 几何证明：空间结构的旋转
+
+默认的计算顺序是从左到右，即：
+
+$$2 \times 3 \times 4 = (2 \times 3) \times 4$$
+
+这可以用一个三维小球长方体来表示：它一共有 **4 层**，每一层包含 $2 \times 3$ 个小球（即 3 行，每行 2 个小球）：
+
+```tikz
+\begin{tikzpicture}[x={(1.2cm,-0.3cm)}, y={(0.9cm,0.4cm)}, z={(0cm,1.2cm)}]
+
+  % 循环绘制 4 层（从底层到顶层）
+  \foreach \z in {1, 2, 3, 4} {
+
+    % 每层只画穿过小球的平行虚线（横向 3 行，纵向 2 列）
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (2,1,\z);
+    \draw[dashed, blue!80, thick] (1,2,\z) -- (2,2,\z);
+    \draw[dashed, blue!80, thick] (1,3,\z) -- (2,3,\z);
+
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
+    \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
+
+    % 每层绘制 3 行 2 列的小球
+    \foreach \x in {1, 2} {
+      \foreach \y in {1, 2, 3} {
+        \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
+      }
+    }
+
+  }
+
+\end{tikzpicture}
+```
+
+现在，我们将这个长方体在空间中“推倒”，让包含最多小球的侧面（$4 \times 3$ 的面）朝下作为底面：
+
+```tikz
+\begin{tikzpicture}[x={(1.2cm,-0.3cm)}, y={(0.9cm,0.4cm)}, z={(0cm,1.2cm)}]
+
+  % 循环绘制 2 层（Z 轴方向：z=1 和 z=2）
+  \foreach \z in {1, 2} {
+
+    % 横向虚线（沿 X 轴方向，穿过 3 行小球）
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (4,1,\z);
+    \draw[dashed, blue!80, thick] (1,2,\z) -- (4,2,\z);
+    \draw[dashed, blue!80, thick] (1,3,\z) -- (4,3,\z);
+
+    % 纵向虚线（沿 Y 轴方向，穿过 4 列小球）
+    \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
+    \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
+    \draw[dashed, blue!80, thick] (3,1,\z) -- (3,3,\z);
+    \draw[dashed, blue!80, thick] (4,1,\z) -- (4,3,\z);
+
+    % 绘制每层 3 行 4 列的小球（共 12 个）
+    \foreach \x in {1, 2, 3, 4} {
+      \foreach \y in {1, 2, 3} {
+        \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
+      }
+    }
+
+  }
+
+\end{tikzpicture}
+```
+
+重新观察这个推倒后的长方体：它变成了 **2 层**，每一层有 3 行，每一行有 4 个小球（即每一层包含 $4 \times 3$ 个小球）。它的总球数表达为：
+
+$$(4 \times 3) \times 2$$
+
+因为旋转长方体并没有改变小球的总数，所以两次计数的算式必然相等。结合乘法交换律，我们得到：
+
+$$
+\begin{aligned}
+2 \times 3 \times 4 &= (4 \times 3) \times 2 && \text{（空间旋转，小球总数不变）}\\
+&= 2 \times (4 \times 3) && \text{（对外层应用乘法交换律）}\\
+&= 2 \times (3 \times 4) && \text{（对括号内应用乘法交换律）}
+\end{aligned}
+$$
+
+至此，我们不仅证明了 $2 \times 3 \times 4 = 2 \times (3 \times 4)$，而且揭示了乘法结合律的一个几何原理：**改变计算的结合顺序，本质上只是在三维空间中换了一个角度来统计同一个长方体内的物体数量。**
+
+现在，我们只需要稍稍花点时间，把前面的推导上升到公式。
+
+$$a\times b\times c$$
+
+对应于一个小球排列而成的长方体。它有c层，每一层有b行，每一行有a个小球。
+
+我们把这个长方体推倒，让它 $c\times b$ 的面着地。
+
+同样一个长方体，变成了a层，每一层有b行，每一行有c个小球。
+
+于是我们有：
+
+$$
+\begin{aligned}
+a\times b\times c&=c\times b\times a\\
+&=(c\times b)\times a\\
+&=a\times (c\times b)\\
+&=a\times (b\times c)
+\end{aligned}
+$$
+
+---
+
+**【小试牛刀】**
+
+1. 请计算：
+
+$$
+2\times3\times4=\underline{\hspace{3cm}}
+$$
+
+$$
+2\times(3\times4)=\underline{\hspace{3cm}}
+$$
+
+2. **思考题**
+
+已知：
+
+$$
+\left( \sum_{n=1}^{\infty} \frac{1}{n^2} \right) \times \left( \prod_{p \in \text{Primes}} \left(1 - \frac{1}{p^2}\right) \right) = 1
+$$
+
+请利用乘法结合律，不用复杂计算，直接求出下式的值：
+
+$$
+\left(2\times \left( \sum_{n=1}^{\infty} \frac{1}{n^2} \right) \right) \times \left( \prod_{p \in \text{Primes}} \left(1 - \frac{1}{p^2}\right) \right)
+$$
+
+---
+
+### 2.3 乘法分配律
+
+当加法与乘法结合在一起时，奇迹出现了。数学家们发现：
+
+$$(a+b)\times c=a\times c+b\times c$$
+
+> 原本是“先加再乘”，竟然可以变成“先分别乘，再把结果加起来”。
+
+让我们验证一下：
+
+$$(1+2)\times 3=3\times 3=9$$
+
+$$1\times 3 + 2\times 3=3+6=9$$
+
+所以：
+
+$$(1+2)\times 3=1\times 3 + 2\times 3$$
+
+**但即使验证了具体的例子，也不能说明所有情况都成立。**
+
+我们必须提供严密的逻辑证明。
+
+现在又轮到小球上场了。我们来观察下面算式的物理意义：
+
+$$(1+2)\times 3$$
+
+前面的 $(1+2)$ 代表一个红色小球和两个蓝色小球排成一排。而后面的 $\times 3$ 表示相同的红蓝小球一共有三排。**算式 $(1+2)\times 3$ 代表这三排小球的总个数。**
+
+$$
+\huge
+\color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}\\
+\color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}\\
+\color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}
+$$
+
+现在让我们单独计算红色小球的个数。每排一个，一共三排，所以是：
+
+$$1\times 3$$
+
+再计算一下蓝色小球的个数。每排两个，一共三排，所以是：
+
+$$2\times 3$$
+
+红蓝小球的总个数为 **红色小球的个数** + **蓝色小球的个数**：
+
+$$1\times 3+2\times 3$$
+
+无论用哪种方式数，红蓝小球的总个数不变。所以：
+
+$$(1+2)\times 3=1\times 3 + 2\times 3$$
+
+现在，让我们把结论推广到自然数。
+
+设一共有 $c$ 排小球。其中每一排有红色小球 $a$ 个，蓝色小球 $b$ 个。
+
+$$
+\huge
+c\text{排}
+\begin{cases}
+\overbrace{\color{red}{\bullet}\cdots\color{red}{\bullet}}^{a\text{个}}\quad\overbrace{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}^{b\text{个}}\\
+\cdots\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}
+\end{cases}
+$$
+
+“按排”算，一共有 $(a+b)\times c$ 个小球。
+
+按小球颜色算，红色小球有 $a\times c$ 个，蓝色小球有 $b\times c$ 个。
+
+小球总个数为红色小球个数加上蓝色小球个数。所以有：
+
+> $$(a+b)\times c=a\times c+b\times c$$
+
+我们对上面的等式两边同时使用乘法交换律，得：
+
+> $$c\times(a+b)=c\times a+c\times b$$
+
+这就是**乘法分配律**。它的意思是：
+
+> 原来 $c$ 乘的是整个 $a+b$，现在把 $c$ 分配给 $a$ 和 $b$ 各乘一次。
+
+它揭示了：
+
+> **“整体计算”可以变成“分别计算，再合起来”。**
+
+---
+
+上面的分配律中，括号里只有两个数 $a+b$ ，所以我们只需要两种颜色的小球。
+
+如果有任意多种颜色的小球，结论也是相同的。
+
+因为无论有多少种颜色，我们都可以按照“每种颜色”分别数一遍，最后再把所有颜色的小球数量加起来。
+
+$$
+\huge
+d\text{排}
+\begin{cases}
+\overbrace{\color{red}{\bullet}\cdots\color{red}{\bullet}}^{a\text{个}}\quad\overbrace{\color{blue}{\bullet}\cdots\color{blue}{\bullet}}^{b\text{个}}\quad\overbrace{\color{yellow}{\bullet}\cdots\color{yellow}{\bullet}}^{c\text{个}}\\
+\cdots\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}\quad\color{yellow}{\bullet}\cdots\color{yellow}{\bullet}\\
+\color{red}{\bullet}\cdots\color{red}{\bullet}\quad\color{blue}{\bullet}\cdots\color{blue}{\bullet}\quad\color{yellow}{\bullet}\cdots\color{yellow}{\bullet}
+\end{cases}
+$$
+
+所以我们得出：
+
+> $$(a+b+c+\cdots)\times n=a\times n+b\times n+c\times n+\cdots$$
+
+> $$n\times(a+b+c+\cdots)=n\times a+n\times b+n\times c+\cdots$$
+
+---
+
+### 2.4 广义乘法结合律
+
+我们目前已经证明的乘法结合律，是关于三个数的：
+
+$$a\times b\times c=a\times (b\times c)$$
+
+四个数相乘呢？
+
+我们来观察四数相乘。它其实相当于前三个数先乘，再乘最后一个数：
+
+$$a\times b\times c\times d=(a\times b\times c)\times d$$
+
+这时我们可以对“集装箱”内使用乘法结合律：
+
+$$
+\begin{aligned}
+a\times b\times c\times d&=(a\times b\times c)\times d\\
+&=(a\times(b\times c))\times d\\
+&=a\times (b\times c)\times d
+\end{aligned}
+$$
+
+这回它变成了三个“数”。第一个数是a，第二个数是集装箱，第三个数是d。于是我们再次应用乘法结合律。
+
+$$
+\begin{aligned}
+a\times b\times c\times d&=(a\times b\times c)\times d\\
+&=(a\times(b\times c))\times d\\
+&=a\times (b\times c)\times d\\
+&=a\times ((b\times c)\times d)\\
+&=a\times (b\times c\times d)
+\end{aligned}
+$$
+
+一直重复下去，我们可以得到：
+
+$$a\times b\times \cdots\times d=a\times(b\times \cdots\times d)$$
+
+---
+
+这个推论有什么用呢？
+
+它能帮助我们像“剥洋葱”一样，一层层拆开复杂的嵌套括号。
+
+例如，面对这样一个充满复杂括号的式子：
+
+$$
+((8\times4)\times3\times(1\times7))\times(5\times(6\times9))
+$$
+
+为了使用刚才的推论，我们在整个式子最前面补上一个不影响结果的 $\mathbf{1}$：
+
+$$
+\mathbf{1}\times((8\times4)\times3\times(1\times7))\times(5\times(6\times9))
+$$
+
+因为 $1\times x=x$，所以这只是换了一种写法。
+
+现在，我们利用：
+
+$$
+a\times(k_1\times\dots\times k_n)=a\times k_1\times\dots\times k_n
+$$
+
+从外到内一层层展开：
+
+$$
+\begin{aligned}
+&((8\times4)\times3\times(1\times7))\times(5\times(6\times9)) \\
+&= 1\times((8\times4)\times3\times(1\times7))\times(5\times(6\times9)) \\
+&= 1\times(8\times4)\times3\times(1\times7)\times(5\times(6\times9)) \\
+&= 1\times8\times4\times3\times1\times7\times(5\times(6\times9)) \\
+&= 1\times8\times4\times3\times1\times7\times5\times(6\times9) \\
+&= 1\times8\times4\times3\times1\times7\times5\times6\times9 \\
+&= 8\times4\times3\times1\times7\times5\times6\times9
+\end{aligned}
+$$
+
+我们把复杂的括号一层一层展开了。
+
+这意味着，**一个有限个数的乘法，去除所有括号，积不变。**
+
+由此，我们得出一个通用的结论：
+
+> **对于有限个数的乘法，只要增加或改变的是合法的括号分组，积就保持不变。**
+
+复杂的括号并没有改变数字本身，只是改变了计算的分组方式。
+
+而乘法结合律告诉我们：
+
+> **分组方式可以改变，而结果不变。**
+
+---
+
+### 2.5 广义乘法交换律
+
+我们目前已经证明的乘法交换律，是关于两个数的：
+
+$$a\times b=b\times a$$
+
+三个数会怎样？还能不能交换？
+
+我们当然可以直接算几个例子看看。
+
+但我们已经知道：几个例子并不能证明所有情况。
+
+所以，让我们不用具体的数字，而是只使用前面已经证明过的交换律和结合律，一步一步把这个结论推出来。
+
+让我们来观察三数相乘。根据括号的定义，我们有：
+
+$$
+\begin{aligned}
+a\times b\times c&=(a\times b)\times c && \text{括号定义，前两项先乘}\\
+&=c\times(a\times b) && \text{交换最外层}\\
+&=c\times a\times b && \text{反用结合律}
+\end{aligned}
+$$
+
+对于四数相乘，我们如法炮制：
+
+$$
+\begin{aligned}
+a\times b\times c\times d&=(a\times b\times c)\times d && \text{括号定义，前两项先乘}\\
+&=d\times(a\times b\times c) && \text{交换最外层}\\
+&=d\times a\times b\times c && \text{反用结合律}
+\end{aligned}
+$$
+
+一直这么下去，我们可以得到：
+
+$$
+\begin{aligned}
+a\times b\times c\times\cdots\times d&=(a\times b\times c\times\cdots)\times d && \text{括号定义，前两项先乘}\\
+&=d\times(a\times b\times c\times\cdots) && \text{交换最外层}\\
+&=d\times a\times b\times c\times\cdots && \text{反用结合律}
+\end{aligned}
+$$
+
+这意味着，任意长度的连乘式，最后一项可以移到第一项，而积不变。
+
+我们可以对连乘式中间进行打包，再应用上面的推论：
+
+$$
+\begin{aligned}
+\cdots\times a\times b\times c\times\cdots\times d\times\cdots&=\cdots\times (a\times b\times c\times\cdots\times d)\times\cdots && \text{广义结合律}\\
+&=\cdots\times (d\times a\times b\times c\times\cdots)\times\cdots && \text{移动最后一项}\\
+&=\cdots\times d\times a\times b\times c\times\cdots\times\cdots && \text{反用广义结合律}
+\end{aligned}
+$$
+
+这个结论意味着，连乘式里，任意一项可以向左移动到它前面任意一个位置，而积不变。
+
+---
+
+有了“任意一项可左移”这个工具，我们就能像摆扑克牌一样，把一长串数重排成**任何我们想要的顺序**。
+
+例如，验证：
+
+$$
+9\times2\times3\times4\times5\times6\times7\times8
+\overset{?}{=}
+8\times5\times4\times9\times7\times6\times2\times3
+$$
+
+我们从第 1 个位置开始，每次把目标位置需要的数“移动”过来，并且**锁死已经归位的数**。
+
+1. **归位第 1 个数（8）**
+
+    把 $8$ 左移到位置 1 ：
+
+$$
+9\times2\times3\times4\times5\times6\times7\times\mathbf{8}
+\longrightarrow
+{\color{red}{8}}\times9\times2\times3\times4\times5\times6\times7
+$$
+
+2. **归位第 2 个数（5）**
+
+    把 $5$ 左移到位置 2 ：
+
+$$
+{\color{red}{8}}\times9\times2\times3\times4\times\mathbf{5}\times6\times7
+\longrightarrow
+{\color{red}{8}}\times{\color{red}{5}}\times9\times2\times3\times4\times6\times7
+$$
+
+3. **归位第 3 个数（4）**
+
+    把 $4$ 左移到位置 3 ：
+
+$$
+{\color{red}{8}}\times{\color{red}{5}}\times9\times2\times3\times\mathbf{4}\times6\times7
+\longrightarrow
+{\color{red}{8}}\times{\color{red}{5}}\times{\color{red}{4}}\times9\times2\times3\times6\times7
+$$
+
+4. **继续归位**
+
+    后面的步骤完全相同。每一次只把一个数左移，并且把一个正确的数锁定在它最终的位置上。
+
+    最终得到：
+
+$$8\times5\times4\times9\times7\times6\times2\times3$$
+
+    因为每一次左移都不会改变积，所以整个过程中积始终不变。
+
+    因此：
+
+$$
+\boxed{9\times2\times3\times4\times5\times6\times7\times8 = 8\times5\times4\times9\times7\times6\times2\times3}
+$$
+
+    而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
+
+这就彻底证明了：
+
+> **任意有限个数相乘，积与这些数的排列顺序无关。**
+
+---
+
+### 2.6 总结：乘法与路径无关
+
+通过上面一步步的严密推演，我们建立了三条非常强大的规则：
+
+> 1. **乘法的广义交换律：** 任意有限个数相乘，可以自由调换数的排列顺序。
+> 2. **乘法的广义结合律：** 任意有限个数相乘，可以自由改变合法的分组方式。
+> 3. **乘法分配律：** 一个数与几个数的和相乘，可以把这个数分别与每个数相乘，再把所得的积相加。
+
+这三条规则有什么用？
+
+它们赋予了我们主动改变**计算路径**的能力——把原本繁琐的硬算，变成极其优雅的心算。
+
+---
+
+#### 一、 换位与分组：巧用“广义交换与结合”
+
+计算： $2\times4\times6\times5\times5\times5$
+
+按照从左到右硬算会非常繁琐，但利用交换律和结合律，我们可以随意重排并分组：
+
+$$
+\begin{aligned}
+2\times4\times6\times5\times5\times5 &= 2\times5\times4\times5\times6\times5 && \text{应用广义交换律，让 }2,4,6\text{ 分别与 }5\text{ 相邻}\\
+&= (2\times5)\times(4\times5)\times(6\times5) && \text{应用广义结合律，两两打包}\\
+&= 10\times20\times30\\
+&= 200\times30\\
+&= 6000
+\end{aligned}
+$$
+
+#### 二、 拆数与重组：巧用“分配律”与“结合律”
+
+计算： $24\times15$
+
+**路径 A（利用分配律拆加法）：**
+
+$$
+\begin{aligned}
+24\times15 &= (20+4)\times15\\
+&= 20\times15 + 4\times15\\
+&= 300 + 60\\
+&= 360
+\end{aligned}
+$$
+
+**路径 B（利用结合律拆乘法）：**
+
+$$
+\begin{aligned}
+24\times15 &= (12\times2)\times15\\
+&= 12\times(2\times15)\\
+&= 12\times30\\
+&= 360
+\end{aligned}
+$$
+
+看！无论选择哪条路径，我们都精准地到达了同一个终点： $360$ 。
+
+---
+
+#### 三、 合并同类项：加法重组与乘法分配律的协同
+
+计算： $2\times6+3\times7+4\times6+5\times7+6\times6+7\times7$
+
+我们把和式里面的项按照 $\times6$ 和 $\times7$ 分为两类：
+
+$$
+\begin{aligned}
+2\times6+3\times7+4\times6+5\times7+6\times6+7\times7
+&=(2\times6+4\times6+6\times6)+(3\times7+5\times7+7\times7) && \text{应用加法交换律与结合律重组}\\
+&=(2+4+6)\times6+(3+5+7)\times7 && \text{反用乘法分配律（提取公因数）}\\
+&=12\times6+15\times7 && \text{完成括号内加法}\\
+&=12\times6+15\times(6+1) && \text{拆数（将 }7\text{ 拆为 }6+1\text{）}\\
+&=12\times6+15\times6+15\times1 && \text{再次应用乘法分配律}\\
+&=(12+15)\times6 + 15 && \text{再次反用乘法分配律}\\
+&=27\times6+15\\
+&=162+15\\
+&=177
+\end{aligned}
+$$
+
+---
+
+数学家们喜欢用最简洁的语言概括核心。
+
+对于一串有限个数的乘法，我们前面证明的一切规则，最终都可以凝练成一句极其漂亮的话：
+
+$$
+\Large \text{乘法与计算路径无关。}
+$$
+
+只要涉及的是有限个数相乘，无论我们怎样改变它们的**排列顺序**，或者怎样改变它们的**分组方式**，最终得到的积都绝对不会改变。
+
+而分配律，则赋予了我们把一个整体拆成若干部分、分别计算再合体的新路径。
+
+这个结论不是凭空出现的口诀，而是我们用逻辑一步步构建出来的武器库：
+
+$$
+\boxed{
+\begin{aligned}
+&\text{交换律} + \text{结合律} \Longrightarrow \text{顺序可以自由重排，分组可以自由改变}\\
+&\text{分配律} \Longrightarrow \text{把整体拆开，分别计算，再合起来}
+\end{aligned}
+}
+$$
+
+这就是第一性原理数学中最核心的思想：
+
+> **少数简单规则，可以长出一整棵巨大的数学树。**
+
+---
+
+## 3. 减法运算律：减法真的有自己的“运算律”吗？
+
+前面我们学了加法的交换律和结合律。那么，减法有没有“减法交换律”呢？
+
+我们来试试看：
+
+$$5 - 2 \overset{?}{=} 2 - 5$$
+
+显然不成立！在正数的范围内，$5 - 2 = 3$，而 $2 - 5$ 我们甚至还无法计算。
+
+那为什么有时候我们又可以交换顺序呢？比如：
+
+$$8 + 5 - 3 = 8 - 3 + 5$$
+
+这是为什么？
+
+因为在真正的代数世界里，**减法其实只是加法的另一种形式——它是在加上一个“相反的量”。**
+
+如果我们把“-3”看作一个带有“减号标签”的整体数字 $\boxed{-3}$，那么上面的式子本质上是：
+
+$$8 + 5 + \boxed{-3} = 8 + \boxed{-3} + 5$$
+
+这本质上**依然是加法交换律**！
+
+同理，为什么乘法分配律对减法也成立？
+
+$$(a - b) \times c = a \times c - b \times c$$
+
+我们用小球阵列来解释：
+
+如果原来有 $a$ 个红色小球，我们**拿走了（减去）** $b$ 个小球，剩下的排成 $c$ 行。
+
+- **整体算**：每一行剩下 $(a - b)$ 个小球，一共 $c$ 行，总数为 $(a - b) \times c$。
+- **分开算**：如果原来一共有 $a \times c$ 个小球，每一行拿走 $b$ 个（一共拿走 $b \times c$ 个），剩下的就是 $a \times c - b \times c$。
+
+因为剩下的球总数相同，所以减法的分配律成立：
+
+$$\boxed{(a - b) \times c = a \times c - b \times c}$$
+
+---
+
+## 4. 除法运算律：除法与乘法的双胞胎关系
+
+和减法一样，**除法在代数里本质上就是“乘以一个倒数”**（乘以一个分数的逆元）。
+
+因此，除法的所有规则，全都是乘法运算律的延伸。
+
+### 4.1 乘除混合的顺序交换
+
+$$a \times b \div c = a \div c \times b$$
+
+**本质**：把“$\div c$”看作一个整体打包 $\boxed{\div c}$，这依然是乘法广义交换律在发挥作用。
+
+### 4.2 除法分配律（只有单向分配！）
+
+注意，除法只有**被除数可以拆开**：
+
+$$(a + b) \div c = a \div c + b \div c$$
+
+$$(a - b) \div c = a \div c - b \div c$$
+
+---
+
+**【思考题】**
+
+1. 为什么 $c \div (a + b) \neq c \div a + c \div b$ ？
+
+（例如：$12 \div (2 + 4) = 2$，但 $12 \div 2 + 12 \div 4 = 6 + 3 = 9$）
+
+> **提示**：把“蛋糕分给两组人的总和”，与“把整个蛋糕分给第一组，再切一个同样大的蛋糕分给第二组”做对比。这也再次印证了：**数学公式不能靠死记，必须看清它背后的几何与代数物理含义。**
+
+---
+
+## 5. 本章总结：四大运算归于“加法与乘法”
+
+学完这一章，你可能会发现一个惊人的秘密：
+
+数学家们其实非常“懒”，他们并不想为加、减、乘、除分别发明四套运算律。
+
+真正的代数宇宙里，其实只有两大基石：
+
+1. **加法**（以及它的逆运算：减法）
+2. **乘法**（以及它的逆运算：除法）
+
+只要掌握了**加法**和**乘法**的**交换律、结合律、分配律**，你就掌握了整个初等代数运算的终极底座：
+
+$$
+\boxed{
+\begin{aligned}
+\text{加法体系} &\longrightarrow \text{交换律 + 结合律} &\longrightarrow \text{顺序自由、分组自由}\\
+\text{乘法体系} &\longrightarrow \text{交换律 + 结合律} &\longrightarrow \text{顺序自由、分组自由}\\
+\text{两界桥梁} &\longrightarrow \text{乘法分配律} &\longrightarrow \text{跨越加乘、拆合自如}
+\end{aligned}
+}
+$$
+
+无论未来的数学题目变化得多么复杂，那些看似花哨的简便运算，本质上都不过是在这三座大桥上来回穿梭而已。
+
+---
+
+## 6. 给勇敢探索者的“数学彩蛋”
 
 在这一章里，我们从最简单的小球出发，用“换个方向数”和“旋转阵列”的方法，理解了加法与乘法的运算律，并推导出了许多强大的新工具。
 
