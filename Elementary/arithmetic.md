@@ -33,7 +33,7 @@ $$\large 57289$$
 
 多位数的读取是有固定节奏的。从右往左，每个位置分别代表着“个、十、百、千、万”的量级。因此，上面这个数读作：**五万七千二百八十九**。
 
-$$\huge \overset{\text{万}}{\fbox{5}}\overset{\text{千}}{\fbox{7}}\overset{\text{百}}{\fbox{2}}\overset{\text{十}}{\fbox{8}}\overset{\text{个}}{\fbox{9}}$$
+$$\huge \overset{\text{万}}{\boxed{5}}\overset{\text{千}}{\boxed{7}}\overset{\text{百}}{\boxed{2}}\overset{\text{十}}{\boxed{8}}\overset{\text{个}}{\boxed{9}}$$
 
 数学家们把这种**从 0 开始，每次往上加 1** 顺次延伸下去的数，统称为**自然数**。
 
@@ -58,7 +58,7 @@ $$\huge 🦆 \ \ 🦆 \ \ 🦆 \ \ 🦆 \ \ 🦆$$
 
 以上面的鸭子为例：
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\text{🦆}}{\fbox{3}}\overset{\text{🦆}}{\fbox{4}}\overset{\text{🦆}}{\fbox{5}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\overset{\text{🦆}}{\boxed{3}}\overset{\text{🦆}}{\boxed{4}}\overset{\text{🦆}}{\boxed{5}}$$
 
 我们可以清晰地观察到计数的规律：
 
@@ -78,7 +78,7 @@ $$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\
 
 2. 请找出下面数数过程中的错误，并说明为什么：
 
-    $$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\text{🦆}}{\fbox{4}}\overset{\text{🦆}}{\fbox{5}}\overset{\text{🦆}}{\fbox{6}}$$
+    $$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\overset{\text{🦆}}{\boxed{4}}\overset{\text{🦆}}{\boxed{5}}\overset{\text{🦆}}{\boxed{6}}$$
 
 3. **第一性原理思考题：**
 
@@ -95,8 +95,8 @@ $$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\
 $$
 \huge
 \begin{split}
-\fbox{9} \\
-\fbox{1}\fbox{0}
+\boxed{9} \\
+\boxed{1}\boxed{0}
 \end{split}
 $$
 
@@ -107,8 +107,8 @@ $$
 $$
 \huge
 \begin{split}
-\fbox{1}\fbox{9} \\
-\fbox{2}\fbox{0}
+\boxed{1}\boxed{9} \\
+\boxed{2}\boxed{0}
 \end{split}
 $$
 
@@ -124,8 +124,8 @@ $$
 $$
 \huge
 \begin{split}
-\fbox{9}\fbox{9} \\
-\fbox{1}\fbox{0}\fbox{0}
+\boxed{9}\boxed{9} \\
+\boxed{1}\boxed{0}\boxed{0}
 \end{split}
 $$
 
@@ -163,15 +163,15 @@ $$\large 2 + 3$$
 
 先摆出前 2 只鸭子：
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}$$
 
 再摆出新来的 3 只鸭子：
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\qquad\overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\text{🦆}}{\fbox{3}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\qquad\overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\overset{\text{🦆}}{\boxed{3}}$$
 
 最后，保持鸭子位置不变，从头到尾重新数一遍：
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\text{🦆}}{\fbox{3}}\overset{\text{🦆}}{\fbox{4}}\overset{\text{🦆}}{\fbox{5}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\overset{\text{🦆}}{\boxed{3}}\overset{\text{🦆}}{\boxed{4}}\overset{\text{🦆}}{\boxed{5}}$$
 
 我们数出来一共有 5 只鸭子，用**等号 $=$** 连接起来就是：
 
@@ -183,7 +183,7 @@ $$\large 2 + 3 = 5$$
 
 其实，前面的 2 只鸭子我们早就数过了，根本不需要重新从 1 开始数。**我们可以以 2 为基准，直接往后数 3 个数：**
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\ \ \overset{\text{🦆}_1}{\fbox{\textbf{3}}}\overset{\text{🦆}_2}{\fbox{\textbf{4}}}\overset{\text{🦆}_3}{\fbox{\textbf{5}}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\ \ \overset{\text{🦆}_1}{\boxed{\textbf{3}}}\overset{\text{🦆}_2}{\boxed{\textbf{4}}}\overset{\text{🦆}_3}{\boxed{\textbf{5}}}$$
 
 - **起步**：心里记住已经有了 **2** 只鸭子。
 - **后数**：新来了 3 只，就在 2 的基础上往后顺延数 3 个数：**3、4、5**。
@@ -195,9 +195,9 @@ $$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\ \ \overs
 
 $$
 \large
-\overset{\text{加数}}{\fbox{5}}+
-\overset{\text{加数}}{\fbox{2}}=
-\overset{\text{和}}{\fbox{3}}
+\overset{\text{加数}}{\boxed{5}}+
+\overset{\text{加数}}{\boxed{2}}=
+\overset{\text{和}}{\boxed{3}}
 $$
 
 在日常生活中，**“增加”，“给予”，“一共”，“合计”** 等词汇，本质上都是加法模型。
@@ -242,12 +242,12 @@ $$
 $$
 \huge
 \begin{array}{cccccc}
-\overset{\text{🦆}}{\fbox{1}} &
+\overset{\text{🦆}}{\boxed{1}} &
 \text{⋯} &
-\overset{\text{🦆}}{\fbox{3562}} &
-\overset{\text{🦆}_1}{\fbox{\phantom{0000}}} &
-\overset{\text{🦆}_2}{\fbox{\phantom{0000}}} &
-\overset{\text{🦆}_3}{\fbox{\phantom{0000}}}
+\overset{\text{🦆}}{\boxed{3562}} &
+\overset{\text{🦆}_1}{\boxed{\phantom{0000}}} &
+\overset{\text{🦆}_2}{\boxed{\phantom{0000}}} &
+\overset{\text{🦆}_3}{\boxed{\phantom{0000}}}
 \end{array}
 $$
 
@@ -368,7 +368,7 @@ $$\begin{array}{rrr} 16 + 5 = \underline{\qquad} & \qquad 24 + 8 = \underline{\q
 
 ## 3. 乘法
 
-### 3.1. 乘法的定义
+### 3.1. 乘法：重复加
 
 在日常生活中，我们经常会遇到**将同一个数量重复相加**的场景。
 
@@ -668,7 +668,7 @@ $$
 & 3 & 6 & \mathbf{8} \\
 {\times} & & 7 & \mathbf{6} \\
 \hline
-& \fbox{\phantom{0}} & \fbox{\phantom{0}}_{\color{red}{4}} & \fbox{8}
+& \boxed{\phantom{0}} & \boxed{\phantom{0}}_{\color{red}{4}} & \boxed{8}
 \end{array}
 $$
 
@@ -688,7 +688,7 @@ $$
 & 3 & \mathbf{6} & 8 \\
 {\times} & & 7 & \mathbf{6} \\
 \hline
-& \fbox{\phantom{0}}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}
+& \boxed{\phantom{0}}_{\color{red}{4}} & \boxed{0}_{\color{red}{4}} & \boxed{8}
 \end{array}
 $$
 
@@ -708,7 +708,7 @@ $$
 & \mathbf{3} & 6 & 8 \\
 {\times} & & 7 & \mathbf{6} \\
 \hline
-\fbox{\color{red}{2}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}
+\boxed{\color{red}{2}} & \boxed{2}_{\color{red}{4}} & \boxed{0}_{\color{red}{4}} & \boxed{8}
 \end{array}
 $$
 
@@ -720,8 +720,8 @@ $$
 && 3 & 6 & \mathbf{8} \\
 &{\times} & & \mathbf{7} & 6 \\
 \hline
-&\fbox{\color{red}{2}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
-\fbox{\phantom{0}}&\fbox{\phantom{0}}&\fbox{\phantom{0}}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&
+&\boxed{\color{red}{2}} & \boxed{2}_{\color{red}{4}} & \boxed{0}_{\color{red}{4}} & \boxed{8}\\
+\boxed{\phantom{0}}&\boxed{\phantom{0}}&\boxed{\phantom{0}}_{\color{red}{5}}&\boxed{6}_{\phantom{0}}&
 \end{array}
 $$
 
@@ -731,8 +731,8 @@ $$
 && 3 & \mathbf{6} & 8 \\
 &{\times} & & \mathbf{7} & 6 \\
 \hline
-&\fbox{\color{red}{2}}_{\phantom{0}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
-\fbox{\phantom{0}}&\fbox{\phantom{0}}_{\color{red}{4}}&\fbox{7}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&
+&\boxed{\color{red}{2}}_{\phantom{0}} & \boxed{2}_{\color{red}{4}} & \boxed{0}_{\color{red}{4}} & \boxed{8}\\
+\boxed{\phantom{0}}&\boxed{\phantom{0}}_{\color{red}{4}}&\boxed{7}_{\color{red}{5}}&\boxed{6}_{\phantom{0}}&
 \end{array}
 $$
 
@@ -742,8 +742,8 @@ $$
 && \mathbf{3} & 6 & 8 \\
 &{\times} & & \mathbf{7} & 6 \\
 \hline
-&\fbox{\color{red}{2}}_{\phantom{0}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
-\fbox{\color{red}{2}}&\fbox{5}_{\color{red}{4}}&\fbox{7}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&
+&\boxed{\color{red}{2}}_{\phantom{0}} & \boxed{2}_{\color{red}{4}} & \boxed{0}_{\color{red}{4}} & \boxed{8}\\
+\boxed{\color{red}{2}}&\boxed{5}_{\color{red}{4}}&\boxed{7}_{\color{red}{5}}&\boxed{6}_{\phantom{0}}&
 \end{array}
 $$
 
@@ -755,8 +755,8 @@ $$
 && \mathbf{3} & 6 & 8 \\
 &{\times} & & \mathbf{7} & 6 \\
 \hline
-&\fbox{\color{red}{2}}_{\phantom{0}} & \fbox{2}_{\color{red}{4}} & \fbox{0}_{\color{red}{4}} & \fbox{8}\\
-\fbox{\color{red}{2}}&\fbox{5}_{\color{red}{4}}&\fbox{7}_{\color{red}{5}}&\fbox{6}_{\phantom{0}}&\\
+&\boxed{\color{red}{2}}_{\phantom{0}} & \boxed{2}_{\color{red}{4}} & \boxed{0}_{\color{red}{4}} & \boxed{8}\\
+\boxed{\color{red}{2}}&\boxed{5}_{\color{red}{4}}&\boxed{7}_{\color{red}{5}}&\boxed{6}_{\phantom{0}}&\\
 \hline
 2&7&9&6&8
 \end{array}
@@ -792,11 +792,11 @@ $$\large 5 - 2$$
 
 为了计算 $5 - 2$，我们先数出 $5$ 只小鸭子：
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\text{🦆}}{\fbox{3}}\overset{\text{🦆}}{\fbox{4}}\overset{\text{🦆}}{\fbox{5}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\overset{\text{🦆}}{\boxed{3}}\overset{\text{🦆}}{\boxed{4}}\overset{\text{🦆}}{\boxed{5}}$$
 
 然后从右向左数（倒着数）$2$ 只鸭子：
 
-$$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\text{🦆}}{\fbox{\textbf{3}}}\overset{\phantom{🦆}}{\fbox{2}}\overset{\phantom{🦆}}{\fbox{1}}$$
+$$\huge \overset{\text{🦆}}{\boxed{1}}\overset{\text{🦆}}{\boxed{2}}\overset{\text{🦆}}{\boxed{\textbf{3}}}\overset{\phantom{🦆}}{\boxed{2}}\overset{\phantom{🦆}}{\boxed{1}}$$
 
 从右向左倒数出去的鸭子，相当于“走掉”了。最左边没走掉的最后一只鸭子下面的数字，就是剩下的数量。我们看到，它是 $3$，所以 $5-2=3$。
 
@@ -806,9 +806,9 @@ $$\huge \overset{\text{🦆}}{\fbox{1}}\overset{\text{🦆}}{\fbox{2}}\overset{\
 
 $$
 \large
-\overset{\text{被减数}}{\fbox{5}}-
-\overset{\text{减数}}{\fbox{2}}=
-\overset{\text{差}}{\fbox{3}}
+\overset{\text{被减数}}{\boxed{5}}-
+\overset{\text{减数}}{\boxed{2}}=
+\overset{\text{差}}{\boxed{3}}
 $$
 
 在日常生活中，“减少”、“拿走”、“多多少”、“差多少”等词汇，本质上都是减法模型。
@@ -868,13 +868,13 @@ $$
 $$
 \huge
 \begin{array}{cccccc}
-\overset{\text{🦆}}{\fbox{1}} &
-\overset{\text{🦆}}{\fbox{2}} &
+\overset{\text{🦆}}{\boxed{1}} &
+\overset{\text{🦆}}{\boxed{2}} &
 \text{⋯} &
-\overset{\text{🦆}}{\fbox{\phantom{0000}}} &
-\overset{\text{🦆}_1}{\fbox{\phantom{0000}}} &
-\overset{\text{🦆}_2}{\fbox{\phantom{0000}}} &
-\overset{\text{🦆}_3}{\fbox{3565}}
+\overset{\text{🦆}}{\boxed{\phantom{0000}}} &
+\overset{\text{🦆}_1}{\boxed{\phantom{0000}}} &
+\overset{\text{🦆}_2}{\boxed{\phantom{0000}}} &
+\overset{\text{🦆}_3}{\boxed{3565}}
 \end{array}
 $$
 
@@ -1074,6 +1074,70 @@ $$
 ---
 
 ## 5. 除法
+
+### 5.1. 除法：乘法的逆运算
+
+在前面的学习中，我们知道乘法是已知两个因子，求它们的积。但在日常生活中，我们经常遇到相反的情况：**已知积和一个因子，需要求解另一个未知因子**。
+
+**生活中的场景：**
+* **任务分配**：12个任务平均分给3个人，每个人要做几个任务？
+* **空间容纳**：12头牛进入牛舍，每个房间能住3头牛，需要几个房间？
+* **均分物品**：12块糖果平均分给小明、爸爸和妈妈3个人，每人分到几块？
+
+用数学代数式表达，这些问题都在寻找同一个未知数：
+$$\boxed{\phantom{0}}\times3=12$$
+
+为了求解这种乘法的逆向推导，数学家定义了**除法（Division）**：
+$$\boxed{\phantom{0}}=12\div3$$
+
+其中，$12$ 称为**被除数**（原有的总量/积），$3$ 称为**除数**（已知的一个因子），计算出来的结果称为**商**（另一个未知的因子）。
+
+> **算术基本原理**：除法不是一种独立创造出来的全新规则，它本质上就是**乘法的逆运算**。
+
+---
+
+### 5.2. 两位数除以一位数
+
+当被除数超出了乘法口诀表的直接记忆范围时，我们不能再一眼看出商是多少。此时需要借助**十进制的位权拆分**与**乘法分配律**。
+
+#### 1. 代数拆分法（分配律）
+求解 $72 \div 3$，本质上是将 $72$ 拆解为能被 $3$ 整除的十进制组合：
+$$72 = 60 + 12$$
+
+利用除法对加法的分配律：
+$$72 \div 3 = (60 + 12) \div 3 = (60 \div 3) + (12 \div 3) = 20 + 4 = 24$$
+
+#### 2. 竖式算法与高位余数流动
+竖式计算是将上述代数拆分过程**标准化、程序化**的几何工具：
+
+* **第一步（十位算商）**：$7$ 个十除以 $3$，商为 $2$ 个十（写在十位），余 $1$ 个十。
+* **第二步（高位换算与流动）**：剩下的 $1$ 个十无法被 $3$ 整体整除，必须**向下拆解为 $10$ 个一**，与个位的 $2$ 结合，组成 $12$ 个一。
+* **第三步（个位算商）**：$12$ 个一除以 $3$，商为 $4$ 个一（写在个位），余数为 $0$。
+
+$$\begin{array}{l l}
+\begin{array}{r c c}
+& 2 & 4 \\
+\hline
+3 \big) & 7 & 2 \\
+& 6 & \\
+\hline
+& 1 & 2 \\
+& 1 & 2 \\
+\hline
+& & 0
+\end{array}
+&
+\begin{array}{l}
+\\
+\\
+\leftarrow \text{2个十乘3，消耗6个十 (60)} \\
+\\
+\leftarrow \text{剩余1个十转化为10个一，加上原个位2，组成12} \\
+\leftarrow \text{4个一乘3，消耗12} \\
+\\
+\leftarrow \text{整除，余数为0}
+\end{array}
+\end{array}$$
 
 ## 6. 四则运算
 

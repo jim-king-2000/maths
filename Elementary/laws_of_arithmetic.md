@@ -25,13 +25,13 @@ $$38572653 + 9267351 = 9267351 + 38572653$$
 我们先放 2 个红色的小球，再放 3 个蓝色的小球，然后从左到右数一遍，这就是 $(2+3)$：
 
 $$
-\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}
+\huge \overset{\color{red}{\bullet}}{\boxed{1}}\overset{\color{red}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{1}}\overset{\color{blue}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{3}}
 $$
 
 同样个数的小球，这次我们从右到左数，先数到 3 个蓝色小球，再数到 2 个红色小球，这就是 $(3+2)$：
 
 $$
-\huge \overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}
+\huge \overset{\color{red}{\bullet}}{\boxed{2}}\overset{\color{red}{\bullet}}{\boxed{1}}\overset{\color{blue}{\bullet}}{\boxed{3}}\overset{\color{blue}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{1}}
 $$
 
 因为小球的总数并没有改变，所以我们得到：
@@ -149,7 +149,7 @@ $$(264872+38101)+1542=264872+(38101+1542)$$
 它可以代表 2 个红色小球、3 个蓝色小球和 1 个绿色小球：
 
 $$
-\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{green}{\bullet}}{\fbox{1}}
+\huge \overset{\color{red}{\bullet}}{\boxed{1}}\overset{\color{red}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{1}}\overset{\color{blue}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{3}}\overset{\color{green}{\bullet}}{\boxed{1}}
 $$
 
 我们从左向右数：先数完 2 个红球和 3 个蓝球（共 $2+3$ 个），再加上 1 个绿球，得到的代数式是：
@@ -1610,13 +1610,13 @@ $$38572653 + 9267351 = 9267351 + 38572653$$
 我们先放 2 个红色的小球，再放 3 个蓝色的小球，然后从左到右数一遍，这就是 $(2+3)$：
 
 $$
-\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}
+\huge \overset{\color{red}{\bullet}}{\boxed{1}}\overset{\color{red}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{1}}\overset{\color{blue}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{3}}
 $$
 
 同样个数的小球，这次我们从右到左数，先数到 3 个蓝色小球，再数到 2 个红色小球，这就是 $(3+2)$：
 
 $$
-\huge \overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}
+\huge \overset{\color{red}{\bullet}}{\boxed{2}}\overset{\color{red}{\bullet}}{\boxed{1}}\overset{\color{blue}{\bullet}}{\boxed{3}}\overset{\color{blue}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{1}}
 $$
 
 因为小球的总数并没有改变，所以我们得到：
@@ -1734,7 +1734,7 @@ $$(264872+38101)+1542=264872+(38101+1542)$$
 它可以代表 2 个红色小球、3 个蓝色小球和 1 个绿色小球：
 
 $$
-\huge \overset{\color{red}{\bullet}}{\fbox{1}}\overset{\color{red}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{1}}\overset{\color{blue}{\bullet}}{\fbox{2}}\overset{\color{blue}{\bullet}}{\fbox{3}}\overset{\color{green}{\bullet}}{\fbox{1}}
+\huge \overset{\color{red}{\bullet}}{\boxed{1}}\overset{\color{red}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{1}}\overset{\color{blue}{\bullet}}{\boxed{2}}\overset{\color{blue}{\bullet}}{\boxed{3}}\overset{\color{green}{\bullet}}{\boxed{1}}
 $$
 
 我们从左向右数：先数完 2 个红球和 3 个蓝球（共 $2+3$ 个），再加上 1 个绿球，得到的代数式是：
