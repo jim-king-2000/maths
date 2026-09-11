@@ -1599,6 +1599,15 @@ $$
 * $3$ 叫作**除数**；
 * 计算得到的结果叫作**商**。
 
+$$
+\large
+\overset{\text{被除数}}{\boxed{2}}
+\div
+\overset{\text{除数}}{\boxed{3}}
+=
+\overset{\text{商}}{\boxed{5}}
+$$
+
 因此：
 
 > **算术基本原理：**
