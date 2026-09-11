@@ -998,13 +998,39 @@ $$
 #### 第一步：用个位 $6$ 乘 $368$
 
 1. $6\times8=48$：个位写 $8$，向十位进 $4$。
-2. $6\times6+4=40$：十位写 $0$，向百位进 $4$。
-3. $6\times3+4=22$：写出 $22$。
-
-得到第一个部分积：
 
 $$
-2208
+\huge
+\begin{array}{cccc}
+&3&6&8\\
+\times&&7&6\\
+\hline
+&&{\phantom{0}}_{\color{red}{4}}&8
+\end{array}
+$$
+
+2. $6\times6+4=36+4=40$：十位写 $0$，向百位进 $4$。
+
+$$
+\huge
+\begin{array}{llll}
+&3&6&8\\
+\times&&7&6\\
+\hline
+&{\phantom{0}}_{\color{red}{4}}&{0}_{\color{red}{4}}&8
+\end{array}
+$$
+
+3. $6\times3+4=18+4=22$：写出 $22$。
+
+$$
+\huge
+\begin{array}{llll}
+&3&6&8\\
+\times&&7&6\\
+\hline
+2&{2}_{\color{red}{4}}&{0}_{\color{red}{4}}&8
+\end{array}
 $$
 
 #### 第二步：用十位 $7$ 乘 $368$
@@ -1016,19 +1042,44 @@ $$
 先计算：
 
 1. $7\times8=56$：写 $6$，向十位进 $5$。
-2. $7\times6+5=47$：写 $7$，向百位进 $4$。
-3. $7\times3+4=25$。
+
+$$
+\huge
+\begin{array}{llll}
+&3&6&8\\
+\times&&7&6\\
+\hline
+2&{2}_{\color{red}{4}}&{0}_{\color{red}{4}}&8\\
+&{\phantom{0}}_{\color{red}{5}}&6
+\end{array}
+$$
+
+2. $7\times6+5=42+5=47$：写 $7$，向百位进 $4$。
+
+$$
+\huge
+\begin{array}{llll}
+&3&6&8\\
+\times&&7&6\\
+\hline
+2&{2}_{\color{red}{4}}&{0}_{\color{red}{4}}&8\\
+{\phantom{0}}_{\color{red}{4}}&{7}_{\color{red}{5}}&6
+\end{array}
+$$
+
+3. $7\times3+4=21+4=25$。
 
 得到：
 
 $$
-2576
-$$
-
-但因为原来的 $7$ 位于十位，所以这一部分实际表示：
-
-$$
-25760
+\huge
+\begin{array}{lllll}
+&&3&6&8\\
+\times&&&7&6\\
+\hline
+&2&{2}_{\color{red}{4}}&{0}_{\color{red}{4}}&8\\
+2&{5}_{\color{red}{4}}&{7}_{\color{red}{5}}&6
+\end{array}
 $$
 
 #### 第三步：将两个部分积按位相加
@@ -1049,6 +1100,7 @@ $$
 因此：
 
 $$
+\huge
 368\times76=27968
 $$
 
