@@ -1601,11 +1601,11 @@ $$
 
 $$
 \large
-\overset{\text{被除数}}{\boxed{2}}
+\overset{\text{被除数}}{\boxed{6}}
 \div
 \overset{\text{除数}}{\boxed{3}}
 =
-\overset{\text{商}}{\boxed{5}}
+\overset{\text{商}}{\boxed{2}}
 $$
 
 因此：
@@ -1655,6 +1655,8 @@ $$
 $$
 
 所以不可能找到这样的数。
+
+特殊的， $0\div0$ 的答案可以是任意数，因为 $\text{任意数}\times0=0$ 。因此也找不到一个确定的数。
 
 因此：
 
@@ -1743,7 +1745,7 @@ $$
 可以写成：
 
 $$
-7=2\times3+1
+7\div2=3\cdots1
 $$
 
 并且：
@@ -1781,7 +1783,7 @@ $$
 即：
 
 $$
-24=9\times2+6
+24\div9=2\cdots6
 $$
 
 并且：
@@ -1853,6 +1855,87 @@ $$
 $$
 
 由此得到最终结果：$72 \div 3 = 24$。
+
+我们再看一个例子：
+
+计算： $612\div6$
+
+#### 第一步：百位试商
+
+$$
+{\huge
+\begin{array}{r}
+1\phantom{0}\phantom{0} \\
+6 \enclose{longdiv}{612} \\
+\underline{6\phantom{0}\phantom{0}} \\
+0\phantom{0}\phantom{0}
+\end{array}
+}
+$$
+
+#### 第二步：余数与下一位结合
+
+$$
+{\huge
+\begin{array}{r}
+1\phantom{0}\phantom{0} \\
+6 \enclose{longdiv}{612} \\
+\underline{6\phantom{0}\phantom{0}} \\
+01\phantom{0}
+\end{array}
+}
+$$
+
+#### 第三步：十位试商
+
+我们发现， $1\div6$ ，商连 $1$ 都不能取。因为 $6\times1>1$ 。所以，这时，商只能是 $0$ 。
+
+$$
+{\huge
+\begin{array}{r}
+10\phantom{0} \\
+6 \enclose{longdiv}{612} \\
+\underline{6\phantom{0}\phantom{0}} \\
+01\phantom{0}\\
+\underline{00\phantom{0}}\\
+\phantom{0}1\phantom{0}
+\end{array}
+}
+$$
+
+#### 第四步：余数与下一位结合
+
+$$
+{\huge
+\begin{array}{r}
+10\phantom{0} \\
+6 \enclose{longdiv}{612} \\
+\underline{6\phantom{0}\phantom{0}} \\
+01\phantom{0}\\
+\underline{00\phantom{0}}\\
+\phantom{0}12
+\end{array}
+}
+$$
+
+#### 第五步：个位试商
+
+$$
+{\huge
+\begin{array}{r}
+102 \\
+6 \enclose{longdiv}{612} \\
+\underline{6\phantom{0}\phantom{0}} \\
+01\phantom{0}\\
+\underline{00\phantom{0}}\\
+\phantom{0}12\\
+\underline{\phantom{0}12}\\
+0
+\end{array}
+}
+$$
+
+由此得到最终结果： $612\div6=102$
 
 ---
 
