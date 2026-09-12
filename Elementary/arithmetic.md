@@ -1939,6 +1939,103 @@ $$
 
 ---
 
+### 5.5. 多位数除法
+
+多位数除法的步骤与一位数除法的步骤完全一样。
+
+计算： $13728\div67$
+
+#### 第一步：最高位试商
+
+万位 $1$ 除以 $67$ 为 $0$ 。带上千位 $13$ 除以 $67$ 仍然为 $0$ 。只有再带上百位 $137$ 除以 $67$ 才不为 $0$ 。于是我们开始试商：
+
+$$67\times2=134$$
+$$67\times3=201\quad(\text{太大，舍弃})$$
+
+所以：
+
+$$
+{\huge
+\begin{array}{r}
+2\phantom{0}\phantom{0} \\
+67\enclose{longdiv}{13728} \\
+\underline{134\phantom{0}\phantom{0}} \\
+3\phantom{0}\phantom{0}
+\end{array}
+}
+$$
+
+#### 第二步：余数与下一位结合
+
+$$
+{\huge
+\begin{array}{r}
+2\phantom{0}\phantom{0} \\
+67\enclose{longdiv}{13728} \\
+\underline{134\phantom{0}\phantom{0}} \\
+32\phantom{0}
+\end{array}
+}
+$$
+
+#### 第三步：十位试商
+
+由于 $32$ 比 $67$ 小，因此商只能是 $0$ 。
+
+$$
+{\huge
+\begin{array}{r}
+20\phantom{0} \\
+67\enclose{longdiv}{13728} \\
+\underline{134\phantom{0}\phantom{0}} \\
+32\phantom{0}\\
+\underline{00\phantom{0}}\\
+32\phantom{0}
+\end{array}
+}
+$$
+
+#### 第四步：余数与下一位结合
+
+$$
+{\huge
+\begin{array}{r}
+20\phantom{0} \\
+67\enclose{longdiv}{13728} \\
+\underline{134\phantom{0}\phantom{0}} \\
+32\phantom{0}\\
+\underline{00\phantom{0}}\\
+328
+\end{array}
+}
+$$
+
+#### 第五步：个位试商
+
+$$67\times4=268$$
+$$67\times4=335\quad\text{太大，舍弃}$$
+
+所以：
+
+$$
+{\huge
+\begin{array}{r}
+204 \\
+67\enclose{longdiv}{13728} \\
+\underline{134\phantom{0}\phantom{0}} \\
+32\phantom{0}\\
+\underline{00\phantom{0}}\\
+328\\
+\underline{268}\\
+60
+\end{array}
+}
+$$
+
+所以： $13728\div67=204\cdots60$
+
+---
+
 ## 6. 四则运算
 
 ### 6.1. 无括号的四则运算
