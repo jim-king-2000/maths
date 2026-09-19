@@ -146,49 +146,84 @@ $$(264872+38101)+1542=264872+(38101+1542)$$
 
 我们先来看看 $(2+3)+1$。
 
-它可以代表 2 个红色小球、3 个蓝色小球和 1 个绿色小球：
+它可以代表两排小球相加：
+1. 第一排： 2 个红色小球、3 个蓝色小球。
+1. 第二排： 1 个绿色小球：
 
 $$
-\huge \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{1}}\overset{\color{blue}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{3}}\overset{\color{green}{\huge\bullet}}{\boxed{1}}
-$$
-
-我们从左向右数：先数完 2 个红球和 3 个蓝球（共 $2+3$ 个），再加上 1 个绿球，得到的代数式是：
-
-$$(2+3)+1$$
-
-我们也可以从右向左数：先数完 1 个绿球和 3 个蓝球（共 $1+3$ 个），再加上 2 个红球，得到：
-
-$$(1+3)+2$$
-
-因为小球的总数不变，所以：
-
-$$(2+3)+1=(1+3)+2$$
-
-现在，我们已经得到了两个“数”：
-
-- 第一个“数”是集装箱 $(1+3)$；
-- 第二个“数”是 $2$。
-
-虽然 $(1+3)$ 看起来不像一个普通的数字，但它的结果仍然是一个数。
-
-所以，根据前面刚刚学过的**加法交换律**，我们可以交换这个集装箱与 $2$ 的位置：
-
-$$
+\huge
 \begin{aligned}
-(2+3)+1 &= (1+3)+2 \\
-&= 2+(1+3)
+& \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{1}}\overset{\color{blue}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{3}}\\
+& \overset{\color{green}{\huge\bullet}}{\boxed{1}}
 \end{aligned}
 $$
 
-接着，我们再对集装箱内部使用一次**加法交换律**，把括号里的数字换一换：
+我们先数第一排：
 
 $$
+\huge
 \begin{aligned}
-\mathbf{(2+3)+1} &= (1+3)+2 \\
-&= 2+(1+3) \\
-&= \mathbf{2+(3+1)}
+& \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{3}}\overset{\color{blue}{\huge\bullet}}{\boxed{4}}\overset{\color{blue}{\huge\bullet}}{\boxed{5}}\\
+& \overset{\color{green}{\huge\bullet}}{\boxed{\phantom{0}}}
 \end{aligned}
 $$
+
+再数第二排：
+
+$$
+\huge
+\begin{aligned}
+& \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{3}}\overset{\color{blue}{\huge\bullet}}{\boxed{4}}\overset{\color{blue}{\huge\bullet}}{\boxed{5}}\\
+& \overset{\color{green}{\huge\bullet}}{\boxed{1}}
+\end{aligned}
+$$
+
+小球总数就是：
+
+$$(2+3)+1=5+1$$
+
+我们现在保持所有小球的数量不变。但是我们重新分组。我们把蓝色小球放到第二排：
+
+$$
+\huge
+\begin{aligned}
+& \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\\
+& \overset{\color{blue}{\huge\bullet}}{\boxed{1}}\overset{\color{blue}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{3}}
+\overset{\color{green}{\huge\bullet}}{\boxed{1}}
+\end{aligned}
+$$
+
+我们先数第一排：
+
+$$
+\huge
+\begin{aligned}
+& \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\\
+& \overset{\color{blue}{\huge\bullet}}{\boxed{\phantom{0}}}\overset{\color{blue}{\huge\bullet}}{\boxed{\phantom{0}}}\overset{\color{blue}{\huge\bullet}}{\boxed{\phantom{0}}}
+\overset{\color{green}{\huge\bullet}}{\boxed{\phantom{0}}}
+\end{aligned}
+$$
+
+再数第二排：
+
+$$
+\huge
+\begin{aligned}
+& \overset{\color{red}{\huge\bullet}}{\boxed{1}}\overset{\color{red}{\huge\bullet}}{\boxed{2}}\\
+& \overset{\color{blue}{\huge\bullet}}{\boxed{1}}\overset{\color{blue}{\huge\bullet}}{\boxed{2}}\overset{\color{blue}{\huge\bullet}}{\boxed{3}}
+\overset{\color{green}{\huge\bullet}}{\boxed{4}}
+\end{aligned}
+$$
+
+所以小球总数是：
+
+$$2+(3+1)=2+4$$
+
+不管怎么分组，小球总数都不变。
+
+所以：
+
+$$(2+3)+1=2+(3+1)$$
 
 现在，让我们把上面的过程推广到所有情况。
 
@@ -198,29 +233,43 @@ $$
 \huge \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \quad \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}} \quad \overbrace{\color{green}{\bullet}\color{green}{\bullet}\dots\color{green}{\bullet}}^{c\text{个绿色小球}}
 $$
 
-从左向右数：先数 $a$ 个红球和 $b$ 个蓝球，再加上 $c$ 个绿球，得到：
-
-$$(a+b)+c$$
-
-从右向左数：先数 $c$ 个绿球和 $b$ 个蓝球，再加上 $a$ 个红球，得到：
-
-$$(c+b)+a$$
-
-由于小球总数完全相同，因此：
-
-$$(a+b)+c=(c+b)+a$$
-
-接下来，我们两次利用**加法交换律**进行代数换位：
+我们将小球分为两排：
+1. 第一排是红色小球和蓝色小球。
+1. 第二排是绿色小球。
 
 $$
+\huge
 \begin{aligned}
-(a+b)+c &= (c+b)+a \\
-&= a+(c+b) &&\text{（把集装箱 }(c+b)\text{ 与 }a\text{ 整体交换）} \\
-&= a+(b+c) &&\text{（把集装箱内部的 }c\text{ 与 }b\text{ 交换）}
+& \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \quad \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}} \\
+& \overbrace{\color{green}{\bullet}\color{green}{\bullet}\dots\color{green}{\bullet}}^{c\text{个绿色小球}}
 \end{aligned}
 $$
 
-所以我们得出了：
+第一排有 $(a+b)$ 个小球。
+
+第二排有 $c$ 个小球。
+
+小球总数为 $(a+b)+c$ 个。
+
+我们将小球分为不同的两排：
+1. 第一排是红色小球。
+1. 第二排是蓝色小球和绿色小球。
+
+$$
+\huge
+\begin{aligned}
+& \overbrace{\color{red}{\bullet}\color{red}{\bullet}\dots\color{red}{\bullet}}^{a\text{个红色小球}} \\
+& \overbrace{\color{blue}{\bullet}\color{blue}{\bullet}\dots\color{blue}{\bullet}}^{b\text{个蓝色小球}}\quad\overbrace{\color{green}{\bullet}\color{green}{\bullet}\dots\color{green}{\bullet}}^{c\text{个绿色小球}}
+\end{aligned}
+$$
+
+第一排有 $a$ 个小球。
+
+第二排有 $(b+c)$ 个小球。
+
+小球总数为 $a+(b+c)$ 个。
+
+因为无论怎么分成两排，小球总数不变。所以我们得出了：
 
 $$
 \boxed{(a+b)+c=a+(b+c)}
@@ -249,6 +298,10 @@ $$
 加法结合律的含义是：
 
 > **三个数相加，先加前两个数再加第三个数，与先加后两个数再与第一个数相加，结果相同。**
+
+也就是说：
+
+> **运算的顺序变了，但整体的数量不变。**
 
 ---
 
