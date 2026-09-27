@@ -550,6 +550,17 @@ $p$ 个不同的自变量映射出 $p$ 个两两不同的余数，而模 $p$ 的
 $$ax_0 - 1 = k \cdot p \implies ax_0 + p(-k) = 1$$
 令 $x = x_0, y = -k$，即证得存在 $x, y$ 使得 $ax + py = 1$。
 
+
+### 通向一般形式的化归归纳
+
+我们可以通过提取最大公因数降维化归为一般形式：
+
+设 $a' = \frac{a}{\gcd(a, b)}, b' = \frac{b}{\gcd(a, b)}$，则 $\gcd(a', b') = 1$。
+由互质形式可得存在 $x, y$ 使得：
+$$a'x + b'y = 1$$
+等式两边同乘以 $\gcd(a, b)$：
+$$\gcd(a, b)(a'x + b'y) = \gcd(a, b) \implies \mathbf{ax + by = \gcd(a, b)}$$
+
 ---
 
 ### 证明路径二：极值构造法（基于良序原理）
@@ -596,15 +607,5 @@ $$d = g = \gcd(a, b)$$
 $$\mathbf{ax_0 + by_0 = \gcd(a, b)}$$
 
 ---
-
-### 通向一般形式的化归归纳
-
-对于“证明路径一”，我们可以通过提取最大公因数降维化归为一般形式：
-
-设 $a' = \frac{a}{\gcd(a, b)}, b' = \frac{b}{\gcd(a, b)}$，则 $\gcd(a', b') = 1$。
-由互质形式可得存在 $x, y$ 使得：
-$$a'x + b'y = 1$$
-等式两边同乘以 $\gcd(a, b)$：
-$$\gcd(a, b)(a'x + b'y) = \gcd(a, b) \implies \mathbf{ax + by = \gcd(a, b)}$$
 
 $\blacksquare$ **证毕。**
