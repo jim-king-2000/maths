@@ -2554,6 +2554,20 @@ $$
 
 ---
 
+**思考与练习**
+
+1. 请计算
+
+$$
+\begin{array}{lll}
+24 + 36 \div 6 = \underline{\qquad}\qquad & 8 \times (15 - 7) = \underline{\qquad}\qquad & 72 \div 9 + 45 = \underline{\qquad} \\[1.5em]
+(48 - 12) \div 6 = \underline{\qquad}\qquad & 50 - 6 \times 7 = \underline{\qquad}\qquad & 4 \times 9 \div 6 = \underline{\qquad} \\[1.5em]
+63 \div (12 - 3) = \underline{\qquad}\qquad & 35 + 7 \times 8 = \underline{\qquad}\qquad & (28 + 14) \div 7 = \underline{\qquad}
+\end{array}
+$$
+
+---
+
 ## 7. 总结
 
 本章我们从最基础的数字和计数开始，逐步建立了自然数的基本计算体系：
