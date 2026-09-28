@@ -1839,7 +1839,7 @@ $$
 
 ---
 
-### 思考与练习
+**思考与练习**
 
 1. **观察“恒等变换”的结构，不做计算，直接秒杀答案：**
 
@@ -1911,6 +1911,7 @@ $$
 > **“对于属于正整数集合里的任意一个数字 $n$，都有 $n \div 1 = n$，并且 $n \div n = 1$。”**
 
 把长篇大论的文字，压缩成几个精准的代数符号——这就是数学语言的终极美感：**极简、严格、没有任何歧义**。
+
 ### 5.3. 乘法表范围内的除法与试商
 
 如果被除数和除数都在乘法表能够直接覆盖的范围内，我们可以通过**逆用乘法口诀**来确定商。
@@ -2008,6 +2009,20 @@ $$
 > 最后剩下的部分就是余数，并且必须满足：
 >
 > $$\text{余数}<\text{除数}$$
+
+---
+
+**思考与练习**
+
+1. 请计算
+
+$$
+\begin{array}{lll}
+42 \div 6 = \underline{\qquad}\qquad & 72 \div 8 = \underline{\qquad}\qquad & 56 \div 7 = \underline{\qquad} \\[1.5em]
+32 \div 4 = \underline{\qquad}\qquad & 63 \div 9 = \underline{\qquad}\qquad & 45 \div 5 = \underline{\qquad} \\[1.5em]
+48 \div 8 = \underline{\qquad}\qquad & 49 \div 7 = \underline{\qquad}\qquad & 54 \div 6 = \underline{\qquad}
+\end{array}
+$$
 
 ---
 
@@ -2148,6 +2163,20 @@ $$
 
 ---
 
+**思考与练习**
+
+1. 请计算
+
+$$
+\begin{array}{lll}
+384 \div 6 = \underline{\qquad}\qquad & 576 \div 8 = \underline{\qquad}\qquad & 441 \div 7 = \underline{\qquad} \\[1.5em]
+296 \div 4 = \underline{\qquad}\qquad & 837 \div 9 = \underline{\qquad}\qquad & 325 \div 5 = \underline{\qquad} \\[1.5em]
+648 \div 8 = \underline{\qquad}\qquad & 553 \div 7 = \underline{\qquad}\qquad & 486 \div 6 = \underline{\qquad}
+\end{array}
+$$
+
+---
+
 ### 5.5. 多位数除法
 
 多位数除法的步骤与一位数除法的步骤完全一样。
@@ -2242,6 +2271,20 @@ $$
 $$
 
 所以： $13728\div67=204\cdots60$
+
+---
+
+**思考与练习**
+
+1. 请计算
+
+$$
+\begin{array}{lll}
+3816 \div 36 = \underline{\qquad}\qquad & 8856 \div 72 = \underline{\qquad}\qquad & 5292 \div 54 = \underline{\qquad} \\[1.5em]
+4752 \div 48 = \underline{\qquad}\qquad & 9890 \div 43 = \underline{\qquad}\qquad & 7896 \div 84 = \underline{\qquad} \\[1.5em]
+6216 \div 56 = \underline{\qquad}\qquad & 8190 \div 65 = \underline{\qquad}\qquad & 7548 \div 92 = \underline{\qquad}
+\end{array}
+$$
 
 ---
 
