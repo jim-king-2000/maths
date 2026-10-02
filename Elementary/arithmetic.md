@@ -2339,6 +2339,19 @@ $$
 
 ---
 
+**思考与练习**
+
+1. 请计算
+
+$$
+\begin{array}{ll}
+3+5-5-3=\underline{\qquad} & 6-2+2-6=\underline{\qquad} \\
+8\div2\times2\div8=\underline{\qquad} & 2\times8\div2\div8=\underline{\qquad} \\
+\end{array}
+$$
+
+---
+
 ### 6.2. 带括号的四则运算
 
 当算式中出现括号时，括号可以**明确指定某一部分应该先进行运算**。
@@ -2575,7 +2588,7 @@ $$
 1. 请计算，并说说发现了什么规律。
 
 $$
-\begin{array}{rll}
+\begin{array}{ll}
 6 \times (10 + 4) = \underline{\qquad} \qquad\qquad & 6 \times 10 + 6 \times 4 = \underline{\qquad} \\[1.5em]
 8 \times (20 - 5) = \underline{\qquad} \qquad\qquad & 8 \times 20 - 8 \times 5 = \underline{\qquad} \\[1.5em]
 7 \times (12 + 8) = \underline{\qquad} \qquad\qquad & 7 \times 12 + 7 \times 8 = \underline{\qquad} \\[1.5em]
