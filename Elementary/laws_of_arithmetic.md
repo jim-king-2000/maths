@@ -1221,9 +1221,11 @@ $$(1+2)\times 3$$
 
 $$
 \huge
+\begin{array}{lll}
 \color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}\\
 \color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}\\
 \color{red}{\bullet}\quad\color{blue}{\bullet}\color{blue}{\bullet}
+\end{array}
 $$
 
 现在让我们单独计算红色小球的个数。每排一个，一共三排，所以是：
@@ -1705,6 +1707,12 @@ $$(a \pm b) \times c = a \times c \pm b \times c$$
 
 > **关键洞察**：很多人小学时背过“混合运算中，带符号可以任意搬家”。现在你明白了，这并不是什么新规则，这就是**加法(广义)交换律**！那个所谓的“减号”，本质上就是负数自己身上的“负号”。
 
+以后我们再遇到任何加减混合运算，例如： $3+6+9-3-6-9$ ，我们可以直接写：
+
+$$3+6+9\textcolor{red}{-3}\textcolor{red}{-6}\textcolor{red}{-9}=3\textcolor{red}{-3}+6\textcolor{red}{-6}+9\textcolor{red}{-9}$$
+
+但我们心里要知道，这背后是“负数”和“加法运算率”共同作用的结果。
+
 ---
 
 **【小试牛刀】**
@@ -1766,6 +1774,12 @@ $$a \times b \div c = a \times b \times \frac{1}{c} = a \times \frac{1}{c} \time
 
 > **关键洞察**：很多人小学时背过“乘除混合运算中，带符号可以任意搬家”。现在你明白了，这并不是什么新规则，这就是**乘法交换律**！那个所谓的“除号”，本质上就是倒数自己身上的“分子分母关系”。
 
+以后我们再遇到任何乘除混合运算，例如： $3\times6\times9\div3\div6\div9$ ，我们可以直接写：
+
+$$3\times6\times9\textcolor{red}{\div3}\textcolor{red}{\div6}\textcolor{red}{\div9}=3\textcolor{red}{\div3}\times6\textcolor{red}{\div6}\times9\textcolor{red}{\div9}$$
+
+但我们心里要知道，这背后是“倒数”和“乘法运算率”共同作用的结果。
+
 ---
 
 **【小试牛刀】**
@@ -1808,7 +1822,40 @@ $$c \div (a + b) = c \times \frac{1}{a + b}$$
 
 ---
 
-## 5. 本章总结：四大运算归于加法
+## 5. 通往代数的阶梯：用运算律构建代数大厦
+
+让我们再来观察一下乘法分配律：
+
+$$\text{对于任意数 } a, b, c，\quad (a \pm b) \times c = a \times c \pm b \times c$$
+
+在前文中我们知道，字母 $a, b, c$ 可以代表任意的数，甚至可以代表**一个完整的算式**。
+
+那么，如果我们把 $c$ 替换成另一个算式 $(a + b)$，用乘法分配律展开，会发生什么奇妙的事情？
+
+我们来一步步拆解：
+
+$$
+\begin{aligned}
+(a + b) \times (a + b) &= a \times (a + b) + b \times (a + b) & \quad \text{（根据乘法分配律）} \\
+&= a \times a + a \times b + b \times a + b \times b & \quad \text{（再次对两项使用分配律）} \\
+&= a \times a + a \times b + a \times b + b \times b & \quad \text{（根据乘法交换律，$b \times a = a \times b$）} \\
+&= a \times a + 2 \times a \times b + b \times b & \quad \text{（合并同类项）}
+\end{aligned}
+$$
+
+如果我们使用代数中更简洁的记号（将 $a \times a$ 记作 $a^2$；省略乘号 $\times$，因为数学家懒到连“乘号”都不愿意写）：
+
+$$(a + b)^2 = a^2 + 2ab + b^2$$
+
+这就是代数中著名的**完全平方公式**！
+
+看到了吗？一个看起来需要死记硬背的高级代数公式，本质上不过是**乘法分配律和交换律组合演化出来的自然结果**。
+
+在接下来的代数世界里，你会看到许许多多看似复杂的公式与定理（如平方差公式、因式分解、解方程等）。不要害怕，它们的底层基石，全部都是我们现在所看到的这几条简单而优雅的**运算律**。
+
+---
+
+## 6. 本章总结：四大运算归于加法
 
 在这一章中，我们证明了加法和乘法的运算律。至于减法和除法的运算律，我们知道它们本质上没有运算律，都是转成加法和乘法。以后介绍完**负数**和**分数**之后，我们再来回顾运算律。
 
@@ -1857,7 +1904,7 @@ $$
 
 ---
 
-## 6. 给勇敢探索者的“数学彩蛋”
+## 7. 给勇敢探索者的“数学彩蛋”
 
 在这一章里，我们从最简单的小球出发，用“换个方向数”和“旋转阵列”的方法，理解了加法与乘法的运算律，并推导出了许多强大的新工具。
 
