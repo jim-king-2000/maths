@@ -2345,7 +2345,10 @@ $$
 
 $$
 \begin{array}{ll}
-3+5-5-3=\underline{\qquad} & 6-2+2-6=\underline{\qquad} \\
+3+2+5+6=\underline{\qquad} & 6+2+3+5=\underline{\qquad} \\
+3+5-5-3=\underline{\qquad} & 5-3+3-5=\underline{\qquad} \\
+2+6-2-6=\underline{\qquad} & 6-2+2-6=\underline{\qquad} \\
+2\times5\times3\times8=\underline{\qquad} & 8\times3\times2\times5=\underline{\qquad} \\
 8\div2\times2\div8=\underline{\qquad} & 2\times8\div2\div8=\underline{\qquad} \\
 \end{array}
 $$
@@ -2585,7 +2588,18 @@ $$
 \end{array}
 $$
 
-1. 请计算，并说说发现了什么规律。
+2. 请计算，并说说发现了什么规律。
+
+$$
+\begin{array}{ll}
+1+2+3+4 = \underline{\qquad} \qquad\qquad & 1+(2+3)+4 = \underline{\qquad} \\[1.5em]
+1+2+(3+4) = \underline{\qquad} \qquad\qquad & 4+(3+(2+1)) = \underline{\qquad} \\[1.5em]
+2\times5\times4\times3 = \underline{\qquad} \qquad\qquad & 2\times(5\times4)\times3 = \underline{\qquad} \\[1.5em]
+2\times5\times(4\times3) = \underline{\qquad} \qquad\qquad & 5\times(4\times(3\times2)) = \underline{\qquad} \\[1.5em]
+\end{array}
+$$
+
+3. 请计算，并说说发现了什么规律。
 
 $$
 \begin{array}{ll}
@@ -2593,7 +2607,9 @@ $$
 8 \times (20 - 5) = \underline{\qquad} \qquad\qquad & 8 \times 20 - 8 \times 5 = \underline{\qquad} \\[1.5em]
 7 \times (12 + 8) = \underline{\qquad} \qquad\qquad & 7 \times 12 + 7 \times 8 = \underline{\qquad} \\[1.5em]
 9 \times (15 - 5) = \underline{\qquad} \qquad\qquad & 9 \times 15 - 9 \times 5 = \underline{\qquad} \\[1.5em]
-(36 + 24) \div 6 = \underline{\qquad} \qquad\qquad & 36 \div 6 + 24 \div 6 = \underline{\qquad}
+(36 + 24) \div 6 = \underline{\qquad} \qquad\qquad & 36 \div 6 + 24 \div 6 = \underline{\qquad} \\[1.5em]
+(1 + 2 + 3) \times 5 = \underline{\qquad} \qquad\qquad & 1 \times 5 + 2 \times 5 + 3 \times 5 = \underline{\qquad} \\[1.5em]
+(1 + 2 + 3 - 4) \times 5 = \underline{\qquad} \qquad\qquad & 1 \times 5 + 2 \times 5 + 3 \times 5 - 4 \times 5 = \underline{\qquad}
 \end{array}
 $$
 
