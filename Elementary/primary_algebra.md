@@ -1,5 +1,13 @@
 # 第三部分 代数初步
 
+> *Pour transcrire leurs idées, les mathématiciens ont inventé un langage hermétique et des symboles barbares... que la quasi-totalité de l'humanité juge grotesquement abstrait et parfaitement inintelligible.*
+>
+> — David Bessis, Mathematica
+>
+> *为了记录自己的思想，数学家们发明了一种密不透风的语言和野蛮的符号……那些被全人类绝大多数人认为荒谬抽象且彻底无法理解的东西。*
+>
+> —— 大卫·贝西斯（法国数学家）《Mathematica》
+
 ## 1. 运算律
 
 ### 1.1 加法运算律

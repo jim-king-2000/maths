@@ -1,12 +1,12 @@
 # 第一部分 自然数计算法
 
-> *Les mathématiciens ont le don de rendre inintelligibles les choses les plus simples en inventant un langage hermétique.*
+> *Dans leur tête, les idées sont lumineuses, simples et puissantes. Sur le papier, elles deviennent tristes et rabougries.*
 >
-> — David Bessis
+> — David Bessis, Mathematica
 >
-> *数学家有一种天赋，能通过发明密不透风的语言，把最简单的事情变得完全无法理解。*
+> *在数学家的脑海里，思想是无比明亮、简单而强大的。可一旦落到纸面上，它们就变得干瘪而晦涩。*
 >
-> —— 大卫·贝西斯（法国数学家）
+> —— 大卫·贝西斯（法国数学家）《Mathematica》
 
 ## 1. 认识数字
 

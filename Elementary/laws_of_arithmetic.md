@@ -1,5 +1,13 @@
 # 第二部分 运算律
 
+> *La véritable intuition mathématique ne consiste pas à deviner la réponse, mais à comprendre le mécanisme secret des règles.*
+>
+> — David Bessis, Mathematica
+>
+> *真正的数学直觉并不是去猜出答案，而是去理解规则背后隐藏的秘密机制。*
+>
+> —— 大卫·贝西斯（法国数学家）《Mathematica》
+
 ## 1. 加法运算律
 
 ### 1.1 加法交换律
