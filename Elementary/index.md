@@ -1,7 +1,7 @@
 # 写给孩子的数学
 
 **内容**
-1. [序言](preface.md)
+1. [序](preface.md)
 1. [自然数计算法](arithmetic.md)
 1. [运算律](laws_of_arithmetic.md)
 1. [代数初步](primary_algebra.md)

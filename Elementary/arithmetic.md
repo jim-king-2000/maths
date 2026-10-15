@@ -1,5 +1,13 @@
 # 第一部分 自然数计算法
 
+> *Les mathématiciens ont le don de rendre inintelligibles les choses les plus simples en inventant un langage hermétique.*
+>
+> — David Bessis
+>
+> *数学家有一种天赋，能通过发明密不透风的语言，把最简单的事情变得完全无法理解。*
+>
+> —— 大卫·贝西斯（法国数学家）
+
 ## 1. 认识数字
 
 ### 1.1. 自然数概述
