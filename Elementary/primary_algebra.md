@@ -491,21 +491,479 @@ $$
 
 ## 4. 等量公理
 
-### 4.1 天平
+### 4.1 天平与等量公理
 
-### 4.2 天平两端同时加 $1$
+天平是古时候人们拿来称重的仪器。当托盘两边重量相等的时候，天平就处于平衡状态。如下图所示。
 
-### 4.3 等式变换
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
 
-### 4.4 等式代换
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
 
-### 4.5 等量传递性
+    % --- 优雅的 S 形横梁 ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.0, 2.3) rectangle (-2.4, 2.45);
+    \fill[brown!70!black] (-4.1, 2.45) rectangle (-2.3, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.4, 2.3) rectangle (4.0, 2.45);
+    \fill[brown!70!black] (2.3, 2.45) rectangle (4.1, 2.55);
+
+    % --- 左边：一个大白色圆柱砝码（带提手） ---
+    \fill[white, draw=gray!60, thick] (-3.4, 2.55) rectangle (-2.8, 3.45);
+    \fill[white, draw=gray!60, thick] (-3.2, 3.45) rectangle (-3.0, 3.65);
+    \fill[white, draw=gray!60, thick] (-3.3, 3.65) rectangle (-2.9, 3.8);
+
+    % --- 右边：一个大白色圆柱砝码（带提手） ---
+    \fill[white, draw=gray!60, thick] (2.8, 2.55) rectangle (3.4, 3.45);
+    \fill[white, draw=gray!60, thick] (3.0, 3.45) rectangle (3.2, 3.65);
+    \fill[white, draw=gray!60, thick] (2.9, 3.65) rectangle (3.3, 3.8);
+
+\end{tikzpicture}
+```
+
+从上图中我们可以看出，天平的两边都是相同尺寸的大砝码。很显然，天平应该平衡。
+
+在数学上，这个特性叫做**自反性**。表示为：$\quad a=a$。
+
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
+
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
+
+    % --- 优雅的 S 形横梁（保持水平平衡） ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.0, 2.3) rectangle (-2.4, 2.45);
+    \fill[brown!70!black] (-4.1, 2.45) rectangle (-2.3, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.4, 2.3) rectangle (4.0, 2.45);
+    \fill[brown!70!black] (2.3, 2.45) rectangle (4.1, 2.55);
+
+    % --- 左边：一只灰色的小鸭子 ---
+    % 小鸭身体
+    \fill[gray!60, draw=gray!80, thick] (-3.2, 2.8) ellipse (0.45 and 0.3);
+    % 小鸭头部
+    \fill[gray!60, draw=gray!80, thick] (-2.75, 3.15) circle (0.22);
+    % 小鸭嘴巴（橙色）
+    \fill[orange, draw=orange!80!black] (-2.55, 3.1) -- (-2.35, 3.05) -- (-2.55, 3.0) -- cycle;
+    % 小鸭眼睛
+    \fill[black] (-2.68, 3.22) circle (0.03);
+
+    % --- 右边：一个大白色圆柱砝码（带提手） ---
+    \fill[white, draw=gray!60, thick] (2.8, 2.55) rectangle (3.4, 3.45);
+    \fill[white, draw=gray!60, thick] (3.0, 3.45) rectangle (3.2, 3.65);
+    \fill[white, draw=gray!60, thick] (2.9, 3.65) rectangle (3.3, 3.8);
+
+\end{tikzpicture}
+```
+
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
+
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
+
+    % --- 优雅的 S 形横梁 ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.0, 2.3) rectangle (-2.4, 2.45);
+    \fill[brown!70!black] (-4.1, 2.45) rectangle (-2.3, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.4, 2.3) rectangle (4.0, 2.45);
+    \fill[brown!70!black] (2.3, 2.45) rectangle (4.1, 2.55);
+
+    % --- 左边：一个大白色圆柱砝码（带提手） ---
+    \fill[white, draw=gray!60, thick] (-3.4, 2.55) rectangle (-2.8, 3.45);
+    \fill[white, draw=gray!60, thick] (-3.2, 3.45) rectangle (-3.0, 3.65);
+    \fill[white, draw=gray!60, thick] (-3.3, 3.65) rectangle (-2.9, 3.8);
+
+    % --- 右边：一只灰色的小鸭子 ---
+    % 小鸭身体
+    \fill[gray!60, draw=gray!80, thick] (3.2, 2.8) ellipse (0.45 and 0.3);
+    % 小鸭头部
+    \fill[gray!60, draw=gray!80, thick] (3.65, 3.15) circle (0.22);
+    % 小鸭嘴巴（橙色）
+    \fill[orange, draw=orange!80!black] (3.85, 3.1) -- (4.05, 3.05) -- (3.85, 3.0) -- cycle;
+    % 小鸭眼睛
+    \fill[black] (3.72, 3.22) circle (0.03);
+
+\end{tikzpicture}
+```
+
+从上面两张图中我们可以发现，如果左边是小鸭子，右边是大砝码，并且天平平衡，那么把小鸭子和大砝码互换位置，天平也保持平衡。
+
+在数学上，这叫做**对称性**。表示为：$a=b \implies b=a$。
+
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
+
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
+
+    % --- 优雅的 S 形横梁 ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.0, 2.3) rectangle (-2.4, 2.45);
+    \fill[brown!70!black] (-4.1, 2.45) rectangle (-2.3, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.4, 2.3) rectangle (4.0, 2.45);
+    \fill[brown!70!black] (2.3, 2.45) rectangle (4.1, 2.55);
+
+    % --- 左边：一个大白色圆柱砝码（带提手） ---
+    \fill[white, draw=gray!60, thick] (-3.4, 2.55) rectangle (-2.8, 3.45);
+    \fill[white, draw=gray!60, thick] (-3.2, 3.45) rectangle (-3.0, 3.65);
+    \fill[white, draw=gray!60, thick] (-3.3, 3.65) rectangle (-2.9, 3.8);
+
+    % --- 右边：一只灰色的小鸭子 ---
+    % 小鸭身体
+    \fill[gray!60, draw=gray!80, thick] (3.2, 2.8) ellipse (0.45 and 0.3);
+    % 小鸭头部
+    \fill[gray!60, draw=gray!80, thick] (3.65, 3.15) circle (0.22);
+    % 小鸭嘴巴（橙色）
+    \fill[orange, draw=orange!80!black] (3.85, 3.1) -- (4.05, 3.05) -- (3.85, 3.0) -- cycle;
+    % 小鸭眼睛
+    \fill[black] (3.72, 3.22) circle (0.03);
+
+\end{tikzpicture}
+```
+
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
+
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
+
+    % --- 优雅的 S 形横梁（保持水平平衡） ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.0, 2.3) rectangle (-2.4, 2.45);
+    \fill[brown!70!black] (-4.1, 2.45) rectangle (-2.3, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.4, 2.3) rectangle (4.0, 2.45);
+    \fill[brown!70!black] (2.3, 2.45) rectangle (4.1, 2.55);
+
+    % --- 左边：一个大白色圆柱砝码（带提手） ---
+    \fill[white, draw=gray!60, thick] (-3.4, 2.55) rectangle (-2.8, 3.45);
+    \fill[white, draw=gray!60, thick] (-3.2, 3.45) rectangle (-3.0, 3.65);
+    \fill[white, draw=gray!60, thick] (-3.3, 3.65) rectangle (-2.9, 3.8);
+
+    % --- 右边：三个红色小砝码并排站立 ---
+    % 红色小砝码 1
+    \fill[red!75, draw=red!90!black, thick] (2.6, 2.55) rectangle (2.9, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (2.7, 2.95) rectangle (2.8, 3.1);
+    % 红色小砝码 2
+    \fill[red!75, draw=red!90!black, thick] (3.0, 2.55) rectangle (3.3, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (3.1, 2.95) rectangle (3.2, 3.1);
+    % 红色小砝码 3
+    \fill[red!75, draw=red!90!black, thick] (3.4, 2.55) rectangle (3.7, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (3.5, 2.95) rectangle (3.6, 3.1);
+
+\end{tikzpicture}
+```
+
+在上面的两幅天平的图中，我们能阅读出以下信息：
+- 大砝码与小鸭子重量相等。
+- 大砝码与三个红色的小砝码重量相等。
+
+我们能够推断出，小鸭子与三个红色的小砝码重量也相等。我们可以拿天平验证一下：
+
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
+
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
+
+    % --- 优雅的 S 形横梁（保持水平平衡） ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.0, 2.3) rectangle (-2.4, 2.45);
+    \fill[brown!70!black] (-4.1, 2.45) rectangle (-2.3, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.4, 2.3) rectangle (4.0, 2.45);
+    \fill[brown!70!black] (2.3, 2.45) rectangle (4.1, 2.55);
+
+    % --- 左边：一只灰色的小鸭子 ---
+    % 小鸭身体
+    \fill[gray!60, draw=gray!80, thick] (-3.2, 2.8) ellipse (0.45 and 0.3);
+    % 小鸭头部
+    \fill[gray!60, draw=gray!80, thick] (-2.75, 3.15) circle (0.22);
+    % 小鸭嘴巴（橙色）
+    \fill[orange, draw=orange!80!black] (-2.55, 3.1) -- (-2.35, 3.05) -- (-2.55, 3.0) -- cycle;
+    % 小鸭眼睛
+    \fill[black] (-2.68, 3.22) circle (0.03);
+
+    % --- 右边：三个红色小砝码并排站立 ---
+    % 红色小砝码 1
+    \fill[red!75, draw=red!90!black, thick] (2.6, 2.55) rectangle (2.9, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (2.7, 2.95) rectangle (2.8, 3.1);
+    % 红色小砝码 2
+    \fill[red!75, draw=red!90!black, thick] (3.0, 2.55) rectangle (3.3, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (3.1, 2.95) rectangle (3.2, 3.1);
+    % 红色小砝码 3
+    \fill[red!75, draw=red!90!black, thick] (3.4, 2.55) rectangle (3.7, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (3.5, 2.95) rectangle (3.6, 3.1);
+
+\end{tikzpicture}
+```
+
+在数学上，这叫做**传递性**。表示为：$a=b,b=c \implies a=c$。
+
+```tikz
+\begin{tikzpicture}[scale=1.1]
+    % --- 经典复古阶梯底座 ---
+    \fill[brown!70!black] (-1.2, 0) rectangle (1.2, 0.15);
+    \fill[brown!70!black] (-0.9, 0.15) rectangle (0.9, 0.3);
+    \fill[brown!70!black] (-0.6, 0.3) rectangle (0.6, 0.45);
+    \fill[brown!70!black] (-0.3, 0.45) rectangle (0.3, 0.6);
+
+    % --- 竖直支柱与塔尖装饰 ---
+    \fill[brown!70!black] (-0.15, 0.6) rectangle (0.15, 2.8);
+    \fill[brown!80!black] (0, 2.8) circle (0.2);
+    \fill[brown!80!black] (-0.1, 2.8) -- (0.1, 2.8) -- (0, 3.15) -- cycle;
+
+    % --- 优雅的 S 形横梁（保持水平平衡） ---
+    \fill[brown!80!black] (0, 2.85) ellipse (0.3 and 0.15);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (-1.5, 3.3) and (-2.5, 2.1) .. (-3.2, 2.3);
+    \draw[very thick, brown!80!black] (0, 2.8) .. controls (1.5, 3.3) and (2.5, 2.1) .. (3.2, 2.3);
+
+    % 左右臂末端悬挂点
+    \fill[brown!90!black] (-3.2, 2.3) circle (0.12);
+    \fill[brown!90!black] (3.2, 2.3) circle (0.12);
+
+    % --- 左右平底实心托盘 ---
+    % 左托盘
+    \fill[brown!50, draw=brown!80!black, thick] (-4.2, 2.3) rectangle (-2.2, 2.45);
+    \fill[brown!70!black] (-4.3, 2.45) rectangle (-2.1, 2.55);
+    % 右托盘
+    \fill[brown!50, draw=brown!80!black, thick] (2.2, 2.3) rectangle (4.2, 2.45);
+    \fill[brown!70!black] (2.1, 2.45) rectangle (4.3, 2.55);
+
+    % --- 左边：两个大砝码 + 一个小砝码 ---
+    % 大砝码 1
+    \fill[white, draw=gray!60, thick] (-4.0, 2.55) rectangle (-3.4, 3.45);
+    \fill[white, draw=gray!60, thick] (-3.8, 3.45) rectangle (-3.6, 3.65);
+    \fill[white, draw=gray!60, thick] (-3.9, 3.65) rectangle (-3.5, 3.8);
+    % 红色小砝码
+    \fill[red!75, draw=red!90!black, thick] (-3.3, 2.55) rectangle (-3.0, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (-3.2, 2.95) rectangle (-3.1, 3.1);
+    % 大砝码 2
+    \fill[white, draw=gray!60, thick] (-2.9, 2.55) rectangle (-2.3, 3.45);
+    \fill[white, draw=gray!60, thick] (-2.7, 3.45) rectangle (-2.5, 3.65);
+    \fill[white, draw=gray!60, thick] (-2.8, 3.65) rectangle (-2.4, 3.8);
+
+    % --- 右边：大砝码 + 红色小砝码（在中间） + 小鸭子 ---
+    % 大砝码
+    \fill[white, draw=gray!60, thick] (2.4, 2.55) rectangle (3.0, 3.45);
+    \fill[white, draw=gray!60, thick] (2.6, 3.45) rectangle (2.8, 3.65);
+    \fill[white, draw=gray!60, thick] (2.5, 3.65) rectangle (2.9, 3.8);
+    % 红色小砝码（中间）
+    \fill[red!75, draw=red!90!black, thick] (3.1, 2.55) rectangle (3.4, 2.95);
+    \fill[red!75, draw=red!90!black, thick] (3.2, 2.95) rectangle (3.3, 3.1);
+    % 灰色小鸭子
+    \fill[gray!60, draw=gray!80, thick] (3.7, 2.8) ellipse (0.28 and 0.22);
+    \fill[gray!60, draw=gray!80, thick] (3.95, 3.0) circle (0.15);
+    \fill[orange, draw=orange!80!black] (4.08, 2.96) -- (4.18, 2.92) -- (4.08, 2.88) -- cycle;
+    \fill[black] (3.98, 3.06) circle (0.02);
+
+\end{tikzpicture}
+```
+
+我们之前已经知道了大砝码与小鸭子重量相等。我们现在做的，是把左边的一个大砝码，换成一个小鸭子，两边依然保持平衡。
+
+在数学上，这叫做等量替换。**若$a=b$，则在任何表达式中，都可以用$b$替换$a$**。
+
+### 4.2 等式变换
+
+我们可以用等量公理推出一些很有用的结论。
+
+首先，我们设：$a=b$。
+
+根据自反性，我们有：$a+c=a+c$。
+
+用等量代换，把等号右边的$a$换成$b$：$a+c=b+c$。
+
+$$a=b \implies a+c=b+c$$
+
+看见了吗？**等式两边同加，等式依然成立**。
+
+同理，我们可以得出：
+
+$$a=b \implies a-c=b-c$$
+
+**等式两边同减，等式依然成立**。但我们应该清楚，这就是**同加**，只不过两边同时加了一个**负数**。
+
+让我们如法炮制。根据自反性：$ac=ac$。
+
+用等量代换，把等号右边的$a$换成$b$：$ac=bc$。
+
+$$a=b \implies ac=bc$$
+
+**等式两边同乘，等式依然成立**。
+
+如果同时乘以零会发生什么？$2 \ne 3$，我们把一个本来不相等的式子两边乘以零，那么$0 \times 2 = 0 \times 3$。这将把一个本来不相等的式子变成相等的。所以：
+
+> **注意：等式两边不能同时乘以零。**
+
+由于除以一个数相当于乘以这个数的**倒数**，所以**等式两边同除，等式依然成立**。
+
+因为除以零无意义，所以：
+
+> **注意：等式两边不能同时除以零。**
+
+### 4.3 总结
+#### 4.3.1 等量公理
+1. **自反性（Reflexivity）**：$a=a$。
+1. **对称性（Symmetry）**：$a=b \implies b=a$。
+1. **传递性（Transitivity）**：$a=b,b=c \implies a=c$。
+1. **等量替换 / 代换律（Substitution）**：若 $a = b$，则在任何表达式中，都可以用 $b$ 替换 $a$。
+
+#### 4.3.2 等式变换
+
+等式两边可以**同加同减同乘同除**，等式维持不变。
+
+> **注意：不可以同乘零或者同除零。**
 
 ## 5. 恒等式
 
-5.1 完全平方和公式
+### 5.1 完全平方和公式
 
-5.2 平方差公式
+$$(a+b)^2 = a^2 + 2ab + b^2$$
+
+证明：
+
+$$
+\begin{aligned}
+(a+b)^2 &= (a+b)(a+b) \\
+&= a(a+b) + b(a+b) \\
+&= a^2 + ab + ba + b^2 \\
+&= a^2 + ab + ab + b^2 \\
+&= a^2 + 2ab + b^2
+\end{aligned}
+$$
+
+### 5.2 完全平方差公式
+
+$$(a-b)^2 = a^2 - 2ab + b^2$$
+
+证明：
+
+$$
+\begin{aligned}
+(a-b)^2 &= (a-b)(a-b) \\
+&= a(a-b) - b(a-b) \\
+&= a^2 - ab - ba + b^2 \\
+&= a^2 - ab - ab + b^2 \\
+&= a^2 - 2ab + b^2
+\end{aligned}
+$$
+
+### 5.3 平方差公式
+
+$$(a+b)(a-b) = a^2 - b^2$$
+
+证明：
+
+$$
+\begin{aligned}
+(a+b)(a-b) &= a(a-b) + b(a-b) \\
+&= a^2 - ab + ba - b^2 \\
+&= a^2 - ab + ab - b^2 \\
+&= a^2 - b^2
+\end{aligned}
+$$
 
 ## 6. 方程术
 
