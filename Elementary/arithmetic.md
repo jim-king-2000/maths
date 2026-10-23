@@ -2617,6 +2617,16 @@ $$
 
 $$
 \begin{array}{ll}
+10-2-1 = \underline{\qquad} \qquad\qquad & 10-(2+1) = \underline{\qquad} \\[1.5em]
+10-2-1-3 = \underline{\qquad} \qquad\qquad & 10-(2+1+3) = \underline{\qquad} \\[1.5em]
+10-2-3+4 = \underline{\qquad} \qquad\qquad & 10-(2+3-4) = \underline{\qquad} \\[1.5em]
+\end{array}
+$$
+
+4. 请计算，并说说发现了什么规律。
+
+$$
+\begin{array}{ll}
 6 \times (10 + 4) = \underline{\qquad} \qquad\qquad & 6 \times 10 + 6 \times 4 = \underline{\qquad} \\[1.5em]
 8 \times (20 - 5) = \underline{\qquad} \qquad\qquad & 8 \times 20 - 8 \times 5 = \underline{\qquad} \\[1.5em]
 7 \times (12 + 8) = \underline{\qquad} \qquad\qquad & 7 \times 12 + 7 \times 8 = \underline{\qquad} \\[1.5em]
