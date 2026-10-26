@@ -5,7 +5,7 @@
 1. [自然数计算法](arithmetic.md)
 1. [运算律](laws_of_arithmetic.md)
 1. [代数初步](primary_algebra.md)
-1. 整数计算法
+1. 负数计算法(negative_number.md)
 1. 进位制与竖式计算原理
 1. 数论初步
 1. 分数计算法
