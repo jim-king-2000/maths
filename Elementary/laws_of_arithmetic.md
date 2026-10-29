@@ -764,15 +764,15 @@ $$
 8+5+4+1+7+6+2+3
 $$
 
-    因为每一次交换都不会改变总和，所以整个过程中总和始终不变。
+因为每一次交换都不会改变总和，所以整个过程中总和始终不变。
 
-    因此：
+因此：
 
 $$
 \boxed{1+2+3+4+5+6+7+8 = 8+5+4+1+7+6+2+3}
 $$
 
-    而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
+而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
 
 这就彻底证明了：
 
@@ -794,13 +794,13 @@ $$
 7+2+3+8
 $$
 
-    变成
+变成
 
 $$
 8+7+3+2
 $$
 
-    如果能，最少需要交换几次？
+如果能，最少需要交换几次？
 
 ---
 
@@ -1078,25 +1078,22 @@ $$2 \times 3 \times 4 = (2 \times 3) \times 4$$
 ```tikz
 \begin{tikzpicture}[x={(1.2cm,-0.3cm)}, y={(0.9cm,0.4cm)}, z={(0cm,1.2cm)}]
 
-  % 循环绘制 4 层（从底层到顶层）
-  \foreach \z in {1, 2, 3, 4} {
+\foreach \z in {1, 2, 3, 4} {
 
-    % 每层只画穿过小球的平行虚线（横向 3 行，纵向 2 列）
-    \draw[dashed, blue!80, thick] (1,1,\z) -- (2,1,\z);
-    \draw[dashed, blue!80, thick] (1,2,\z) -- (2,2,\z);
-    \draw[dashed, blue!80, thick] (1,3,\z) -- (2,3,\z);
+  \draw[dashed, blue!80, thick] (1,1,\z) -- (2,1,\z);
+  \draw[dashed, blue!80, thick] (1,2,\z) -- (2,2,\z);
+  \draw[dashed, blue!80, thick] (1,3,\z) -- (2,3,\z);
 
-    \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
-    \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
+  \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
+  \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
 
-    % 每层绘制 3 行 2 列的小球
-    \foreach \x in {1, 2} {
-      \foreach \y in {1, 2, 3} {
-        \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
-      }
+  \foreach \x in {1, 2} {
+    \foreach \y in {1, 2, 3} {
+      \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
     }
-
   }
+
+}
 
 \end{tikzpicture}
 ```
@@ -1106,28 +1103,24 @@ $$2 \times 3 \times 4 = (2 \times 3) \times 4$$
 ```tikz
 \begin{tikzpicture}[x={(1.2cm,-0.3cm)}, y={(0.9cm,0.4cm)}, z={(0cm,1.2cm)}]
 
-  % 循环绘制 2 层（Z 轴方向：z=1 和 z=2）
-  \foreach \z in {1, 2} {
+\foreach \z in {1, 2} {
 
-    % 横向虚线（沿 X 轴方向，穿过 3 行小球）
-    \draw[dashed, blue!80, thick] (1,1,\z) -- (4,1,\z);
-    \draw[dashed, blue!80, thick] (1,2,\z) -- (4,2,\z);
-    \draw[dashed, blue!80, thick] (1,3,\z) -- (4,3,\z);
+  \draw[dashed, blue!80, thick] (1,1,\z) -- (4,1,\z);
+  \draw[dashed, blue!80, thick] (1,2,\z) -- (4,2,\z);
+  \draw[dashed, blue!80, thick] (1,3,\z) -- (4,3,\z);
 
-    % 纵向虚线（沿 Y 轴方向，穿过 4 列小球）
-    \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
-    \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
-    \draw[dashed, blue!80, thick] (3,1,\z) -- (3,3,\z);
-    \draw[dashed, blue!80, thick] (4,1,\z) -- (4,3,\z);
+  \draw[dashed, blue!80, thick] (1,1,\z) -- (1,3,\z);
+  \draw[dashed, blue!80, thick] (2,1,\z) -- (2,3,\z);
+  \draw[dashed, blue!80, thick] (3,1,\z) -- (3,3,\z);
+  \draw[dashed, blue!80, thick] (4,1,\z) -- (4,3,\z);
 
-    % 绘制每层 3 行 4 列的小球（共 12 个）
-    \foreach \x in {1, 2, 3, 4} {
-      \foreach \y in {1, 2, 3} {
-        \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
-      }
+  \foreach \x in {1, 2, 3, 4} {
+    \foreach \y in {1, 2, 3} {
+      \node[circle, draw=blue!90, fill=blue!60, inner sep=2.2pt] at (\x, \y, \z) {};
     }
-
   }
+
+}
 
 \end{tikzpicture}
 ```
@@ -1518,15 +1511,15 @@ $$
 
 $$8\times5\times4\times9\times7\times6\times2\times3$$
 
-    因为每一次左移都不会改变积，所以整个过程中积始终不变。
+因为每一次左移都不会改变积，所以整个过程中积始终不变。
 
-    因此：
+因此：
 
 $$
 \boxed{9\times2\times3\times4\times5\times6\times7\times8 = 8\times5\times4\times9\times7\times6\times2\times3}
 $$
 
-    而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
+而且，因为位置是有限的，每次都能锁定一个正确的位置，所以这个过程必然能在有限步之内完成。
 
 这就彻底证明了：
 
@@ -1808,7 +1801,7 @@ $$(a \pm b) \div c = (a \pm b) \times \frac{1}{c} = a \times \frac{1}{c} \pm b \
 
 因为 $\frac{1}{c}$ 是一个整体的乘数，可以直接运用**乘法分配律**展开。
 
-#### ⚠️ 极其关键的反例警告：除数（分母）绝对不能拆开！
+#### 极其关键的反例警告：除数（分母）绝对不能拆开！
 
 $$c \div (a + b) \neq c \div a + c \div b$$
 
