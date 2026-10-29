@@ -82,74 +82,100 @@ $$
 
 那么，我们究竟是怎样通过数字知道“东西有多少个”的呢？
 
-例如，下面有一群鸭子，怎样知道一共有几只？
+例如，下面有一排红色小球，怎样知道一共有几只？
 
 $$
 \huge
-🦆\quad🦆\quad🦆\quad🦆\quad🦆
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
 $$
 
 “数数”的本质，其实是一个**按顺序建立一一对应**的过程。
 
-* **按顺序编号**：按照一定的方向，依次给每只鸭子指定一个数字，并且后一个数字总比前一个数字大 $1$。
-* **确定总数**：如果从 $1$ 开始，不重不漏地数下去，那么**最后报出的数字就是这群鸭子的总数量**。
+* **按顺序编号**：按照一定的方向，依次给每个小球指定一个数字，并且后一个数字总比前一个数字大 $1$。
+* **确定总数**：如果从 $1$ 开始，不重不漏地数下去，那么**最后报出的数字就是这排小球的总数量**。
 
-以上面的鸭子为例：
+以上面的小球为例：
 
 $$
 \huge
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
-\overset{\text{🦆}}{\boxed{3}}
-\overset{\text{🦆}}{\boxed{4}}
-\overset{\text{🦆}}{\boxed{5}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{3}}
+\overset{\color{red}{\huge\bullet}}{\boxed{4}}
+\overset{\color{red}{\huge\bullet}}{\boxed{5}}
 $$
 
 我们可以清晰地观察到计数的规律：
 
-* 第一只鸭子对应数字 **$1$**。
-* 接下来的每一只鸭子，对应的数字都比前一只**增加 $1$**。
-* 数到最后一只鸭子时，报出的数字是 **$5$**。
+* 第一个小球对应数字 **$1$**。
+* 接下来的每一个小球，对应的数字都比前一只**增加 $1$**。
+* 数到最后一个小球时，报出的数字是 **$5$**。
 
-因此，这群鸭子的总数量就是 **$5$**。
+因此，这排小球的总数量就是 **$5$**。
 
-如果一只鸭子也没有呢？
+如果一个小球也没有呢？
 
 我们就用数字 **$0$** 来表示。
 
-**$0$ 只鸭子，就是“没有鸭子”，也就是数量为 $0$。**
+**$0$ 个小球，就是“没有小球”，也就是数量为 $0$。**
 
 ---
 
 **思考与练习：**
 
-1. 数一数，下面一共有几只鸭子？
+1. 数一数，下面一共有几个小球？
 
 $$
 \huge
-🦆\quad🦆\quad🦆\quad🦆\quad🦆\quad🦆\quad🦆\quad🦆\quad🦆\quad🦆
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
+\quad
+\color{red}{\huge\bullet}
 $$
 
 2. 请找出下面数数过程中的错误，并说明为什么：
 
 $$
 \huge
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
-\overset{\text{🦆}}{\boxed{4}}
-\overset{\text{🦆}}{\boxed{5}}
-\overset{\text{🦆}}{\boxed{6}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{4}}
+\overset{\color{red}{\huge\bullet}}{\boxed{5}}
+\overset{\color{red}{\huge\bullet}}{\boxed{6}}
 $$
 
 3. **第一性原理思考题：**
 
-	如果有 $5$ 只鸭子，我们不用 $1$ 起步，而是从 $2$ 开始数：
+	如果有 $5$ 个小球，我们不用 $1$ 起步，而是从 $2$ 开始数：
 
 	第一只报数 $2$，第二只报数 $3$，……
 
-	那么最后一只鸭子报出的数字是多少？
+	那么最后一个小球报出的数字是多少？
 
-	此时，这个数字和鸭子的总数量是什么关系？
+	此时，这个数字和小球的总数量是什么关系？
 
 ### 1.3 下一个数：满十进一
 
@@ -268,29 +294,29 @@ $$
 
 #### 方法一：从头重新数（最慢）
 
-把所有鸭子摆在一起，从 $1$ 开始重新数一遍：
+把所有小球摆在一起，从 $1$ 开始重新数一遍：
 
 $$
 \huge
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
 \qquad
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
-\overset{\text{🦆}}{\boxed{3}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{3}}
 \quad \longrightarrow \quad
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
-\overset{\text{🦆}}{\boxed{3}}
-\overset{\text{🦆}}{\boxed{4}}
-\overset{\text{🦆}}{\boxed{5}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{3}}
+\overset{\color{red}{\huge\bullet}}{\boxed{4}}
+\overset{\color{red}{\huge\bullet}}{\boxed{5}}
 $$
 
-数出最后是 $5$ 只，所以 $2+3=5$。
+数出最后是 $5$ 个，所以 $2+3=5$。
 
 #### 方法二：从起点出发，连续取“下一个数”
 
-其实，前面的 $2$ 只鸭子我们已经知道了，不需要重新从 $1$ 数起。
+其实，前面的 $2$ 个小球我们已经知道了，不需要重新从 $1$ 数起。
 
 **“$+ 3$” 的本质，就是以 $2$ 为起点，连续找 $3$ 次“下一个数”！**
 
@@ -413,17 +439,17 @@ $$
 
 6. **第一性原理思考题：**
 
-	请观察下面的鸭子队列，在方框中填入正确的数字：
+	请观察下面的小球队列，在方框中填入正确的数字：
 
 $$
 \huge
 \begin{array}{cccccc}
-\overset{\text{🦆}}{\boxed{1}}&
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}&
 \cdots&
-\overset{\text{🦆}}{\boxed{3562}}&
-\overset{\text{🦆}_1}{\boxed{\phantom{0000}}}&
-\overset{\text{🦆}_2}{\boxed{\phantom{0000}}}&
-\overset{\text{🦆}_3}{\boxed{\phantom{0000}}}
+\overset{\color{red}{\huge\bullet}}{\boxed{3562}}&
+\overset{\color{red}{\huge\bullet}_1}{\boxed{\phantom{0000}}}&
+\overset{\color{red}{\huge\bullet}_2}{\boxed{\phantom{0000}}}&
+\overset{\color{red}{\huge\bullet}_3}{\boxed{\phantom{0000}}}
 \end{array}
 $$
 
@@ -643,13 +669,13 @@ $$
 
 例如：
 
-有 $2$ 排鸭子，每一排都有 $3$ 只，一共有多少只鸭子？
+有 $2$ 排小球，每一排都有 $3$ 个，一共有多少个小球？
 
 $$
 \huge
 \begin{array}{ccc}
-🦆&🦆&🦆\\
-🦆&🦆&🦆
+\color{red}{\huge\bullet}&\color{red}{\huge\bullet}&\color{red}{\huge\bullet}\\
+\color{red}{\huge\bullet}&\color{red}{\huge\bullet}&\color{red}{\huge\bullet}
 \end{array}
 $$
 
@@ -695,7 +721,7 @@ $$
 
 在算式 $3\times2$ 中：
 
-* **前一个数 $3$**：表示每次重复的数量，也就是每一行有 $3$ 只鸭子；
+* **前一个数 $3$**：表示每次重复的数量，也就是每一行有 $3$ 个小球；
 * **后一个数 $2$**：表示重复的次数，也就是一共有 $2$ 行。
 
 因此：
@@ -711,8 +737,8 @@ $$
 3\times2
 \Rightarrow
 \begin{cases}
-🦆🦆🦆\\
-🦆🦆🦆
+\color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet} \\
+\color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet}
 \end{cases}
 $$
 
@@ -737,9 +763,9 @@ $$
 4\times3
 \Rightarrow
 \begin{cases}
-🦆🦆🦆🦆\\
-🦆🦆🦆🦆\\
-🦆🦆🦆🦆
+\color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet}\\
+\color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet}\\
+\color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet}\\
 \end{cases}
 $$
 
@@ -766,14 +792,14 @@ $$
 3\times1
 $$
 
-表示只有 $1$ 行，每行有 $3$ 只小鸭子：
+表示只有 $1$ 行，每行有 $3$ 个小球：
 
 $$
 \huge
 3\times1
 \Rightarrow
 \begin{cases}
-🦆🦆🦆
+\color{red}{\huge\bullet} \color{red}{\huge\bullet} \color{red}{\huge\bullet}
 \end{cases}
 $$
 
@@ -881,7 +907,7 @@ $$
 
 3. **直观绘图题：**
 
-	请用圆圈 `○` 代替鸭子，按照“行与列”的阵列方式，画出表达 $3\times5$ 的点阵图。
+	请用圆圈 $\circ$ ，按照“行与列”的阵列方式，画出表达 $3\times5$ 的点阵图。
 
 ### 3.2. 一位数乘法
 
@@ -1236,15 +1262,15 @@ $$
 如果说加法是**在数轴上“向右走”**，数值会越来越大；
 那么减法就是**在数轴上“向左走”**，数值会越来越小。
 
-为了算出 $5-2$，我们可以先排好 $5$ 只小鸭子：
+为了算出 $5-2$，我们可以先排好 $5$ 个小球：
 
 $$
 \huge
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
-\overset{\text{🦆}}{\boxed{3}}
-\overset{\text{🦆}}{\boxed{4}}
-\overset{\text{🦆}}{\boxed{5}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{3}}
+\overset{\color{red}{\huge\bullet}}{\boxed{4}}
+\overset{\color{red}{\huge\bullet}}{\boxed{5}}
 $$
 
 然后从 $5$ 开始，像倒计时一样，向左退 $2$ 步：
@@ -1256,9 +1282,9 @@ $$
 
 $$
 \huge
-\overset{\text{🦆}}{\boxed{1}}
-\overset{\text{🦆}}{\boxed{2}}
-\overset{\text{🦆}}{\boxed{3}}
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}
+\overset{\color{red}{\huge\bullet}}{\boxed{3}}
 \overset{\phantom{🦆}}{\boxed{\phantom{4}}}
 \overset{\phantom{🦆}}{\boxed{\phantom{5}}}
 $$
@@ -1292,7 +1318,7 @@ $$
 
 > **思考小贴士：**
 >
-> 在自然数的王国里，由于我们还没有引入负数，所以被减数必须**大于或等于**减数（你不能从 $2$ 只鸭子里拿走 $5$ 只）。
+> 在自然数的王国里，由于我们还没有引入负数，所以被减数必须**大于或等于**减数（你不能从 $2$ 个小球里拿走 $5$ 个）。
 
 ---
 
@@ -1396,18 +1422,18 @@ $$
 
 3. **第一性原理思考题：**
 
-	请观察下面的鸭子队列，在方框中填入正确的数字：
+	请观察下面的小球队列，在方框中填入正确的数字：
 
 $$
 \huge
 \begin{array}{ccccccc}
-\overset{\text{🦆}}{\boxed{1}}&
-\overset{\text{🦆}}{\boxed{2}}&
+\overset{\color{red}{\huge\bullet}}{\boxed{1}}&
+\overset{\color{red}{\huge\bullet}}{\boxed{2}}&
 \cdots&
-\overset{\text{🦆}}{\boxed{\phantom{0000}}}&
-\overset{\text{🦆}_1}{\boxed{\phantom{0000}}}&
-\overset{\text{🦆}_2}{\boxed{\phantom{0000}}}&
-\overset{\text{🦆}_3}{\boxed{3565}}
+\overset{\color{red}{\huge\bullet}}{\boxed{\phantom{0000}}}&
+\overset{\color{red}{\huge\bullet}_1}{\boxed{\phantom{0000}}}&
+\overset{\color{red}{\huge\bullet}_2}{\boxed{\phantom{0000}}}&
+\overset{\color{red}{\huge\bullet}_3}{\boxed{3565}}
 \end{array}
 $$
 
