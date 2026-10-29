@@ -2057,44 +2057,41 @@ $$
 先用十位的 $7$ 除以 $3$，商 $2$（写在十位），消耗掉 $6$，还剩下 $1$。
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 2\phantom{0} \\
-3 \enclose{longdiv}{72} \\
+3 \big)\overline{72} \\
 \underline{6\phantom{0}} \\
 1\phantom{0}
 \end{array}
-}
 $$
 
 #### 第二步：余数与下一位结合
 十位剩下的 $1$ 无法被 $3$ 整除，将它与个位的 $2$ **向下组合**，构成新的数 $12$。
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 2\phantom{0} \\
-3 \enclose{longdiv}{72} \\
+3 \big)\overline{72} \\
 \underline{6\phantom{0}} \\
 12
 \end{array}
-}
 $$
 
 #### 第三步：个位算商（低位终结）
 用组合后的 $12$ 除以 $3$，商 $4$（写在个位），消耗 $12$，余数为 $0$。
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 24 \\
-3 \enclose{longdiv}{72} \\
+3 \big)\overline{72} \\
 \underline{6\phantom{0}} \\
 12 \\
 \underline{12} \\
 0
 \end{array}
-}
 $$
 
 由此得到最终结果：$72 \div 3 = 24$。
@@ -2106,27 +2103,25 @@ $$
 #### 第一步：百位试商
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 1\phantom{0}\phantom{0} \\
-6 \enclose{longdiv}{612} \\
+6 \big)\overline{612} \\
 \underline{6\phantom{0}\phantom{0}} \\
 0\phantom{0}\phantom{0}
 \end{array}
-}
 $$
 
 #### 第二步：余数与下一位结合
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 1\phantom{0}\phantom{0} \\
-6 \enclose{longdiv}{612} \\
+6 \big)\overline{612} \\
 \underline{6\phantom{0}\phantom{0}} \\
 01\phantom{0}
 \end{array}
-}
 $$
 
 #### 第三步：十位试商
@@ -2134,40 +2129,38 @@ $$
 我们发现， $1\div6$ ，商连 $1$ 都不能取。因为 $6\times1>1$ 。所以，这时，商只能是 $0$ 。
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 10\phantom{0} \\
-6 \enclose{longdiv}{612} \\
+6 \big)\overline{612} \\
 \underline{6\phantom{0}\phantom{0}} \\
 01\phantom{0}\\
 \underline{00\phantom{0}}\\
 \phantom{0}1\phantom{0}
 \end{array}
-}
 $$
 
 #### 第四步：余数与下一位结合
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 10\phantom{0} \\
-6 \enclose{longdiv}{612} \\
+6 \big)\overline{612} \\
 \underline{6\phantom{0}\phantom{0}} \\
 01\phantom{0}\\
 \underline{00\phantom{0}}\\
 \phantom{0}12
 \end{array}
-}
 $$
 
 #### 第五步：个位试商
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 102 \\
-6 \enclose{longdiv}{612} \\
+6 \big)\overline{612} \\
 \underline{6\phantom{0}\phantom{0}} \\
 01\phantom{0}\\
 \underline{00\phantom{0}}\\
@@ -2175,7 +2168,6 @@ $$
 \underline{\phantom{0}12}\\
 0
 \end{array}
-}
 $$
 
 由此得到最终结果： $612\div6=102$
@@ -2214,27 +2206,25 @@ $$67\times3=201\quad(\text{太大，舍弃})$$
 所以：
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 2\phantom{0}\phantom{0} \\
-67\enclose{longdiv}{13728} \\
+67 \big)\overline{13728} \\
 \underline{134\phantom{0}\phantom{0}} \\
 3\phantom{0}\phantom{0}
 \end{array}
-}
 $$
 
 #### 第二步：余数与下一位结合
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 2\phantom{0}\phantom{0} \\
-67\enclose{longdiv}{13728} \\
+67 \big)\overline{13728} \\
 \underline{134\phantom{0}\phantom{0}} \\
 32\phantom{0}
 \end{array}
-}
 $$
 
 #### 第三步：十位试商
@@ -2242,31 +2232,29 @@ $$
 由于 $32$ 比 $67$ 小，因此商只能是 $0$ 。
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 20\phantom{0} \\
-67\enclose{longdiv}{13728} \\
+67 \big)\overline{13728} \\
 \underline{134\phantom{0}\phantom{0}} \\
 32\phantom{0}\\
 \underline{00\phantom{0}}\\
 32\phantom{0}
 \end{array}
-}
 $$
 
 #### 第四步：余数与下一位结合
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 20\phantom{0} \\
-67\enclose{longdiv}{13728} \\
+67 \big)\overline{13728} \\
 \underline{134\phantom{0}\phantom{0}} \\
 32\phantom{0}\\
 \underline{00\phantom{0}}\\
 328
 \end{array}
-}
 $$
 
 #### 第五步：个位试商
@@ -2277,10 +2265,10 @@ $$67\times4=335\quad\text{太大，舍弃}$$
 所以：
 
 $$
-{\huge
+\huge
 \begin{array}{r}
 204 \\
-67\enclose{longdiv}{13728} \\
+67 \big)\overline{13728} \\
 \underline{134\phantom{0}\phantom{0}} \\
 32\phantom{0}\\
 \underline{00\phantom{0}}\\
@@ -2288,7 +2276,6 @@ $$
 \underline{268}\\
 60
 \end{array}
-}
 $$
 
 所以： $13728\div67=204\cdots60$
