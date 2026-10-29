@@ -597,9 +597,10 @@ $$
 
 $$
 \begin{array}{rrr}
-16+5=\underline{\qquad}&\qquad24+8=\underline{\qquad}&\qquad37+3=\underline{\qquad}\\
-2+19=\underline{\qquad}&\qquad5+57=\underline{\qquad}&\qquad8+88=\underline{\qquad}\\
-13+12=\underline{\qquad}&\qquad26+58=\underline{\qquad}&\qquad99+94=\underline{\qquad}
+16+5=\underline{\qquad}&\qquad24+8=\underline{\qquad}\qquad37+3=\underline{\qquad}\\
+2+19=\underline{\qquad}&\qquad5+57=\underline{\qquad}
+\qquad8+88=\underline{\qquad}\\
+13+12=\underline{\qquad}&\qquad26+58=\underline{\qquad}\qquad99+94=\underline{\qquad}
 \end{array}
 $$
 
@@ -607,9 +608,9 @@ $$
 
 $$
 \begin{array}{rr}
-16+5=\underline{\qquad}&\qquad5+16=\underline{\qquad}&\\
-2+19=\underline{\qquad}&\qquad19+2=\underline{\qquad}&\\
-13+12=\underline{\qquad}&\qquad12+13=\underline{\qquad}&
+16+5=\underline{\qquad}&\qquad5+16=\underline{\qquad}\\
+2+19=\underline{\qquad}&\qquad19+2=\underline{\qquad}\\
+13+12=\underline{\qquad}&\qquad12+13=\underline{\qquad}
 \end{array}
 $$
 
@@ -617,8 +618,8 @@ $$
 
 $$
 \begin{array}{rrr}
-1+2+3=\underline{\qquad}&\qquad1+3+2=\underline{\qquad}&\qquad2+1+3=\underline{\qquad}\\
-2+3+1=\underline{\qquad}&\qquad3+1+2=\underline{\qquad}&\qquad3+2+1=\underline{\qquad}
+1+2+3=\underline{\qquad}&\qquad1+3+2=\underline{\qquad}\qquad2+1+3=\underline{\qquad}\\
+2+3+1=\underline{\qquad}&\qquad3+1+2=\underline{\qquad}\qquad3+2+1=\underline{\qquad}
 \end{array}
 $$
 
@@ -1362,26 +1363,26 @@ $$
 $$
 \begin{array}{|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
--&0&1&2&3&4&5&6&7&8&9\\ \hline
-0&&-&-&-&-&-&-&-&-&-\\ \hline
-1&&&-&-&-&-&-&-&-&-\\ \hline
-2&&&&-&-&-&-&-&-&-\\ \hline
-3&&&&&-&-&-&-&-&-\\ \hline
-4&&&&&&-&-&-&-&-\\ \hline
-5&&&&&&&-&-&-&-\\ \hline
-6&&&&&&&&-&-&-\\ \hline
-7&&&&&&&&&-&-\\ \hline
-8&&&&&&&&&&-\\ \hline
-9&&&&&&&&&&\\ \hline
-10&-& &&&&&&&&&\\ \hline
-11&-&-& &&&&&&&&\\ \hline
-12&-&-&-& &&&&&&&\\ \hline
-13&-&-&-&-& &&&&&&\\ \hline
-14&-&-&-&-&-& &&&&&\\ \hline
-15&-&-&-&-&-&-& &&&&\\ \hline
-16&-&-&-&-&-&-&-& &&&\\ \hline
-17&-&-&-&-&-&-&-&-& &&\\ \hline
-18&-&-&-&-&-&-&-&-&-& &\\ \hline
+- & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\ \hline
+0 & - & - & - & - & - & - & - & - & - & - \\ \hline
+1 & & - & - & - & - & - & - & - & - & - \\ \hline
+2 & & & - & - & - & - & - & - & - & - \\ \hline
+3 & & & & - & - & - & - & - & - & - \\ \hline
+4 & & & & & - & - & - & - & - & - \\ \hline
+5 & & & & & & - & - & - & - & - \\ \hline
+6 & & & & & & & - & - & - & - \\ \hline
+7 & & & & & & & & - & - & - \\ \hline
+8 & & & & & & & & & - & - \\ \hline
+9 & & & & & & & & & & - \\ \hline
+10 & - & & & & & & & & & \\ \hline
+11 & - & - & & & & & & & & \\ \hline
+12 & - & - & - & & & & & & & \\ \hline
+13 & - & - & - & - & & & & & & \\ \hline
+14 & - & - & - & - & - & & & & & \\ \hline
+15 & - & - & - & - & - & - & & & & \\ \hline
+16 & - & - & - & - & - & - & - & & & \\ \hline
+17 & - & - & - & - & - & - & - & - & & \\ \hline
+18 & - & - & - & - & - & - & - & - & - & \\ \hline
 \end{array}
 $$
 
